@@ -46,8 +46,4 @@ The analysis writes JSON and CSV outputs below `out/analysis/`.
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`. The paper DOI will be added after one is issued; no DOI is currently claimed.
-
-## Paper
-
-The paper reference will be linked here after publication.
+Citation metadata is provided in `CITATION.cff`. No DOI is currently assigned.
