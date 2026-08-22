@@ -1,0 +1,5 @@
+package main
+import("encoding/base64";"encoding/json";"os";"strings";"unicode")
+func d(x string)string{b,_:=base64.StdEncoding.DecodeString(x);return string(b)}
+func main(){a:=os.Args[1:];v,op,loc,x:=a[0],a[1],a[2],d(a[3]);y:="";if len(a)>4{y=d(a[4])};o:=map[string]any{"status":"ok","effective_locale":"root"}
+ if v=="equal_fold"{o["kind"]="bool";o["value"]=strings.EqualFold(x,y)}else if v=="normalizer"{o=map[string]any{"status":"unsupported","error":"no_standard_library_normalization","effective_locale":"root"}}else{var r string;if v=="turkic_special"{var c unicode.SpecialCase;if strings.HasPrefix(loc,"tr"){c=unicode.TurkishCase}else if strings.HasPrefix(loc,"az"){c=unicode.AzeriCase}else{o=map[string]any{"status":"unsupported","error":"tailoring_not_available","effective_locale":loc};j,_:=json.Marshal(o);os.Stdout.Write(j);return};if op=="lower"{r=strings.ToLowerSpecial(c,x)}else{r=strings.ToUpperSpecial(c,x)};o["effective_locale"]=loc}else{if op=="lower"{r=strings.ToLower(x)}else{r=strings.ToUpper(x)}};o["kind"]="string";o["value_b64"]=base64.StdEncoding.EncodeToString([]byte(r))};j,_:=json.Marshal(o);os.Stdout.Write(j)}

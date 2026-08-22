@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localehazard"
+version = "0.1.0"
+description = "Replication utilities for LocaleHazardBench"
+requires-python = ">=3.11"
+authors = [
+  {name = "Emre Can Yılmaz", email = "emrecan@omu.edu.tr"},
+  {name = "Recai Oktaş", email = "roktas@omu.edu.tr"},
+]
+
+[project.scripts]
+localehazard-analyze = "localehazard.analysis:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

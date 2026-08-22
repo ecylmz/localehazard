@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use LocaleHazardBench, please cite this repository and the associated paper."
+title: "LocaleHazardBench"
+type: software
+authors:
+  - family-names: "Yılmaz"
+    given-names: "Emre Can"
+    orcid: "https://orcid.org/0000-0003-4365-9131"
+  - family-names: "Oktaş"
+    given-names: "Recai"
+    orcid: "https://orcid.org/0000-0003-3282-3549"
+repository-code: "https://github.com/ecylmz/localehazard"

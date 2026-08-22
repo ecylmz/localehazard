@@ -1,0 +1,6 @@
+mechanism_family,confirmatory_defects,correspondence,rationale
+M1_managed_default_locale_machine_text,6,direct,F2 machine/canonical mapping reproduces managed default-locale corruption of machine text.
+M2_native_process_locale_machine_text,3,direct,F5 reproduces process-locale contamination in native case mapping/comparison.
+M3_backend_mapping_or_collation_nonconformance,2,standards_or_contract_only,"Oracle validation can detect wrong mappings/relations, but no frozen scenario induces a Firebird implementation defect."
+M4_persisted_collation_metadata_drift,1,partial,"F6 represents collation-provider portability under a frozen persistence invariant, but not database backup/restore metadata loss."
+M5_operation_or_API_semantic_mismatch,2,partial,"F1/F3 distinguish tailoring, folding, and comparison, but not Lucene filter-pipeline ordering."

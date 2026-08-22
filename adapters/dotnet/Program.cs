@@ -1,0 +1,7 @@
+using System.Globalization;using System.Text;using System.Text.Json;
+var a=args;string v=a[0],op=a[1],tag=a[2],x=Encoding.UTF8.GetString(Convert.FromBase64String(a[3])),y=a.Length>4?Encoding.UTF8.GetString(Convert.FromBase64String(a[4])):"";var c=tag=="root"?CultureInfo.InvariantCulture:CultureInfo.GetCultureInfo(tag);
+void O(object z)=>Console.Write(JsonSerializer.Serialize(z));
+if(v=="normalizer"){var n1=x.Normalize(NormalizationForm.FormC);var n2=y.Normalize(NormalizationForm.FormC);if(op=="normalize_lower_compare"){n1=n1.ToLowerInvariant();n2=n2.ToLowerInvariant();}O(new{status="ok",kind="bool",value=n1==n2,effective_locale="root"});}
+else if(v=="culture_compare"){var r=Math.Sign(c.CompareInfo.Compare(x,y,CompareOptions.IgnoreCase|CompareOptions.IgnoreNonSpace));if(op=="compare_relation")O(new{status="ok",kind="int",value=r,effective_locale=c.Name});else O(new{status="ok",kind="bool",value=r==0,effective_locale=c.Name});}
+else if(v=="ordinal_ignore_case")O(new{status="ok",kind="bool",value=String.Equals(x,y,StringComparison.OrdinalIgnoreCase),effective_locale="root"});
+else{string r;if(v=="explicit_culture")r=op=="lower"?x.ToLower(c):x.ToUpper(c);else if(v=="invariant")r=op=="lower"?x.ToLowerInvariant():x.ToUpperInvariant();else{var old=CultureInfo.CurrentCulture;CultureInfo.CurrentCulture=c;try{r=op=="lower"?x.ToLower():x.ToUpper();}finally{CultureInfo.CurrentCulture=old;}}O(new{status="ok",kind="string",value_b64=Convert.ToBase64String(Encoding.UTF8.GetBytes(r)),effective_locale=v=="invariant"?"root":c.Name});}
