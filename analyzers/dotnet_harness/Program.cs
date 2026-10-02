@@ -1,0 +1,10 @@
+using System.Globalization; using Probes;
+CultureInfo.CurrentCulture = CultureInfo.CurrentUICulture = new CultureInfo("tr-TR");
+void O(string p,string r,bool ok)=>Console.WriteLine($"dotnet\t{p}\t{r}\t{(ok?"CORRECT":"CDM")}");
+var keys=new List<string>{"cam","çay","dağ","Zeta","alpha","İzmir","ırmak","ilk"}; var bw=new List<string>(keys); bw.Sort(StringComparer.Ordinal);
+O("P1","machine",P1_machine.HeaderKey("TITLE")=="title"); O("P1","linguistic",P1_linguistic.DisplayLower("IŞIK")=="ışık");
+O("P2","machine",P2_machine.ConfigKey("TITLE")=="title"); O("P2","linguistic",P2_linguistic.DisplayLower("IŞIK")=="ışık");
+O("P3","machine",P3_machine.ConfigKey("TITLE")=="title"); O("P3","linguistic",P3_linguistic.DisplayLower("IŞIK")=="ışık");
+O("P4","machine",P4_machine.IsKeyword("FILE","file")); O("P4","linguistic",P4_linguistic.MatchesName("IŞIK","ışık")&&!P4_linguistic.MatchesName("ISIK","ışık"));
+var k1=new List<string>(keys); P5_machine.SortIndexKeys(k1); O("P5","machine",k1.SequenceEqual(bw));
+var k2=new List<string>{"dağ","çay","cam"}; P5_linguistic.SortForDisplay(k2); O("P5","linguistic",k2.SequenceEqual(new[]{"cam","çay","dağ"}));

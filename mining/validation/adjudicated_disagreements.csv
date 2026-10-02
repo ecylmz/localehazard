@@ -1,0 +1,53 @@
+item_id,genuine,role,trigger,family,rationale
+I007,YES,MIXED,OBSERVED_FAILURE,F3,Mappings feed equality switch and prefix checks so F3 wins over F2
+I010,YES,LINGUISTIC,PREVENTIVE,F1,Turkish-tolerant matching of spoken wake name needs linguistic tailoring
+I012,NO,NA,NA,NA,Message shows ASCII region codes give identical results so semantics unchanged
+I022,YES,MACHINE,UNCLEAR,F2,Rollback message gives no reason for the change
+I029,YES,MACHINE,PREVENTIVE,F5,strncasecmp depends on process C locale
+I030,YES,MACHINE,PREVENTIVE,F5,C library tolower depends on setlocale process locale
+I032,YES,MACHINE,PREVENTIVE,F5,strcasecmp under process locale replaced by ASCII variant
+I033,YES,MACHINE,PREVENTIVE,F5,strcasecmp under process locale replaced by ASCII variant
+I039,YES,MACHINE,PREVENTIVE,F5,strncasecmp under process locale replaced by g_ascii_strcasecmp
+I044,YES,MACHINE,PREVENTIVE,F2,Unicode to ASCII case table change on keys with no equivalence evidence
+I046,YES,LINGUISTIC,PREVENTIVE,F1,Regex tailored for Turkish dotted and dotless i in human phrase
+I050,YES,MIXED,TOOL_DRIVEN,F2,Search tags are user text while slot and culture names are machine
+I060,YES,UNCLEAR,OBSERVED_FAILURE,F5,LC_ALL for arbitrary chroot commands so text role not determinable
+I066,YES,MACHINE,PREVENTIVE,F2,Lowered word used as dictionary lookup key
+I071,YES,LINGUISTIC,PREVENTIVE,OTHER,Unicode full titlecasing change not locale tailoring
+I081,YES,LINGUISTIC,UNCLEAR,F6,Case mapping in CouchDB map functions must be stable for persisted indexes
+I083,YES,UNCLEAR,OBSERVED_FAILURE,F3,Build breakage forced revert of eqIgnoreCase comparison in Playground
+I087,YES,MACHINE,PREVENTIVE,F2,Message states hazard only with no reported failure
+I090,YES,MACHINE,PREVENTIVE,F6,Fix of wrong variable name with no reported failure
+I091,YES,LINGUISTIC,OBSERVED_FAILURE,F3,Suggester terms are searched text
+I105,YES,MACHINE,OBSERVED_FAILURE,F5,strcasecmp under process locale replaced by ASCII comparison
+I106,YES,MACHINE,PREVENTIVE,F3,Unicode lowercase to ASCII ignore-case comparison changes case table
+I117,YES,MACHINE,UNCLEAR,F5,Squashed upstream log gives no reason for LC_ALL change
+I121,YES,MIXED,TOOL_DRIVEN,F3,Decoder name is machine while log descriptions and patterns are human text
+I125,YES,MACHINE,PREVENTIVE,F2,Message says change prevents Turkish bug without reporting one
+I129,YES,MACHINE,PREVENTIVE,F5,strcasecmp under process locale replaced by ASCII variant
+I131,YES,LINGUISTIC,PREVENTIVE,F1,Message says avoids Turkish i bug without a report
+I133,YES,MACHINE,PREVENTIVE,F3,Location name used as lookup identifier for equality
+I135,YES,UNCLEAR,OBSERVED_FAILURE,F5,Only setlocale shown so text role cannot be determined
+I136,YES,MACHINE,TOOL_DRIVEN,F2,Message names CodeRabbit as reporter
+I139,YES,MACHINE,OBSERVED_FAILURE,F1,Slug output is machine but needs Turkish tailored mapping
+I141,YES,MACHINE,OBSERVED_FAILURE,F5,Python 2 bytestring case mapping follows process C locale
+I144,YES,MACHINE,PREVENTIVE,F3,Lowered value used in switch and equality
+I152,YES,MACHINE,TOOL_DRIVEN,F3,Uppercased command fields used in switch comparisons
+I157,YES,LINGUISTIC,PREVENTIVE,F3,Hashtags are user content searched by people
+I160,UNCLEAR,NA,NA,NA,Patch excerpt does not show the Turkish uppercase fix
+I163,YES,MIXED,PREVENTIVE,F3,Search box query is human text while paths are machine
+I169,YES,MACHINE,OBSERVED_FAILURE,F3,Message names concrete Turkish symptom ID not equal id
+I171,YES,MACHINE,PREVENTIVE,F3,Lowered value used directly in switch
+I175,YES,MACHINE,PREVENTIVE,F3,Program parses reference keywords into abbreviations
+I177,YES,MACHINE,UNCLEAR,F2,Message gives no motivation for the change
+I179,YES,MACHINE,PREVENTIVE,F2,Message warns things will go wrong with no reported failure
+I180,YES,MACHINE,PREVENTIVE,F2,Message says avoids possible mismatches and keys are stored canonically
+I185,YES,MACHINE,OBSERVED_FAILURE,F5,strcasecmp under process locale per clarification
+I188,YES,MACHINE,TOOL_DRIVEN,F3,Lowered file name immediately used in endsWith checks
+I189,YES,MACHINE,PREVENTIVE,F3,Mappings mostly feed switch contains and endsWith checks
+I191,YES,MACHINE,TOOL_DRIVEN,F3,Case mapping immediately used in switch expressions
+I194,YES,MACHINE,PREVENTIVE,F3,Lowered timing text immediately matched by keyword regex
+I202,YES,MACHINE,UNCLEAR,F3,Build fix with no stated locale reason or named tool
+I203,YES,MACHINE,TOOL_DRIVEN,F3,Message cites GPT-5 code review and mappings feed matching
+I206,YES,LINGUISTIC,PREVENTIVE,F1,Refactor to locale-aware matching of human lorebook text
+I208,YES,MACHINE,PREVENTIVE,F2,Analyzer is enabled by the change not named as its reason

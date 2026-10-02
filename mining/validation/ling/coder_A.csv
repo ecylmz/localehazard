@@ -1,0 +1,182 @@
+item_id,role,change,note
+L001,LINGUISTIC,LOCALE_AWARE,library search over titles
+L002,MACHINE,UNICODE_FOLD,BBCode property and attribute names
+L003,LINGUISTIC,LOCALE_AWARE,Turkish search and display
+L004,LINGUISTIC,LOCALE_AWARE,name search
+L005,MACHINE,LOCALE_AWARE,form field values and cache names
+L006,LINGUISTIC,LOCALE_AWARE,institution names
+L007,LINGUISTIC,LOCALE_AWARE,streamer name display
+L008,LINGUISTIC,LOCALE_AWARE,user tags normalization
+L009,LINGUISTIC,LOCALE_AWARE,person names
+L010,MIXED,LOCALE_AWARE,typed confirm word vs constant
+L011,MACHINE,LOCALE_AWARE,command keywords now/tomorrow
+L012,MIXED,LOCALE_AWARE,player name used as key
+L013,MACHINE,LOCALE_AWARE,attribute option codes
+L014,MIXED,UNICODE_FOLD,SQL LIKE over cell text and columns
+L015,MIXED,UNICODE_FOLD,category names and difficulty enum
+L016,LINGUISTIC,LOCALE_AWARE,table sorting customer data
+L017,MACHINE,LOCALE_AWARE,build input filename
+L018,MIXED,UNICODE_FOLD,cert tags comparison
+L019,LINGUISTIC,UNICODE_FOLD,artist names
+L020,LINGUISTIC,LOCALE_AWARE,province name search
+L021,LINGUISTIC,LOCALE_AWARE,sprite say text
+L022,MACHINE,LOCALE_AWARE,URL path from city
+L023,MACHINE,LOCALE_AWARE,JSON field names
+L024,MIXED,LOCALE_AWARE,typed confirm word
+L025,LINGUISTIC,LOCALE_AWARE,item name comparison
+L026,LINGUISTIC,LOCALE_AWARE,capitalizing display strings
+L027,LINGUISTIC,LOCALE_AWARE,plan text parsing
+L028,MACHINE,LOCALE_AWARE,timezone names
+L029,LINGUISTIC,LOCALE_AWARE,voice grammar names
+L030,LINGUISTIC,LOCALE_AWARE,location name search
+L031,LINGUISTIC,UNICODE_FOLD,text normalization for matching
+L032,MACHINE,UNICODE_FOLD,application name argv
+L033,MACHINE,UNICODE_FOLD,bot command names
+L034,LINGUISTIC,UNICODE_FOLD,shortcut label search
+L035,LINGUISTIC,LOCALE_AWARE,UI heading uppercase
+L036,MIXED,LOCALE_AWARE,parser dictionary words
+L037,LINGUISTIC,LOCALE_AWARE,patient message intent
+L038,UNCLEAR,LOCALE_AWARE,tutorial comment only
+L039,LINGUISTIC,LOCALE_AWARE,fuzzy search library
+L040,LINGUISTIC,LOCALE_AWARE,word game words
+L041,LINGUISTIC,LOCALE_AWARE,search input
+L042,LINGUISTIC,LOCALE_AWARE,event name filter
+L043,LINGUISTIC,LOCALE_AWARE,table sorting
+L044,MACHINE,LOCALE_AWARE,url value normalization
+L045,MACHINE,LOCALE_AWARE,email address
+L046,LINGUISTIC,LOCALE_AWARE,citation title casing
+L047,MACHINE,LOCALE_AWARE,URL path letter
+L048,MACHINE,UNICODE_FOLD,file extension and tag names
+L049,MACHINE,LOCALE_AWARE,config country and command
+L050,MACHINE,UNICODE_FOLD,flag label constant
+L051,MACHINE,UNICODE_FOLD,netloc and content-type
+L052,LINGUISTIC,LOCALE_AWARE,city search
+L053,LINGUISTIC,LOCALE_AWARE,project name search
+L054,LINGUISTIC,LOCALE_AWARE,comment filter
+L055,MACHINE,UNICODE_FOLD,handler and level names
+L056,MACHINE,UNICODE_FOLD,IRC case-insensitive keys
+L057,MACHINE,LOCALE_AWARE,extension ids
+L058,MACHINE,LOCALE_AWARE,deterministic keys en-US
+L059,LINGUISTIC,LOCALE_AWARE,search tokens
+L060,MACHINE,UNICODE_FOLD,console commands
+L061,LINGUISTIC,LOCALE_AWARE,checkbox list search
+L062,MACHINE,UNICODE_FOLD,config parameter keys
+L063,MIXED,UNICODE_FOLD,filter arg and item names
+L064,MIXED,LOCALE_AWARE,SQL ToUpper library function
+L065,LINGUISTIC,LOCALE_AWARE,site search
+L066,LINGUISTIC,LOCALE_AWARE,invoice search
+L067,LINGUISTIC,LOCALE_AWARE,user chat message
+L068,LINGUISTIC,UNICODE_FOLD,entity names
+L069,MACHINE,LOCALE_AWARE,file path
+L070,LINGUISTIC,LOCALE_AWARE,select option filter
+L071,LINGUISTIC,LOCALE_AWARE,hangman letter guess
+L072,LINGUISTIC,LOCALE_AWARE,city search
+L073,LINGUISTIC,LOCALE_AWARE,word game letter
+L074,LINGUISTIC,LOCALE_AWARE,user sector text mapping
+L075,MIXED,LOCALE_AWARE,country name matching
+L076,LINGUISTIC,LOCALE_AWARE,chat message keywords
+L077,MACHINE,LOCALE_AWARE,file name extension
+L078,LINGUISTIC,UNICODE_FOLD,tweet text
+L079,LINGUISTIC,LOCALE_AWARE,game UI text
+L080,LINGUISTIC,LOCALE_AWARE,button label text
+L081,MIXED,UNICODE_FOLD,carrier names and scraped cells
+L082,MACHINE,LOCALE_AWARE,env DEBUG value
+L083,LINGUISTIC,LOCALE_AWARE,notes search
+L084,LINGUISTIC,LOCALE_AWARE,word puzzle words
+L085,MIXED,LOCALE_AWARE,key events and words
+L086,LINGUISTIC,LOCALE_AWARE,location search
+L087,LINGUISTIC,LOCALE_AWARE,search
+L088,LINGUISTIC,LOCALE_AWARE,string util capitalize
+L089,LINGUISTIC,LOCALE_AWARE,place names in chat
+L090,LINGUISTIC,LOCALE_AWARE,word game guess
+L091,LINGUISTIC,UNICODE_FOLD,biomedical term dictionary
+L092,LINGUISTIC,LOCALE_AWARE,agent report text
+L093,LINGUISTIC,UNICODE_FOLD,tweet tokenization
+L094,LINGUISTIC,UNICODE_FOLD,user text trigger words
+L095,MACHINE,LOCALE_AWARE,serialized JSON query key
+L096,LINGUISTIC,LOCALE_AWARE,typeahead matching
+L097,LINGUISTIC,LOCALE_AWARE,autocomplete filter
+L098,LINGUISTIC,LOCALE_AWARE,item search
+L099,LINGUISTIC,LOCALE_AWARE,district search
+L100,MACHINE,UNICODE_FOLD,GUI option selection
+L101,MACHINE,LOCALE_AWARE,log object keys
+L102,LINGUISTIC,LOCALE_AWARE,customer initial
+L103,MACHINE,LOCALE_AWARE,property name camelCase
+L104,MACHINE,UNICODE_FOLD,user command strings
+L105,MACHINE,LOCALE_AWARE,orientation value
+L106,MACHINE,LOCALE_AWARE,URL slug
+L107,MACHINE,UNICODE_FOLD,episode type enum
+L108,LINGUISTIC,LOCALE_AWARE,todo category filter
+L109,LINGUISTIC,LOCALE_AWARE,transcript word frequency
+L110,LINGUISTIC,LOCALE_AWARE,team letter avatar
+L111,MACHINE,LOCALE_AWARE,HTML tag and attribute names
+L112,LINGUISTIC,UNICODE_FOLD,entity names
+L113,MACHINE,UNICODE_FOLD,slug comparison
+L114,LINGUISTIC,LOCALE_AWARE,list filter
+L115,LINGUISTIC,LOCALE_AWARE,vocabulary answer
+L116,LINGUISTIC,LOCALE_AWARE,task title search
+L117,LINGUISTIC,UNICODE_FOLD,free text cleanup
+L118,LINGUISTIC,LOCALE_AWARE,product search
+L119,MACHINE,UNICODE_FOLD,tool name normalization
+L120,LINGUISTIC,LOCALE_AWARE,channel search
+L121,UNCLEAR,LOCALE_AWARE,string util purpose unknown
+L122,UNCLEAR,LOCALE_AWARE,comparison of unknown strings
+L123,UNCLEAR,LOCALE_AWARE,segments of unknown text
+L124,MACHINE,LOCALE_AWARE,JS type name
+L125,LINGUISTIC,LOCALE_AWARE,listbox item filter
+L126,LINGUISTIC,LOCALE_AWARE,column filter
+L127,LINGUISTIC,UNICODE_FOLD,palindrome text
+L128,MACHINE,LOCALE_AWARE,room ID
+L129,MACHINE,LOCALE_AWARE,class name filter
+L130,MACHINE,UNICODE_FOLD,requirement names sort
+L131,LINGUISTIC,LOCALE_AWARE,display label
+L132,LINGUISTIC,UNICODE_FOLD,entity mention text
+L133,MACHINE,OTHER,engine type display
+L134,LINGUISTIC,UNICODE_FOLD,name search
+L135,MACHINE,LOCALE_AWARE,changelog label names
+L136,MACHINE,LOCALE_AWARE,shell names
+L137,MIXED,UNICODE_FOLD,ordering mixed strings
+L138,LINGUISTIC,LOCALE_AWARE,subject text
+L139,MIXED,LOCALE_AWARE,mod tags dedupe
+L140,MACHINE,UNICODE_FOLD,outcome names
+L141,LINGUISTIC,LOCALE_AWARE,word game letters
+L142,MACHINE,UNICODE_FOLD,file name sort
+L143,LINGUISTIC,LOCALE_AWARE,university name search
+L144,LINGUISTIC,LOCALE_AWARE,lorebook text matching
+L145,LINGUISTIC,LOCALE_AWARE,search
+L146,UNCLEAR,LOCALE_AWARE,generic StringUtils helper
+L147,MACHINE,UNICODE_FOLD,email address
+L148,MACHINE,LOCALE_AWARE,HTTP method
+L149,LINGUISTIC,LOCALE_AWARE,text cue surfaces
+L150,LINGUISTIC,LOCALE_AWARE,product search
+L151,LINGUISTIC,LOCALE_AWARE,city search
+L152,MACHINE,LOCALE_AWARE,order status enum
+L153,LINGUISTIC,UNICODE_FOLD,entity names
+L154,LINGUISTIC,LOCALE_AWARE,first name lookup
+L155,MACHINE,UNICODE_FOLD,IRC casemapping
+L156,LINGUISTIC,LOCALE_AWARE,fuzzy sort needle
+L157,LINGUISTIC,LOCALE_AWARE,row text search
+L158,LINGUISTIC,UNICODE_FOLD,word filter
+L159,MACHINE,LOCALE_AWARE,HTTP header name
+L160,MACHINE,LOCALE_AWARE,archive entry names
+L161,LINGUISTIC,LOCALE_AWARE,target text search
+L162,MACHINE,UNICODE_FOLD,enum name
+L163,LINGUISTIC,LOCALE_AWARE,tab title sort
+L164,LINGUISTIC,UNICODE_FOLD,extension name search
+L165,MACHINE,LOCALE_AWARE,email address
+L166,MACHINE,LOCALE_AWARE,keyboard key names
+L167,MACHINE,UNICODE_FOLD,hostnames and emails
+L168,MACHINE,LOCALE_AWARE,email validation
+L169,MIXED,LOCALE_AWARE,file extension and contact names
+L170,LINGUISTIC,UNICODE_FOLD,blacklist words
+L171,LINGUISTIC,LOCALE_AWARE,command titles search
+L172,LINGUISTIC,LOCALE_AWARE,fuzzy search
+L173,LINGUISTIC,UNICODE_FOLD,username sort
+L174,LINGUISTIC,LOCALE_AWARE,product title color word
+L175,LINGUISTIC,LOCALE_AWARE,emoji and email search
+L176,LINGUISTIC,UNICODE_FOLD,speech text encoder
+L177,LINGUISTIC,LOCALE_AWARE,demo content display
+L178,LINGUISTIC,LOCALE_AWARE,menu search
+L179,LINGUISTIC,LOCALE_AWARE,weekday names display
+L180,LINGUISTIC,LOCALE_AWARE,capital city name
+L181,LINGUISTIC,LOCALE_AWARE,city search

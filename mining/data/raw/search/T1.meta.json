@@ -1,0 +1,342 @@
+{
+ "id": "T1",
+ "q": "\"Turkish locale\"",
+ "slices": [
+  {
+   "slice": "2010-01-01",
+   "total": 1001,
+   "retrieved": 100
+  },
+  {
+   "slice": "2010-04-01",
+   "total": 29,
+   "retrieved": 29
+  },
+  {
+   "slice": "2010-07-01",
+   "total": 55,
+   "retrieved": 55
+  },
+  {
+   "slice": "2010-10-01",
+   "total": 56,
+   "retrieved": 56
+  },
+  {
+   "slice": "2011-01-01",
+   "total": 520,
+   "retrieved": 100
+  },
+  {
+   "slice": "2011-04-01",
+   "total": 471,
+   "retrieved": 100
+  },
+  {
+   "slice": "2011-07-01",
+   "total": 26379,
+   "retrieved": 100
+  },
+  {
+   "slice": "2011-10-01",
+   "total": 2018,
+   "retrieved": 100
+  },
+  {
+   "slice": "2012-01-01",
+   "total": 22220,
+   "retrieved": 100
+  },
+  {
+   "slice": "2012-04-01",
+   "total": 169,
+   "retrieved": 100
+  },
+  {
+   "slice": "2012-07-01",
+   "total": 85,
+   "retrieved": 85
+  },
+  {
+   "slice": "2012-10-01",
+   "total": 664,
+   "retrieved": 100
+  },
+  {
+   "slice": "2013-01-01",
+   "total": 622,
+   "retrieved": 100
+  },
+  {
+   "slice": "2013-04-01",
+   "total": 2073,
+   "retrieved": 100
+  },
+  {
+   "slice": "2013-07-01",
+   "total": 679,
+   "retrieved": 100
+  },
+  {
+   "slice": "2013-10-01",
+   "total": 268,
+   "retrieved": 100
+  },
+  {
+   "slice": "2014-01-01",
+   "total": 70,
+   "retrieved": 70
+  },
+  {
+   "slice": "2014-04-01",
+   "total": 23,
+   "retrieved": 23
+  },
+  {
+   "slice": "2014-07-01",
+   "total": 334,
+   "retrieved": 100
+  },
+  {
+   "slice": "2014-10-01",
+   "total": 278,
+   "retrieved": 100
+  },
+  {
+   "slice": "2015-01-01",
+   "total": 436,
+   "retrieved": 100
+  },
+  {
+   "slice": "2015-04-01",
+   "total": 149,
+   "retrieved": 100
+  },
+  {
+   "slice": "2015-07-01",
+   "total": 121,
+   "retrieved": 100
+  },
+  {
+   "slice": "2015-10-01",
+   "total": 1003,
+   "retrieved": 100
+  },
+  {
+   "slice": "2016-01-01",
+   "total": 134,
+   "retrieved": 100
+  },
+  {
+   "slice": "2016-04-01",
+   "total": 573,
+   "retrieved": 100
+  },
+  {
+   "slice": "2016-07-01",
+   "total": 2324,
+   "retrieved": 100
+  },
+  {
+   "slice": "2016-10-01",
+   "total": 176,
+   "retrieved": 100
+  },
+  {
+   "slice": "2017-01-01",
+   "total": 307,
+   "retrieved": 100
+  },
+  {
+   "slice": "2017-04-01",
+   "total": 849,
+   "retrieved": 100
+  },
+  {
+   "slice": "2017-07-01",
+   "total": 594,
+   "retrieved": 100
+  },
+  {
+   "slice": "2017-10-01",
+   "total": 339,
+   "retrieved": 100
+  },
+  {
+   "slice": "2018-01-01",
+   "total": 254,
+   "retrieved": 100
+  },
+  {
+   "slice": "2018-04-01",
+   "total": 607,
+   "retrieved": 100
+  },
+  {
+   "slice": "2018-07-01",
+   "total": 297,
+   "retrieved": 100
+  },
+  {
+   "slice": "2018-10-01",
+   "total": 75,
+   "retrieved": 75
+  },
+  {
+   "slice": "2019-01-01",
+   "total": 136,
+   "retrieved": 100
+  },
+  {
+   "slice": "2019-04-01",
+   "total": 176,
+   "retrieved": 100
+  },
+  {
+   "slice": "2019-07-01",
+   "total": 46,
+   "retrieved": 46
+  },
+  {
+   "slice": "2019-10-01",
+   "total": 12,
+   "retrieved": 12
+  },
+  {
+   "slice": "2020-01-01",
+   "total": 102,
+   "retrieved": 100
+  },
+  {
+   "slice": "2020-04-01",
+   "total": 177,
+   "retrieved": 100
+  },
+  {
+   "slice": "2020-07-01",
+   "total": 44,
+   "retrieved": 44
+  },
+  {
+   "slice": "2020-10-01",
+   "total": 227,
+   "retrieved": 100
+  },
+  {
+   "slice": "2021-01-01",
+   "total": 351,
+   "retrieved": 100
+  },
+  {
+   "slice": "2021-04-01",
+   "total": 179,
+   "retrieved": 100
+  },
+  {
+   "slice": "2021-07-01",
+   "total": 72,
+   "retrieved": 72
+  },
+  {
+   "slice": "2021-10-01",
+   "total": 65,
+   "retrieved": 65
+  },
+  {
+   "slice": "2022-01-01",
+   "total": 194,
+   "retrieved": 100
+  },
+  {
+   "slice": "2022-04-01",
+   "total": 230,
+   "retrieved": 100
+  },
+  {
+   "slice": "2022-07-01",
+   "total": 650,
+   "retrieved": 100
+  },
+  {
+   "slice": "2022-10-01",
+   "total": 218,
+   "retrieved": 100
+  },
+  {
+   "slice": "2023-01-01",
+   "total": 149,
+   "retrieved": 100
+  },
+  {
+   "slice": "2023-04-01",
+   "total": 261,
+   "retrieved": 100
+  },
+  {
+   "slice": "2023-07-01",
+   "total": 61,
+   "retrieved": 61
+  },
+  {
+   "slice": "2023-10-01",
+   "total": 59,
+   "retrieved": 59
+  },
+  {
+   "slice": "2024-01-01",
+   "total": 70,
+   "retrieved": 70
+  },
+  {
+   "slice": "2024-04-01",
+   "total": 73,
+   "retrieved": 73
+  },
+  {
+   "slice": "2024-07-01",
+   "total": 105,
+   "retrieved": 100
+  },
+  {
+   "slice": "2024-10-01",
+   "total": 68,
+   "retrieved": 68
+  },
+  {
+   "slice": "2025-01-01",
+   "total": 131,
+   "retrieved": 100
+  },
+  {
+   "slice": "2025-04-01",
+   "total": 134,
+   "retrieved": 100
+  },
+  {
+   "slice": "2025-07-01",
+   "total": 174,
+   "retrieved": 100
+  },
+  {
+   "slice": "2025-10-01",
+   "total": 293,
+   "retrieved": 100
+  },
+  {
+   "slice": "2026-01-01",
+   "total": 859,
+   "retrieved": 100
+  },
+  {
+   "slice": "2026-04-01",
+   "total": 2420,
+   "retrieved": 100
+  },
+  {
+   "slice": "2026-07-01",
+   "total": 1354,
+   "retrieved": 100
+  }
+ ],
+ "total_count": 75343
+}

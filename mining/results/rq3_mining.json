@@ -1,0 +1,360 @@
+{
+ "funnel": {
+  "queries": 30,
+  "search_hits": 77433,
+  "reported_total_counts": {
+   "A1": 1219,
+   "A2": 461,
+   "A3": 200,
+   "A4": 468,
+   "A5": 768935,
+   "C1": 3189,
+   "C2": 46344,
+   "C3": 61005,
+   "D1": 3902,
+   "D2": 4778,
+   "G1": 176,
+   "G2": 1343,
+   "G3": 1370,
+   "J1": 32732,
+   "J2": 2420,
+   "J3": 3852,
+   "J4": 2079,
+   "J5": 558,
+   "N1": 5129,
+   "N2": 2391,
+   "N3": 9962,
+   "N4": 3778,
+   "S1": 4477,
+   "S2": 90998,
+   "S3": 619467,
+   "T1": 75343,
+   "T2": 6409,
+   "T3": 9499,
+   "T4": 8493,
+   "T5": 5569
+  },
+  "unique_nonmerge_commits": 14025,
+  "fetched_ok": 14023,
+  "with_in_scope_edit_before_vendored_exclusion": 2987,
+  "format_only": 342,
+  "included_after_vendored_exclusion": 2944,
+  "lineages": 2480,
+  "commits_collapsed_by_lineage": 464,
+  "repositories": 2187,
+  "repair_edits_in_lineages": 19680
+ },
+ "ecosystem_commits": {
+  "dotnet": 1002,
+  "jvm": 837,
+  "js": 298,
+  "shell_build": 165,
+  "rust": 73,
+  "c_cpp": 55,
+  "python": 47,
+  "sql": 3,
+  "php": 1
+ },
+ "op_commits": {
+  "CASE": 1774,
+  "COMPARE": 601,
+  "ENV": 166,
+  "COLLATION": 4,
+  "CTYPE": 2
+ },
+ "direction_commits": {
+  "MACHINE_PINNING": 2301,
+  "LINGUISTIC_REPAIR": 173,
+  "LINGUISTIC_REPAIR+MACHINE_PINNING": 6
+ },
+ "eco_op_commits": {
+  "jvm|CASE": 836,
+  "dotnet|COMPARE": 566,
+  "dotnet|CASE": 501,
+  "js|CASE": 298,
+  "shell_build|ENV": 165,
+  "rust|CASE": 73,
+  "python|CASE": 47,
+  "c_cpp|COMPARE": 35,
+  "c_cpp|CASE": 18,
+  "sql|COLLATION": 3,
+  "c_cpp|CTYPE": 2,
+  "c_cpp|ENV": 1,
+  "jvm|COLLATION": 1,
+  "php|CASE": 1,
+  "dotnet|ENV": 1,
+  "shell_build|COMPARE": 1
+ },
+ "eco_op_edits": {
+  "jvm|CASE": 8068,
+  "dotnet|COMPARE": 4698,
+  "dotnet|CASE": 4512,
+  "js|CASE": 904,
+  "shell_build|ENV": 572,
+  "c_cpp|COMPARE": 401,
+  "rust|CASE": 241,
+  "python|CASE": 211,
+  "c_cpp|CASE": 57,
+  "sql|COLLATION": 11,
+  "c_cpp|CTYPE": 2,
+  "c_cpp|ENV": 1,
+  "jvm|COLLATION": 1,
+  "php|CASE": 1
+ },
+ "sites_per_commit": {
+  "median": 2.0,
+  "mean": 7.94,
+  "p90": 17,
+  "max": 699,
+  "single_site_share": 0.3867
+ },
+ "repos_with_multiple_lineages": 189,
+ "repos_total": 2187,
+ "multi_lineage_repo_share": 0.0864,
+ "lineages_in_multi_repos": 482,
+ "gap_days_multi_repos": {
+  "median": 9,
+  "n": 189
+ },
+ "shares": {
+  "test_change": {
+   "k": 599,
+   "n": 2480,
+   "share": 0.2415,
+   "ci95": [
+    0.2236,
+    0.2614
+   ]
+  },
+  "msg_turkic": {
+   "k": 559,
+   "n": 2480,
+   "share": 0.2254,
+   "ci95": [
+    0.2077,
+    0.2442
+   ]
+  },
+  "msg_failure": {
+   "k": 1252,
+   "n": 2480,
+   "share": 0.5048,
+   "ci95": [
+    0.4833,
+    0.5273
+   ]
+  },
+  "msg_analyzer": {
+   "k": 436,
+   "n": 2480,
+   "share": 0.1758,
+   "ci95": [
+    0.1586,
+    0.1949
+   ]
+  },
+  "msg_issue_ref": {
+   "k": 660,
+   "n": 2480,
+   "share": 0.2661,
+   "ci95": [
+    0.2467,
+    0.2864
+   ]
+  },
+  "msg_bot": {
+   "k": 37,
+   "n": 2480,
+   "share": 0.0149,
+   "ci95": [
+    0.0076,
+    0.0242
+   ]
+  },
+  "machine_pinning_only": {
+   "k": 2301,
+   "n": 2480,
+   "share": 0.9278,
+   "ci95": [
+    0.9169,
+    0.938
+   ]
+  },
+  "any_linguistic_repair": {
+   "k": 179,
+   "n": 2480,
+   "share": 0.0722,
+   "ci95": [
+    0.0623,
+    0.0834
+   ]
+  },
+  "turkic_and_test": {
+   "k": 179,
+   "n": 2480,
+   "share": 0.0722,
+   "ci95": [
+    0.061,
+    0.0831
+   ]
+  }
+ },
+ "shares_turkic_subset": {
+  "test_change": {
+   "k": 179,
+   "n": 559,
+   "share": 0.3202,
+   "ci95": [
+    0.2795,
+    0.3615
+   ]
+  }
+ },
+ "stars_ge_10": {
+  "lineages": 799,
+  "repos": 690,
+  "test_change": {
+   "k": 201,
+   "n": 799,
+   "share": 0.2516,
+   "ci95": [
+    0.2176,
+    0.2873
+   ]
+  },
+  "msg_turkic": {
+   "k": 158,
+   "n": 799,
+   "share": 0.1977,
+   "ci95": [
+    0.1687,
+    0.2279
+   ]
+  }
+ },
+ "year_lineages": {
+  "2010": 14,
+  "2011": 20,
+  "2012": 48,
+  "2013": 55,
+  "2014": 59,
+  "2015": 58,
+  "2016": 81,
+  "2017": 84,
+  "2018": 100,
+  "2019": 125,
+  "2020": 139,
+  "2021": 120,
+  "2022": 131,
+  "2023": 116,
+  "2024": 149,
+  "2025": 309,
+  "2026": 872
+ },
+ "post_hoc_ai_agent": {
+  "lineages_with_trailer": {
+   "k": 317,
+   "n": 2480,
+   "share": 0.1278,
+   "ci95": [
+    0.1124,
+    0.1436
+   ]
+  },
+  "by_year": {
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 1,
+   "2025": 34,
+   "2026": 282
+  },
+  "without_trailer": {
+   "test_change": {
+    "k": 473,
+    "n": 2163,
+    "share": 0.2187,
+    "ci95": [
+     0.2006,
+     0.2376
+    ]
+   },
+   "msg_turkic": {
+    "k": 444,
+    "n": 2163,
+    "share": 0.2053,
+    "ci95": [
+     0.1858,
+     0.2245
+    ]
+   },
+   "machine_pinning_only": {
+    "k": 2009,
+    "n": 2163,
+    "share": 0.9288,
+    "ci95": [
+     0.9175,
+     0.9406
+    ]
+   },
+   "msg_failure": {
+    "k": 999,
+    "n": 2163,
+    "share": 0.4619,
+    "ci95": [
+     0.4373,
+     0.4856
+    ]
+   }
+  },
+  "with_trailer_test_change": {
+   "k": 126,
+   "n": 317,
+   "share": 0.3975,
+   "ci95": [
+    0.3375,
+    0.4613
+   ]
+  },
+  "before_2025": {
+   "test_change": {
+    "k": 213,
+    "n": 1299,
+    "share": 0.164,
+    "ci95": [
+     0.1434,
+     0.1863
+    ]
+   },
+   "msg_turkic": {
+    "k": 245,
+    "n": 1299,
+    "share": 0.1886,
+    "ci95": [
+     0.1623,
+     0.2141
+    ]
+   },
+   "machine_pinning_only": {
+    "k": 1204,
+    "n": 1299,
+    "share": 0.9269,
+    "ci95": [
+     0.9125,
+     0.941
+    ]
+   }
+  }
+ }
+}

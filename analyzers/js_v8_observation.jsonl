@@ -1,0 +1,6 @@
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"I","noArg":"i","explicitDefault":"ı","consistent":false}
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"TITLE","noArg":"title","explicitDefault":"tıtle","consistent":false}
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"Iç","noArg":"iç","explicitDefault":"ıç","consistent":false}
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"IŞ","noArg":"ış","explicitDefault":"ış","consistent":true}
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"IŞIK","noArg":"ışık","explicitDefault":"ışık","consistent":true}
+{"node":"v26.7.0","icu":"78.3","default":"tr-TR","input":"İ","noArg":"i","explicitDefault":"i","consistent":true}

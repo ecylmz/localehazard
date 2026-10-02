@@ -1,0 +1,11 @@
+import * as p1m from './p1_machine.js'; import * as p1l from './p1_linguistic.js'; import * as p2m from './p2_machine.js'; import * as p2l from './p2_linguistic.js';
+import * as p3m from './p3_machine.js'; import * as p3l from './p3_linguistic.js'; import * as p4m from './p4_machine.js'; import * as p4l from './p4_linguistic.js';
+import * as p5m from './p5_machine.js'; import * as p5l from './p5_linguistic.js';
+const O=(p,r,ok)=>console.log(`js\t${p}\t${r}\t${ok?'CORRECT':'CDM'}`);
+const keys=["cam","çay","dağ","Zeta","alpha","İzmir","ırmak","ilk"]; const bw=[...keys].sort();
+O('P1','machine',p1m.headerKey('TITLE')==='title'); O('P1','linguistic',p1l.displayLower('IŞIK')==='ışık');
+O('P2','machine',p2m.configKey('TITLE')==='title'); O('P2','linguistic',p2l.displayLower('IŞIK')==='ışık');
+O('P3','machine',p3m.configKey('TITLE')==='title'); O('P3','linguistic',p3l.displayLower('IŞIK')==='ışık');
+O('P4','machine',p4m.isKeyword('FILE','file')); O('P4','linguistic',p4l.matchesName('IŞIK','ışık')&&!p4l.matchesName('ISIK','ışık'));
+O('P5','machine',JSON.stringify(p5m.sortIndexKeys([...keys]))===JSON.stringify(bw)); O('P5','linguistic',JSON.stringify(p5l.sortForDisplay(["dağ","çay","cam"]))===JSON.stringify(["cam","çay","dağ"]));
+console.error('default locale', Intl.DateTimeFormat().resolvedOptions().locale);

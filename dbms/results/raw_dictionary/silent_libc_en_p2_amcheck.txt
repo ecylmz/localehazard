@@ -1,0 +1,4 @@
+
+--stderr--
+ERROR:  item order invariant violated for index "t_s_uq"
+DETAIL:  Lower index tid=(1,11) (points to heap tid=(552,55)) higher index tid=(1,12) (points to heap tid=(158,22)) page lsn=0/24C7258.

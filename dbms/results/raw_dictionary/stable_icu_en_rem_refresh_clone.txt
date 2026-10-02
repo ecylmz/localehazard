@@ -1,0 +1,4 @@
+ALTER DATABASE
+
+--stderr--
+NOTICE:  version has not changed

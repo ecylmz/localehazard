@@ -1,0 +1,12 @@
+{
+ "id": "J5",
+ "q": "\"Locale.US\" lowercase",
+ "slices": [
+  {
+   "slice": "all",
+   "total": 558,
+   "pages": 6
+  }
+ ],
+ "total_count": 558
+}

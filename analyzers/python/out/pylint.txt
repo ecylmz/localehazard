@@ -1,0 +1,7 @@
+Downloading isort (1.6MiB)
+ Downloaded isort
+Installed 8 packages in 20ms
+
+------------------------------------
+Your code has been rated at 10.00/10
+

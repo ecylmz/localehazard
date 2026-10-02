@@ -1,0 +1,107 @@
+item_id,genuine,role,trigger,family,note
+I001,YES,MACHINE,OBSERVED_FAILURE,F5,LANG env override for Turkish locale daemon bug
+I002,NO,NA,NA,NA,UI locale config and route
+I003,YES,MACHINE,PREVENTIVE,F3,InvariantCultureIgnoreCase to Ordinal for names
+I004,NO,NA,NA,NA,translation resource only
+I005,YES,MACHINE,PREVENTIVE,F3,Invariant to OrdinalIgnoreCase key compare
+I006,YES,MACHINE,OBSERVED_FAILURE,F2,ToLower Locale.ROOT Turkish pending bug
+I007,YES,MIXED,OBSERVED_FAILURE,F2,ToLowerInvariant Turkish failure; extensions and channel names
+I008,YES,MACHINE,PREVENTIVE,F2,toLocaleLowerCase to toLowerCase on tag names
+I009,YES,MACHINE,PREVENTIVE,F2,ToLowerInvariant on ids and urls
+I010,YES,LINGUISTIC,PREVENTIVE,F3,wake word Turkish tolerant case-insensitive match
+I011,NO,NA,NA,NA,literal text fix
+I012,NO,NA,NA,NA,ASCII case perf equivalent for ASCII codes
+I013,YES,MACHINE,PREVENTIVE,F3,StartsWith Ordinal in tests
+I014,YES,LINGUISTIC,OBSERVED_FAILURE,F1,custom Turkish uppercase function
+I015,YES,LINGUISTIC,PREVENTIVE,F3,keyword search lowercase Locale.ROOT
+I016,YES,LINGUISTIC,PREVENTIVE,F3,lower to casefold in shortcut search
+I017,YES,MACHINE,TOOL_DRIVEN,F2,CA1304 ToLowerInvariant on paths and names
+I018,NO,NA,NA,NA,package upgrade
+I019,NO,NA,NA,NA,translation file
+I020,YES,MACHINE,PREVENTIVE,F3,ToLower EndsWith to OrdinalIgnoreCase
+I021,YES,MACHINE,PREVENTIVE,F3,InvariantCultureIgnoreCase to Ordinal options
+I022,YES,MACHINE,UNCLEAR,F2,toLocaleLowerCase rolled back to toLowerCase
+I023,NO,NA,NA,NA,package version bump
+I024,YES,MACHINE,PREVENTIVE,F6,LC_ALL=C sort for stable order
+I025,YES,MACHINE,PREVENTIVE,F3,toLocaleLowerCase to toLowerCase symbols
+I026,YES,MACHINE,OBSERVED_FAILURE,F3,CurrentCultureIgnoreCase lookup fails by culture
+I027,NO,NA,NA,NA,symbol table addition
+I028,YES,LINGUISTIC,OBSERVED_FAILURE,F1,removed CSS uppercase for Turkish I issue
+I029,YES,MACHINE,PREVENTIVE,F3,strncasecmp to g_ascii_strncasecmp field names
+I030,YES,MACHINE,PREVENTIVE,F2,tolower to pg_ascii_tolower avoid setlocale
+I031,NO,NA,NA,NA,package upgrade
+I032,YES,MACHINE,PREVENTIVE,F3,strcasecmp to g_ascii_strcasecmp column names
+I033,YES,MACHINE,PREVENTIVE,F3,strcasecmp locale-dependent to ascii variant
+I034,NO,NA,NA,NA,translation file
+I035,YES,MACHINE,OBSERVED_FAILURE,F2,Locale.ENGLISH for id lowercasing Turkish bug
+I036,YES,MACHINE,PREVENTIVE,F3,ToLower EndsWith to OrdinalIgnoreCase extension
+I037,YES,MIXED,OBSERVED_FAILURE,F2,Locale.ROOT everywhere Turkish locale fix
+I038,YES,MACHINE,TOOL_DRIVEN,F2,spotbug DM_CONVERT_CASE hash uppercase
+I039,YES,MACHINE,PREVENTIVE,F3,strncasecmp to g_ascii_strcasecmp option values
+I040,YES,LINGUISTIC,OBSERVED_FAILURE,F1,tr locale lowercase for filter Turkish İ
+I041,YES,MACHINE,PREVENTIVE,F2,Locale.ROOT added to case modifiers
+I042,NO,NA,NA,NA,translation file
+I043,YES,LINGUISTIC,PREVENTIVE,F3,toLocaleLowerCase to toLowerCase in filter matching
+I044,NO,NA,NA,NA,perf ASCII lowercase equivalent for keys
+I045,YES,MACHINE,PREVENTIVE,F2,Invariant case in DTO normalization
+I046,YES,LINGUISTIC,PREVENTIVE,F3,new Turkish phrase regex with i variants
+I047,YES,LINGUISTIC,OBSERVED_FAILURE,F1,tr-TR lowercase for Turkish search fix
+I048,YES,MACHINE,TOOL_DRIVEN,F3,Meziantou analyzer ordinal comparisons
+I049,YES,MACHINE,PREVENTIVE,F5,LC_ALL for pacman output parsing
+I050,YES,MACHINE,TOOL_DRIVEN,F2,CA1309 analyzer ordinal and invariant case
+I051,NO,NA,NA,NA,locale data file added
+I052,YES,MACHINE,PREVENTIVE,F2,toLocaleLowerCase en-US in URL slug
+I053,YES,MACHINE,PREVENTIVE,F2,ToUpperInvariant for role names
+I054,YES,MACHINE,PREVENTIVE,F6,LC_ALL=C sort for reproducible generated headers
+I055,YES,MACHINE,OBSERVED_FAILURE,F2,Turkish locale problem toUpperCase English
+I056,NO,NA,NA,NA,test skip helper
+I057,YES,MACHINE,PREVENTIVE,F2,Locale.ROOT for header names
+I058,YES,MACHINE,PREVENTIVE,F3,InvariantCultureIgnoreCase to Ordinal alias dict
+I059,YES,MACHINE,OBSERVED_FAILURE,F2,Turkish locale crashes Locale.ENGLISH case
+I060,YES,MACHINE,OBSERVED_FAILURE,F5,LC_ALL=C in chroot commands
+I061,UNCLEAR,NA,NA,NA,Turkish crash fix but no diff shown
+I062,YES,MACHINE,OBSERVED_FAILURE,F5,LC_ALL=C for tr Turkish bug
+I063,YES,MACHINE,PREVENTIVE,F3,EndsWith ordinal for tar extensions
+I064,YES,MACHINE,PREVENTIVE,F3,StartsWith Ordinal for keys
+I065,YES,MACHINE,PREVENTIVE,F2,email normalization Locale.ROOT
+I066,YES,UNCLEAR,PREVENTIVE,F2,ToLowerInvariant on dictionary word lookup
+I067,YES,MACHINE,PREVENTIVE,F3,ignoreCase compare to OrdinalIgnoreCase extensions
+I068,YES,MACHINE,OBSERVED_FAILURE,F3,Locale.ROOT uppercase compare Turkish never converge
+I069,YES,MACHINE,PREVENTIVE,F2,Locale.ROOT on state code uppercase
+I070,YES,MACHINE,PREVENTIVE,F3,InvariantCultureIgnoreCase to OrdinalIgnoreCase
+I071,YES,LINGUISTIC,PREVENTIVE,F1,Spark initCap titlecase behavior with sigma
+I072,YES,MACHINE,TOOL_DRIVEN,F3,CA1310 CA1311 ordinal and invariant
+I073,YES,MACHINE,OBSERVED_FAILURE,F3,StartsWith ordinal soft hyphen misparse
+I074,YES,MACHINE,PREVENTIVE,F3,StartsWith Ordinal for ## token
+I075,NO,NA,NA,NA,CSS layout fix for glyph clipping
+I076,YES,MACHINE,TOOL_DRIVEN,F2,CA1304 ToUpper InvariantCulture
+I077,NO,NA,NA,NA,test cases only
+I078,YES,MACHINE,OBSERVED_FAILURE,F6,LC_ALL=C sort manifest order differed
+I079,YES,MACHINE,TOOL_DRIVEN,F3,analyzer-driven ordinal comparisons paths
+I080,NO,NA,NA,NA,CSS and content tweak
+I081,YES,LINGUISTIC,UNCLEAR,F3,toLocaleLowerCase removed from couchdb views
+I082,YES,MACHINE,OBSERVED_FAILURE,F2,Turkish locale problem enum valueOf uppercase
+I083,UNCLEAR,NA,NA,NA,reverts Turkish i helper in GWT file; diff unclear
+I084,YES,MACHINE,TOOL_DRIVEN,F2,CA1304 ToLowerInvariant
+I085,NO,NA,NA,NA,logic inversion no culture change
+I086,YES,MACHINE,OBSERVED_FAILURE,F2,Turkish locale script loading Locale.ROOT
+I087,YES,MACHINE,PREVENTIVE,F2,Turkish i defense Locale.ENGLISH and codecheck
+I088,YES,MACHINE,OBSERVED_FAILURE,F2,startup issue Turkish locale ES setting names
+I089,NO,NA,NA,NA,translation file
+I090,YES,MACHINE,UNCLEAR,F6,LC_ALL=C sort in makefile
+I091,YES,UNCLEAR,OBSERVED_FAILURE,F3,test bug StartsWith ordinal ignore culture
+I092,YES,MACHINE,PREVENTIVE,F2,Invariant case for table and column names
+I093,YES,LINGUISTIC,PREVENTIVE,F1,toLowerCase to toLocaleLowerCase in sorter
+I094,YES,MACHINE,TOOL_DRIVEN,F2,PMD errorprone Locale.ENGLISH case conversions
+I095,YES,MACHINE,TOOL_DRIVEN,F3,analyzer CA1309 CA1310 CA1304 fixes
+I096,YES,MACHINE,OBSERVED_FAILURE,F2,to_lowercase to ASCII for HTML tag search crash
+I097,NO,NA,NA,NA,UI locale switch not text processing
+I098,NO,NA,NA,NA,translation file
+I099,YES,MACHINE,OBSERVED_FAILURE,F2,Turkish input option keys Locale.ROOT
+I100,NO,NA,NA,NA,LC_ALL=C for awk number formatting
+I101,YES,MACHINE,PREVENTIVE,F2,ToLowerInvariant on format switch
+I102,YES,MACHINE,TOOL_DRIVEN,F2,PMD SpotBugs Locale.ROOT host lowercase
+I103,YES,MACHINE,OBSERVED_FAILURE,F5,LC_ALL=C sed on binary macOS error
+I104,YES,MACHINE,PREVENTIVE,F3,ToUpper StartsWith to OrdinalIgnoreCase perf
+I105,YES,MACHINE,OBSERVED_FAILURE,F3,ASCII strcasecmp for SNI hostname Turkish
+I106,NO,NA,NA,NA,allocation perf ASCII header compare

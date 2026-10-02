@@ -1,0 +1,76 @@
+{
+ "items": 210,
+ "agreement": {
+  "genuine": {
+   "n": 210,
+   "raw": 0.976,
+   "kappa": 0.935
+  },
+  "role": {
+   "n": 158,
+   "raw": 0.924,
+   "kappa": 0.771
+  },
+  "trigger": {
+   "n": 158,
+   "raw": 0.905,
+   "kappa": 0.838
+  },
+  "family": {
+   "n": 158,
+   "raw": 0.835,
+   "kappa": 0.754
+  }
+ },
+ "precision": {
+  "k": 144,
+  "n": 150,
+  "share": 0.96,
+  "wilson95": [
+   0.9155,
+   0.9815
+  ]
+ },
+ "included_unclear": 0,
+ "excluded_genuine": {
+  "k": 17,
+  "n": 60,
+  "share": 0.2833,
+  "wilson95": [
+   0.1851,
+   0.4077
+  ]
+ },
+ "role_genuine_included": {
+  "MACHINE": 121,
+  "MIXED": 5,
+  "LINGUISTIC": 17,
+  "UNCLEAR": 1
+ },
+ "trigger_genuine_included": {
+  "PREVENTIVE": 89,
+  "OBSERVED_FAILURE": 29,
+  "TOOL_DRIVEN": 21,
+  "UNCLEAR": 5
+ },
+ "family_genuine_included": {
+  "F3": 65,
+  "F2": 55,
+  "F6": 5,
+  "F5": 12,
+  "F1": 6,
+  "F4": 1
+ },
+ "role_genuine_excluded": {
+  "MACHINE": 7,
+  "LINGUISTIC": 8,
+  "UNCLEAR": 2
+ },
+ "family_genuine_excluded": {
+  "F5": 5,
+  "F1": 8,
+  "OTHER": 1,
+  "F3": 1,
+  "F2": 2
+ }
+}

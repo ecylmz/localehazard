@@ -1,0 +1,195 @@
+{
+ "trigger_v2": {
+  "TOOL_DRIVEN": 20,
+  "PREVENTIVE": 79,
+  "OBSERVED_FAILURE": 29,
+  "UNCLEAR": 5
+ },
+ "role_v2": {
+  "MACHINE": 110,
+  "LINGUISTIC": 17,
+  "MIXED": 5,
+  "UNCLEAR": 1
+ },
+ "precision_v2": {
+  "n": 135,
+  "k": 133,
+  "share": 0.9852,
+  "wilson95": [
+   0.9476,
+   0.9959
+  ],
+  "dropped_by_v2": 15,
+  "dropped_genuine": 11
+ },
+ "recall_turkic_subframe": {
+  "included": 379,
+  "excluded_nonformat": 3200,
+  "neg_genuine": "17/60",
+  "estimate": 0.292,
+  "bounds": [
+   0.216,
+   0.389
+  ]
+ },
+ "turkic_share_excluding_T_queries": {
+  "k": 281,
+  "n": 2202,
+  "share": 0.1276,
+  "ci95": [
+   0.1124,
+   0.1425
+  ]
+ },
+ "analyzer_share_excluding_A_queries": {
+  "k": 235,
+  "n": 2279,
+  "share": 0.1031,
+  "ci95": [
+   0.0901,
+   0.1163
+  ]
+ },
+ "pinning_only_excluding_pinning_queries": {
+  "k": 675,
+  "n": 846,
+  "share": 0.7979,
+  "ci95": [
+   0.7684,
+   0.8271
+  ]
+ },
+ "locale_relevant_test": {
+  "k": 188,
+  "n": 2480,
+  "share": 0.0758,
+  "ci95": [
+   0.0644,
+   0.0868
+  ]
+ },
+ "locale_relevant_test_turkic_msg": {
+  "k": 113,
+  "n": 559,
+  "share": 0.2021,
+  "ci95": [
+   0.1658,
+   0.2401
+  ]
+ },
+ "agents": {
+  "agent_test": {
+   "k": 125,
+   "n": 316,
+   "share": 0.3956,
+   "ci95": [
+    0.3313,
+    0.4557
+   ]
+  },
+  "nonagent_2025_26_test": {
+   "k": 261,
+   "n": 865,
+   "share": 0.3017,
+   "ci95": [
+    0.269,
+    0.3394
+   ]
+  },
+  "agent_loctest": {
+   "k": 49,
+   "n": 316,
+   "share": 0.1551,
+   "ci95": [
+    0.1138,
+    0.2006
+   ]
+  },
+  "nonagent_2025_26_loctest": {
+   "k": 96,
+   "n": 865,
+   "share": 0.111,
+   "ci95": [
+    0.0883,
+    0.1347
+   ]
+  },
+  "median_files_agent": 4.0,
+  "median_files_nonagent_2025_26": 3,
+  "fetched_2026_share": 0.317
+ },
+ "multi_repos": {
+  "n": 189,
+  "within_1_day": 56,
+  "within_7_days": 88
+ },
+ "role_consistency_coded": {
+  "pinning_on_MACHINE": 107,
+  "pinning_on_LINGUISTIC": 10,
+  "pinning_on_MIXED": 5,
+  "towards_aware_on_LINGUISTIC": 7,
+  "towards_aware_on_MACHINE": 2,
+  "pinning_on_UNCLEAR": 1,
+  "both_directions_MACHINE": 1
+ },
+ "role_consistency_summary": {
+  "n": 133,
+  "consistent": 114,
+  "introduces_cdm": 12,
+  "mixed": 5,
+  "unclear_or_other": 2,
+  "pinning_total": 123,
+  "pinning_on_linguistic_or_mixed": 15,
+  "introduces_wilson": [
+   0.0524,
+   0.1511
+  ]
+ },
+ "towards_aware_machine_items": {
+  "n": 40,
+  "still_included_v2": 40,
+  "target": {
+   "no_argument_default": 22,
+   "explicit_turkic": 4,
+   "variable_or_culture_parameter": 9,
+   "explicit_english": 4,
+   "explicit_other_fixed": 1
+  },
+  "ecosystem": {
+   "js": 32,
+   "jvm": 8
+  },
+  "js_no_argument": 22,
+  "excluding_explicit_english": 36
+ },
+ "towards_aware_machine_only": {
+  "k": 32,
+  "n": 134,
+  "share": 0.2388,
+  "wilson95": [
+   0.1745,
+   0.3176
+  ],
+  "mixed": 8,
+  "no_argument": 17,
+  "english": 4,
+  "realised_any_input": 11
+ },
+ "rule_directions": {
+  "MACHINE_PINNING": 27,
+  "LINGUISTIC_REPAIR": 4
+ },
+ "precision_by_stratum": {
+  "jvm|CASE": "38/38",
+  "dotnet|COMPARE": "25/25",
+  "dotnet|CASE": "22/22",
+  "js|CASE": "18/18",
+  "shell_build|ENV": "9/10",
+  "rust|CASE": "6/7",
+  "c_cpp|COMPARE": "6/6",
+  "dotnet|CASE;COMPARE": "5/5",
+  "python|CASE": "3/3",
+  "c_cpp|CASE": "1/1"
+ },
+ "lineages_if_fingerprint_within_repo": 2903
+}

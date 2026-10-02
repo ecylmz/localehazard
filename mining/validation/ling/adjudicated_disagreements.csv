@@ -1,0 +1,29 @@
+item_id,role,change,rationale
+L010,LINGUISTIC,LOCALE_AWARE,Localized confirmation word shown to and typed by the user
+L012,LINGUISTIC,LOCALE_AWARE,Player names typed by people matched to avatars
+L013,MIXED,LOCALE_AWARE,Option codes are machine while option labels are searched by people
+L014,LINGUISTIC,UNICODE_FOLD,ILIKE matching over spreadsheet cell content
+L018,MACHINE,UNICODE_FOLD,Tags used as keys for scope matching
+L024,LINGUISTIC,LOCALE_AWARE,Turkish confirmation word shown to and typed by the user
+L028,MACHINE,LOCALE_AWARE,Lowercasing now uses the parser locale for time zone lookup
+L036,MACHINE,LOCALE_AWARE,Dictionary keys for parsing game command words
+L038,LINGUISTIC,LOCALE_AWARE,Tutorial demonstrates case mapping of human text
+L063,LINGUISTIC,UNICODE_FOLD,User filter over item names and subtitles
+L064,UNCLEAR,LOCALE_AWARE,Generic query string functions with unknown data
+L065,MIXED,LOCALE_AWARE,Note search is human text but shortcut key check is machine
+L075,LINGUISTIC,LOCALE_AWARE,Country names in human language matched from imports
+L085,LINGUISTIC,LOCALE_AWARE,Turkish words and letters in a word game
+L088,LINGUISTIC,LOCALE_AWARE,Capitalizes words for display
+L103,LINGUISTIC,LOCALE_AWARE,Message states change is for user output and display
+L105,LINGUISTIC,LOCALE_AWARE,Orientation and gender labels displayed as badges
+L107,MIXED,UNICODE_FOLD,RSS flag values are machine while keyword extraction is human text
+L121,MACHINE,LOCALE_AWARE,Slugify output is machine text
+L122,MACHINE,LOCALE_AWARE,File name comparison
+L124,MIXED,LOCALE_AWARE,Type and color names are machine while table sort is human text
+L133,MACHINE,LOCALE_AWARE,Engine type identifier now uses explicit default locale mapping
+L136,MIXED,LOCALE_AWARE,Shell ids and commands are machine while button labels are human text
+L137,UNCLEAR,UNICODE_FOLD,Sort key content and audience not determinable
+L139,LINGUISTIC,LOCALE_AWARE,User-facing modpack tags deduplicated and filtered
+L146,MIXED,LOCALE_AWARE,Case-format conversion is machine while capitalize serves display text
+L168,MIXED,LOCALE_AWARE,Emails and stage enums are machine while titles are searched
+L175,MIXED,LOCALE_AWARE,Emoji search is human text while email values are machine

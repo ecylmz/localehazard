@@ -1,0 +1,4 @@
+
+--stderr--
+ERROR:  could not create unique index "t_s_uq"
+DETAIL:  Key (s)=(fan's) is duplicated.

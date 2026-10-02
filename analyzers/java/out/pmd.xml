@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.28.0" timestamp="2026-10-02T06:34:02.816">
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_linguistic.java">
+<violation beginline="3" endline="3" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P1_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="38" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="probes" class="P1_linguistic" method="displayLower" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_machine.java">
+<violation beginline="3" endline="3" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P1_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+<violation beginline="5" endline="5" begincolumn="16" endcolumn="40" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="probes" class="P1_machine" method="headerKey" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_linguistic.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P2_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_machine.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P2_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_linguistic.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P3_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_machine.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P3_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_linguistic.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P4_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_machine.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P4_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_linguistic.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P5_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_machine.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="P5_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_linguistic.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X1_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_machine.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X1_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_linguistic.java">
+<violation beginline="4" endline="4" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X2_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+<violation beginline="6" endline="6" begincolumn="23" endcolumn="45" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="probes" class="X2_linguistic" method="show" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java">
+<violation beginline="3" endline="3" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X2_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="38" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="probes" class="X2_machine" method="dispatch" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_linguistic.java">
+<violation beginline="6" endline="6" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X3_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_machine.java">
+<violation beginline="6" endline="6" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X3_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_linguistic.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="33" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X4_linguistic" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<file name="/home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_machine.java">
+<violation beginline="5" endline="5" begincolumn="20" endcolumn="30" rule="InstantiableUtilityClass" ruleset="Design" package="probes" class="X4_machine" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#instantiableutilityclass" priority="3">
+All members are static. Consider adding a private no-args constructor to prevent instantiation.
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>

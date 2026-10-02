@@ -4,12 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "localehazard"
-version = "0.1.0"
-description = "Replication utilities for LocaleHazardBench"
+version = "2.0.0"
+description = "Replication utilities for the LocaleHazard study of text roles in locale-sensitive operations"
 requires-python = ">=3.11"
 authors = [
   {name = "Emre Can Yılmaz", email = "emrecan@omu.edu.tr"},
-  {name = "Recai Oktaş", email = "roktas@omu.edu.tr"},
 ]
 
 [project.scripts]

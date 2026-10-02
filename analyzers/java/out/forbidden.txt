@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< probes:cdm-probes >--------------------------
+[INFO] Building cdm-probes 1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ cdm-probes ---
+[INFO] skip non existing resourceDirectory /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ cdm-probes ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- forbiddenapis:3.11:check (default-cli) @ cdm-probes ---
+[INFO] Scanning for classes to check...
+[INFO] Reading bundled API signatures: jdk-unsafe-21
+[INFO] Reading bundled API signatures: jdk-deprecated-21
+[INFO] Reading bundled API signatures: jdk-non-portable
+[INFO] Reading bundled API signatures: jdk-internal-21
+[INFO] Loading classes to check...
+[INFO] Scanning classes for violations...
+[WARNING] Forbidden method invocation: java.lang.String#toLowerCase() [Uses default locale]
+[WARNING]   in probes.P1_machine (P1_machine.java:5)
+[WARNING] Forbidden method invocation: java.lang.String#toLowerCase() [Uses default locale]
+[WARNING]   in probes.X2_linguistic (X2_linguistic.java:6)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.X3_machine (X3_machine.java:8)
+[WARNING] Forbidden method invocation: java.lang.String#toLowerCase() [Uses default locale]
+[WARNING]   in probes.X2_machine (X2_machine.java:5)
+[WARNING] Forbidden method invocation: java.lang.String#toLowerCase() [Uses default locale]
+[WARNING]   in probes.P1_linguistic (P1_linguistic.java:5)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.P5_linguistic (P5_linguistic.java:7)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.X3_linguistic (X3_linguistic.java:8)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.P4_linguistic (P4_linguistic.java:6)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.P4_machine (P4_machine.java:6)
+[WARNING] Forbidden method invocation: java.text.Collator#getInstance() [Uses default locale]
+[WARNING]   in probes.P5_machine (P5_machine.java:7)
+[INFO] Scanned 18 class file(s) for forbidden API invocations (in 0.13s), 0 error(s).
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.954 s
+[INFO] Finished at: 2026-10-02T06:34:06+03:00
+[INFO] ------------------------------------------------------------------------

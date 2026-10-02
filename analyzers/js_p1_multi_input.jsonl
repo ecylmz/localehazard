@@ -1,0 +1,8 @@
+{"role":"machine","input":"TITLE","out":"title","ok":true}
+{"role":"machine","input":"FILE","out":"file","ok":true}
+{"role":"machine","input":"ID","out":"id","ok":true}
+{"role":"linguistic","input":"IŞIK","out":"ışık","ok":true}
+{"role":"linguistic","input":"KIRMIZI","out":"kirmizi","ok":false}
+{"role":"linguistic","input":"IRMAK","out":"irmak","ok":false}
+{"role":"linguistic","input":"ÇIRA","out":"çira","ok":false}
+{"upper":"ISTANBUL","expectedTr":"İSTANBUL"}

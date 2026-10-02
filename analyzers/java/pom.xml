@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>probes</groupId><artifactId>cdm-probes</artifactId><version>1</version>
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <build><plugins>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.0</version>
+      <configuration><fork>false</fork>
+        <compilerArgs>
+          <arg>-XDcompilePolicy=simple</arg><arg>--should-stop=ifError=FLOW</arg>
+          <arg>-Xplugin:ErrorProne -XepAllDisabledChecksAsWarnings -XepAllErrorsAsWarnings -XepDisableWarningsInGeneratedCode</arg>
+        </compilerArgs>
+        <annotationProcessorPaths><path><groupId>com.google.errorprone</groupId><artifactId>error_prone_core</artifactId><version>2.50.0</version></path></annotationProcessorPaths>
+      </configuration></plugin>
+    <plugin><groupId>com.github.spotbugs</groupId><artifactId>spotbugs-maven-plugin</artifactId><version>4.10.4.1</version>
+      <configuration><effort>Max</effort><threshold>Low</threshold><xmlOutput>true</xmlOutput><failOnError>false</failOnError></configuration></plugin>
+    <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-pmd-plugin</artifactId><version>3.28.0</version>
+      <configuration><failOnViolation>false</failOnViolation><printFailingErrors>true</printFailingErrors><minimumPriority>5</minimumPriority><format>xml</format><linkXRef>false</linkXRef>
+        <rulesets><ruleset>category/java/bestpractices.xml</ruleset><ruleset>category/java/errorprone.xml</ruleset><ruleset>category/java/multithreading.xml</ruleset><ruleset>category/java/performance.xml</ruleset><ruleset>category/java/security.xml</ruleset><ruleset>category/java/design.xml</ruleset></rulesets></configuration>
+      <dependencies><dependency><groupId>net.sourceforge.pmd</groupId><artifactId>pmd-java</artifactId><version>7.28.0</version></dependency><dependency><groupId>net.sourceforge.pmd</groupId><artifactId>pmd-core</artifactId><version>7.28.0</version></dependency></dependencies></plugin>
+    <plugin><groupId>de.thetaphi</groupId><artifactId>forbiddenapis</artifactId><version>3.11</version>
+      <configuration><failOnViolation>false</failOnViolation><failOnUnsupportedJava>false</failOnUnsupportedJava>
+        <bundledSignatures><bundledSignature>jdk-unsafe</bundledSignature><bundledSignature>jdk-deprecated</bundledSignature><bundledSignature>jdk-non-portable</bundledSignature><bundledSignature>jdk-internal</bundledSignature></bundledSignatures></configuration></plugin>
+  </plugins></build>
+</project>

@@ -1,0 +1,7 @@
+
+--stderr--
+WARNING:  database "libc_en" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.43.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+ERROR:  down-link lower bound invariant violated for index "t_s_uq"
+DETAIL:  Parent block=202 child index tid=(277,3) parent page lsn=0/3025098.

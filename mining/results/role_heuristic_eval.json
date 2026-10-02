@@ -1,0 +1,68 @@
+{
+ "main": {
+  "n": 127,
+  "covered": 69,
+  "coverage": 0.543,
+  "MACHINE": {
+   "precision": "59/63",
+   "precision_wilson": [
+    0.8478,
+    0.975
+   ],
+   "recall": "59/110"
+  },
+  "LINGUISTIC": {
+   "precision": "3/6",
+   "precision_wilson": [
+    0.1876,
+    0.8124
+   ],
+   "recall": "3/17"
+  },
+  "accuracy_on_covered": 0.899
+ },
+ "towards_aware": {
+  "n": 167,
+  "covered": 84,
+  "coverage": 0.503,
+  "MACHINE": {
+   "precision": "35/76",
+   "precision_wilson": [
+    0.3531,
+    0.5718
+   ],
+   "recall": "35/54"
+  },
+  "LINGUISTIC": {
+   "precision": "7/8",
+   "precision_wilson": [
+    0.5291,
+    0.9776
+   ],
+   "recall": "7/113"
+  },
+  "accuracy_on_covered": 0.5
+ },
+ "all": {
+  "n": 294,
+  "covered": 153,
+  "coverage": 0.52,
+  "MACHINE": {
+   "precision": "94/139",
+   "precision_wilson": [
+    0.5946,
+    0.7484
+   ],
+   "recall": "94/164"
+  },
+  "LINGUISTIC": {
+   "precision": "10/14",
+   "precision_wilson": [
+    0.4535,
+    0.8828
+   ],
+   "recall": "10/130"
+  },
+  "accuracy_on_covered": 0.68
+ }
+}

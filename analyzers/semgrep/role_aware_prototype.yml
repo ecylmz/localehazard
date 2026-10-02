@@ -1,0 +1,53 @@
+rules:
+  # Machine sinks: map keys, switch selectors, comparison with ASCII literals, natural-order binary search.
+  - id: locale-sensitive-case-into-machine-sink
+    languages: [java]
+    severity: WARNING
+    message: Locale-dependent case mapping flows into a machine-text sink (map key / switch / literal comparison).
+    patterns:
+      - pattern-either:
+          - pattern: $M.put($S.toLowerCase(...), ...)
+          - pattern: $M.put($S.toUpperCase(...), ...)
+          - pattern-regex: switch\s*\(\s*[\w.]+\.to(Lower|Upper)Case\(\s*\)\s*\)
+      - pattern-not: $M.put($S.toLowerCase(Locale.ROOT), ...)
+      - pattern-not: $M.put($S.toUpperCase(Locale.ROOT), ...)
+  - id: collator-order-then-natural-search
+    languages: [java]
+    severity: WARNING
+    message: A list sorted with a locale collator is binary-searched in natural order.
+    patterns:
+      - pattern-inside: |
+          $L.sort(java.text.Collator.getInstance(...));
+          ...
+      - pattern: java.util.Collections.binarySearch($L, $K)
+  - id: locale-neutral-case-into-ui-sink
+    languages: [java]
+    severity: WARNING
+    message: Locale-neutral case mapping of text shown to the user.
+    pattern-either:
+      - pattern: $C.setText($S.toLowerCase(Locale.ROOT))
+      - pattern: $C.setText($S.toUpperCase(Locale.ROOT))
+  - id: culture-case-into-machine-sink-cs
+    languages: [csharp]
+    severity: WARNING
+    message: Culture-dependent case mapping flows into a dictionary key or switch selector.
+    pattern-either:
+      - pattern: $D[$S.ToLower(...)] = $V
+      - pattern: $D[$S.ToUpper(...)] = $V
+      - pattern-regex: \.To(Lower|Upper)\(\)\s+switch
+  - id: culture-order-then-ordinal-search-cs
+    languages: [csharp]
+    severity: WARNING
+    message: A list sorted with the current culture is binary-searched ordinally.
+    patterns:
+      - pattern-inside: |
+          $L.Sort(StringComparer.CurrentCulture);
+          ...
+      - pattern: $L.BinarySearch($K, StringComparer.Ordinal)
+  - id: invariant-case-into-ui-sink-cs
+    languages: [csharp]
+    severity: WARNING
+    message: Invariant case mapping of text written to the user.
+    pattern-either:
+      - pattern: Console.WriteLine($S.ToUpperInvariant())
+      - pattern: Console.WriteLine($S.ToLowerInvariant())

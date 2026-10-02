@@ -1,0 +1,8 @@
+p1_linguistic.c:4:unusedFunction
+p1_machine.c:4:unusedFunction
+p2_machine.c:5:unusedFunction
+p4_linguistic.c:3:unusedFunction
+p4_machine.c:3:unusedFunction
+p5_linguistic.c:5:unusedFunction
+p5_machine.c:5:unusedFunction
+nofile:0:checkersReport

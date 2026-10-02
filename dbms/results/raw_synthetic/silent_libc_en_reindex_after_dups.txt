@@ -1,0 +1,5 @@
+
+--stderr--
+ERROR:  could not create unique index "t_s_uq"
+DETAIL:  Key (s)=(b'a) is duplicated.
+CONTEXT:  parallel worker

@@ -1,0 +1,7 @@
+
+--stderr--
+WARNING:  database "libc_en" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.43.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+ERROR:  item order invariant violated for index "t_s_uq"
+DETAIL:  Lower index tid=(1,11) (points to heap tid=(552,55)) higher index tid=(1,12) (points to heap tid=(158,22)) page lsn=0/24C7258.

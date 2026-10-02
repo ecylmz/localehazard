@@ -1,0 +1,8 @@
+
+--stderr--
+WARNING:  database "postgres" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+ERROR:  template database "libc_en" has a collation version mismatch
+DETAIL:  The template database was created using collation version 2.27, but the operating system provides version 2.28.
+HINT:  Rebuild all objects in the template database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.

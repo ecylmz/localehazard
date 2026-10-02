@@ -1,0 +1,204 @@
+{
+ "per_tool": {
+  "java/errorprone": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 3,
+   "correct_cells": 5,
+   "correct_flagged": 3,
+   "all_rules_reported": [
+    "AddNullMarkedToClass",
+    "DefaultLocale",
+    "IdentifierName",
+    "PrivateConstructorForUtilityClass",
+    "StatementSwitchToExpressionSwitch",
+    "StringCaseLocaleUsage"
+   ]
+  },
+  "java/spotbugs": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 1,
+   "correct_cells": 5,
+   "correct_flagged": 1,
+   "all_rules_reported": [
+    "DM_CONVERT_CASE"
+   ]
+  },
+  "java/pmd": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 1,
+   "correct_cells": 5,
+   "correct_flagged": 1,
+   "all_rules_reported": [
+    "InstantiableUtilityClass",
+    "UseLocaleWithCaseConversions"
+   ]
+  },
+  "java/forbiddenapis": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 3,
+   "correct_cells": 5,
+   "correct_flagged": 3,
+   "all_rules_reported": [
+    "Uses default locale"
+   ]
+  },
+  "dotnet/dotnet": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 3,
+   "correct_cells": 5,
+   "correct_flagged": 3,
+   "all_rules_reported": [
+    "CA1002",
+    "CA1062",
+    "CA1304",
+    "CA1308",
+    "CA1309",
+    "CA1311",
+    "CA1707"
+   ]
+  },
+  "go/govet": {
+   "probe_pairs": 4,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 4,
+   "cdm_flagged": 0,
+   "correct_cells": 4,
+   "correct_flagged": 0,
+   "all_rules_reported": []
+  },
+  "go/staticcheck": {
+   "probe_pairs": 4,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 4,
+   "cdm_flagged": 0,
+   "correct_cells": 4,
+   "correct_flagged": 0,
+   "all_rules_reported": [
+    "ST1000"
+   ]
+  },
+  "python/ruff": {
+   "probe_pairs": 2,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 2,
+   "cdm_flagged": 0,
+   "correct_cells": 2,
+   "correct_flagged": 0,
+   "all_rules_reported": [
+    "CPY001"
+   ]
+  },
+  "python/pylint": {
+   "probe_pairs": 2,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 2,
+   "cdm_flagged": 0,
+   "correct_cells": 2,
+   "correct_flagged": 0,
+   "all_rules_reported": []
+  },
+  "js/eslint": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 5,
+   "cdm_flagged": 0,
+   "correct_cells": 5,
+   "correct_flagged": 0,
+   "all_rules_reported": [
+    "func-style",
+    "id-length",
+    "no-magic-numbers",
+    "no-undefined",
+    "unicorn/consistent-boolean-name",
+    "unicorn/filename-case",
+    "unicorn/no-array-sort"
+   ]
+  },
+  "c/clang-tidy": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 7,
+   "cdm_flagged": 0,
+   "correct_cells": 3,
+   "correct_flagged": 0,
+   "all_rules_reported": [
+    "altera-unroll-loops",
+    "hicpp-braces-around-statements,readability-braces-around-statements",
+    "llvmlibc-restrict-system-libc-headers",
+    "misc-include-cleaner",
+    "readability-identifier-length"
+   ]
+  },
+  "c/cppcheck": {
+   "probe_pairs": 5,
+   "pairs_with_different_verdicts": 0,
+   "cdm_cells": 7,
+   "cdm_flagged": 0,
+   "correct_cells": 3,
+   "correct_flagged": 0,
+   "all_rules_reported": [
+    "unusedFunction"
+   ]
+  }
+ },
+ "total": {
+  "cdm_cells": 56,
+  "cdm_flagged": 11,
+  "correct_cells": 48,
+  "correct_flagged": 11,
+  "tool_pairs": 52,
+  "tool_pairs_role_discriminating": 0,
+  "label_vs_dynamic_disagreements": [
+   [
+    "js",
+    "P1",
+    "machine",
+    "CDM",
+    "CORRECT"
+   ]
+  ],
+  "context_existing_tools": {
+   "pairs": 20,
+   "discriminating": 0,
+   "cdm_flagged": 7,
+   "cdm_cells": 20,
+   "correct_flagged": 7,
+   "correct_cells": 20
+  },
+  "context_semgrep_registry": {
+   "pairs": 8,
+   "discriminating": 0,
+   "cdm_flagged": 0,
+   "cdm_cells": 8,
+   "correct_flagged": 0,
+   "correct_cells": 8,
+   "rules": 719
+  },
+  "context_semgrep_prototype": {
+   "pairs": 8,
+   "discriminating": 8,
+   "cdm_flagged": 8,
+   "cdm_cells": 8,
+   "correct_flagged": 0,
+   "correct_cells": 8
+  },
+  "semgrep_registry_findings_all_probes": 0,
+  "tools_with_locale_rules": [
+   "dotnet/dotnet",
+   "java/errorprone",
+   "java/forbiddenapis",
+   "java/pmd",
+   "java/spotbugs"
+  ]
+ }
+}

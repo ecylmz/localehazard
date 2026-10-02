@@ -1,0 +1,12 @@
+{
+ "id": "G1",
+ "q": "\"locale-insensitive\" case",
+ "slices": [
+  {
+   "slice": "all",
+   "total": 176,
+   "pages": 2
+  }
+ ],
+ "total_count": 176
+}

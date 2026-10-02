@@ -1,0 +1,42 @@
+{
+ "n": 181,
+ "kappa_role": 0.734,
+ "raw_role": 0.856,
+ "kappa_change": 0.972,
+ "final": {
+  "role": {
+   "LINGUISTIC": 113,
+   "MACHINE": 54,
+   "MIXED": 11,
+   "UNCLEAR": 3
+  },
+  "change": {
+   "LOCALE_AWARE": 134,
+   "UNICODE_FOLD": 47
+  }
+ },
+ "role_by_change": {
+  "LOCALE_AWARE": {
+   "LINGUISTIC": 92,
+   "MACHINE": 32,
+   "MIXED": 8,
+   "UNCLEAR": 2
+  },
+  "UNICODE_FOLD": {
+   "MACHINE": 22,
+   "LINGUISTIC": 21,
+   "MIXED": 3,
+   "UNCLEAR": 1
+  },
+  "OTHER": {}
+ },
+ "locale_aware_machine_or_mixed": {
+  "k": 40,
+  "n": 134,
+  "share": 0.2985,
+  "wilson95": [
+   0.2275,
+   0.3807
+  ]
+ }
+}

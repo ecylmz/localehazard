@@ -1,0 +1,12 @@
+{
+ "id": "A3",
+ "q": "CA1311",
+ "slices": [
+  {
+   "slice": "all",
+   "total": 200,
+   "pages": 2
+  }
+ ],
+ "total_count": 200
+}

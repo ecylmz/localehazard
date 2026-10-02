@@ -1,0 +1,21 @@
+CREATE EXTENSION
+lower_FILE|file
+upper_file|FILE
+ilike|true
+citext_eq|true
+lower_eq|true
+CREATE TABLE
+CREATE INDEX
+INSERT 0 1
+accounts_admitted|1
+CREATE TABLE
+INSERT 0 1
+citext_accounts_admitted|1
+CREATE TABLE
+unquoted_identifier|file_index
+
+--stderr--
+ERROR:  duplicate key value violates unique constraint "acct_lower_uq"
+DETAIL:  Key (lower(email))=(admin@example.org) already exists.
+ERROR:  duplicate key value violates unique constraint "citext_acct_email_key"
+DETAIL:  Key (email)=(INFO@EXAMPLE.ORG) already exists.

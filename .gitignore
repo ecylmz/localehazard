@@ -27,3 +27,10 @@ artifacts/
 reports/
 tmp/
 .DS_Store
+
+# Recorded analyzer outputs are part of the replication package
+!analyzers/**/out/
+!analyzers/**/out/**
+analyzers/java/target/
+analyzers/js/node_modules/
+mining/logs/

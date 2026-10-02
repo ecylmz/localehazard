@@ -1,0 +1,1 @@
+{"name":"probes","version":"1.0.0","type":"module","private":true,"devDependencies":{"@eslint/js":"^10.0.1","eslint":"^10.11.0","eslint-plugin-sonarjs":"^4.2.2","eslint-plugin-unicorn":"^76.0.0"}}

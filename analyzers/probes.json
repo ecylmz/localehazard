@@ -1,0 +1,76 @@
+{
+ "frozen": "2026-10-01",
+ "default_locale_assumption": "process/user default locale is tr-TR; linguistic text is Turkish user text; machine text is an ASCII protocol token or canonical key",
+ "probes": {
+  "P1": {
+   "name": "default-locale case mapping",
+   "family": "F2/F1",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "P2": {
+   "name": "explicit Turkic tailoring",
+   "family": "F2/F1",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "P3": {
+   "name": "locale-neutral (root/invariant/Unicode-default) case mapping",
+   "family": "F1/F2",
+   "machine": "CORRECT",
+   "linguistic": "CDM"
+  },
+  "P4": {
+   "name": "culture-aware case-insensitive equality",
+   "family": "F3",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "P5": {
+   "name": "default-collator ordering used as a persisted/bytewise key order",
+   "family": "F6/F3",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  }
+ },
+ "notes": "Within a pair the API call is identical; only identifier names and the documented role of the argument differ. A detector that ignores text role must give identical verdicts within each pair.",
+ "overrides": {
+  "c": {
+   "P1": {
+    "linguistic": "CDM"
+   },
+   "P4": {
+    "linguistic": "CDM"
+   }
+  }
+ },
+ "override_rationale": "Post-review (Reviewer 2C, confirmed by execution): C's byte-wise tolower and strcasecmp cannot map or compare multibyte UTF-8 Turkish letters, so these linguistic cells are mismatches as well.",
+ "js_p1_note": "ECMA-402 labels kept; Node 26.7/V8 applies root mapping to Latin-1-only strings when no locale is passed (js_p1_multi_input.jsonl), a contract nonconformance.",
+ "context_probes": {
+  "added": "2026-10-02 (post-review)",
+  "languages": [
+   "java",
+   "dotnet"
+  ],
+  "X1": {
+   "name": "explicit tr-TR mapping into a map key vs. UI text",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "X2": {
+   "name": "default-locale mapping as switch selector vs. UI text",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "X3": {
+   "name": "collator sort then natural/ordinal binary search vs. sorted UI list",
+   "machine": "CDM",
+   "linguistic": "CORRECT"
+  },
+  "X4": {
+   "name": "root/invariant upper-casing into a map key vs. Turkish UI text",
+   "machine": "CORRECT",
+   "linguistic": "CDM"
+  }
+ }
+}

@@ -1,0 +1,203 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< probes:cdm-probes >--------------------------
+[INFO] Building cdm-probes 1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ cdm-probes ---
+[INFO] Deleting /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ cdm-probes ---
+[INFO] skip non existing resourceDirectory /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ cdm-probes ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 18 source files with javac [debug release 21] to target/classes
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/emrecan/.m2/repository/com/google/protobuf/protobuf-java/4.33.2/protobuf-java-4.33.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_linguistic.java:[3,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P1_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_linguistic.java:[3,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P1linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_linguistic.java:[3,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_linguistic.java:[5,36] [StringCaseLocaleUsage] Specify a `Locale` when calling `String#to{Lower,Upper}Case`. (Note: there are multiple suggested fixes; the third may be most appropriate if you're dealing with ASCII Strings.)
+    (see https://errorprone.info/bugpattern/StringCaseLocaleUsage)
+  Did you mean 'return userText.toLowerCase(Locale.ROOT);' or 'return userText.toLowerCase(Locale.getDefault());' or 'return Ascii.toLowerCase(userText);'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_machine.java:[3,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P1_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_machine.java:[3,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P1machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_machine.java:[3,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P1_machine.java:[5,38] [StringCaseLocaleUsage] Specify a `Locale` when calling `String#to{Lower,Upper}Case`. (Note: there are multiple suggested fixes; the third may be most appropriate if you're dealing with ASCII Strings.)
+    (see https://errorprone.info/bugpattern/StringCaseLocaleUsage)
+  Did you mean 'return headerName.toLowerCase(Locale.ROOT);' or 'return headerName.toLowerCase(Locale.getDefault());' or 'return Ascii.toLowerCase(headerName);'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_linguistic.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P2_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_linguistic.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P2linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_linguistic.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_machine.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P2_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_machine.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P2machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P2_machine.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_linguistic.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P3_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_linguistic.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P3linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_linguistic.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_machine.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P3_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_machine.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P3machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P3_machine.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_linguistic.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P4_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_linguistic.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P4linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_linguistic.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_linguistic.java:[6,42] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'Collator c = Collator.getInstance(Locale.ROOT);' or 'Collator c = Collator.getInstance(Locale.getDefault());'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_machine.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P4_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_machine.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P4machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_machine.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P4_machine.java:[6,42] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'Collator c = Collator.getInstance(Locale.ROOT);' or 'Collator c = Collator.getInstance(Locale.getDefault());'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_linguistic.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P5_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_linguistic.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P5linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_linguistic.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_linguistic.java:[7,40] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'names.sort(Collator.getInstance(Locale.ROOT));' or 'names.sort(Collator.getInstance(Locale.getDefault()));'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_machine.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class P5_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_machine.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'P5machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_machine.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/P5_machine.java:[7,39] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'keys.sort(Collator.getInstance(Locale.ROOT));' or 'keys.sort(Collator.getInstance(Locale.getDefault()));'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_linguistic.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X1_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_linguistic.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X1linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_linguistic.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_machine.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X1_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_machine.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X1machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X1_machine.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_linguistic.java:[4,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X2_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_linguistic.java:[4,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X2linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_linguistic.java:[4,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_linguistic.java:[6,43] [StringCaseLocaleUsage] Specify a `Locale` when calling `String#to{Lower,Upper}Case`. (Note: there are multiple suggested fixes; the third may be most appropriate if you're dealing with ASCII Strings.)
+    (see https://errorprone.info/bugpattern/StringCaseLocaleUsage)
+  Did you mean 'label.setText(userText.toLowerCase(Locale.ROOT));' or 'label.setText(userText.toLowerCase(Locale.getDefault()));' or 'label.setText(Ascii.toLowerCase(userText));'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java:[3,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X2_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java:[3,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X2machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java:[3,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java:[5,9] [StatementSwitchToExpressionSwitch] This statement switch can be converted to a new-style arrow switch
+    (see https://errorprone.info/bugpattern/StatementSwitchToExpressionSwitch)
+  Did you mean 'return switch (command.toLowerCase()) {' or 'switch (command.toLowerCase()) {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X2_machine.java:[5,36] [StringCaseLocaleUsage] Specify a `Locale` when calling `String#to{Lower,Upper}Case`. (Note: there are multiple suggested fixes; the third may be most appropriate if you're dealing with ASCII Strings.)
+    (see https://errorprone.info/bugpattern/StringCaseLocaleUsage)
+  Did you mean 'switch (command.toLowerCase(Locale.ROOT)) {' or 'switch (command.toLowerCase(Locale.getDefault())) {' or 'switch (Ascii.toLowerCase(command)) {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_linguistic.java:[6,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X3_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_linguistic.java:[6,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X3linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_linguistic.java:[6,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_linguistic.java:[8,40] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'names.sort(Collator.getInstance(Locale.ROOT));' or 'names.sort(Collator.getInstance(Locale.getDefault()));'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_machine.java:[6,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X3_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_machine.java:[6,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X3machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_machine.java:[6,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X3_machine.java:[8,39] [DefaultLocale] Implicit use of the JVM default locale, which can result in differing behaviour between JVM executions.
+    (see https://errorprone.info/bugpattern/DefaultLocale)
+  Did you mean 'keys.sort(Collator.getInstance(Locale.ROOT));' or 'keys.sort(Collator.getInstance(Locale.getDefault()));'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_linguistic.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X4_linguistic {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_linguistic.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X4linguistic'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_linguistic.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_machine.java:[5,14] [AddNullMarkedToClass] Apply @NullMarked to this class
+    (see https://errorprone.info/bugpattern/AddNullMarkedToClass)
+  Did you mean '@NullMarked public final class X4_machine {'?
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_machine.java:[5,14] [IdentifierName] Classes should be named in UpperCamelCase; did you mean 'X4machine'?
+    (see https://google.github.io/styleguide/javaguide.html#s5.2-specific-identifier-names)
+[WARNING] /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/java/probes/X4_machine.java:[5,14] [PrivateConstructorForUtilityClass] Classes which are not intended to be instantiated should be made non-instantiable with a private constructor. This includes utility classes (classes with only static members), and the main class.
+    (see https://errorprone.info/bugpattern/PrivateConstructorForUtilityClass)
+  Did you mean to remove this line?
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.700 s
+[INFO] Finished at: 2026-10-02T06:33:48+03:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< probes:cdm-probes >--------------------------
+[INFO] Building cdm-probes 1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ cdm-probes ---
+[INFO] skip non existing resourceDirectory /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ cdm-probes ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- spotbugs:4.10.4.1:spotbugs (default-cli) @ cdm-probes ---
+[INFO] Done SpotBugs Analysis....
+[INFO] Skipping com.github.spotbugs:spotbugs-maven-plugin:4.10.4.1:spotbugs report goal
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.918 s
+[INFO] Finished at: 2026-10-02T06:33:56+03:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,730 @@
+{
+"I007": {
+"A": {
+"genuine": "YES",
+"role": "MIXED",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MIXED",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+}
+},
+"I010": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F1"
+}
+},
+"I012": {
+"A": {
+"genuine": "NO",
+"role": "NA",
+"trigger": "NA",
+"family": "NA"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I022": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "UNCLEAR",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I029": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I030": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I032": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I033": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I039": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I044": {
+"A": {
+"genuine": "NO",
+"role": "NA",
+"trigger": "NA",
+"family": "NA"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I046": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F1"
+}
+},
+"I050": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MIXED",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+}
+},
+"I060": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+},
+"B": {
+"genuine": "YES",
+"role": "UNCLEAR",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+}
+},
+"I066": {
+"A": {
+"genuine": "YES",
+"role": "UNCLEAR",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I071": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F1"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "OTHER"
+}
+},
+"I081": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "UNCLEAR",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "UNCLEAR",
+"family": "F6"
+}
+},
+"I083": {
+"A": {
+"genuine": "UNCLEAR",
+"role": "NA",
+"trigger": "NA",
+"family": "NA"
+},
+"B": {
+"genuine": "YES",
+"role": "UNCLEAR",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+}
+},
+"I087": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+}
+},
+"I090": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "UNCLEAR",
+"family": "F6"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F6"
+}
+},
+"I091": {
+"A": {
+"genuine": "YES",
+"role": "UNCLEAR",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+}
+},
+"I105": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+}
+},
+"I106": {
+"A": {
+"genuine": "NO",
+"role": "NA",
+"trigger": "NA",
+"family": "NA"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I117": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "UNCLEAR",
+"family": "F5"
+}
+},
+"I121": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MIXED",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+}
+},
+"I125": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I129": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F5"
+}
+},
+"I131": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "OBSERVED_FAILURE",
+"family": "F1"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F1"
+}
+},
+"I133": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I135": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+},
+"B": {
+"genuine": "YES",
+"role": "UNCLEAR",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+}
+},
+"I136": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+}
+},
+"I139": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "OBSERVED_FAILURE",
+"family": "F1"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F4"
+}
+},
+"I141": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+}
+},
+"I144": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I152": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+}
+},
+"I157": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I160": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "OBSERVED_FAILURE",
+"family": "F1"
+},
+"B": {
+"genuine": "UNCLEAR",
+"role": "NA",
+"trigger": "NA",
+"family": "NA"
+}
+},
+"I163": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MIXED",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I169": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I171": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I175": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I177": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "UNCLEAR",
+"family": "F2"
+}
+},
+"I179": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+},
+"I180": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I185": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F5"
+}
+},
+"I188": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+}
+},
+"I189": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I191": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+}
+},
+"I194": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+}
+},
+"I202": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "UNCLEAR",
+"family": "F3"
+}
+},
+"I203": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "OBSERVED_FAILURE",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F3"
+}
+},
+"I206": {
+"A": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "PREVENTIVE",
+"family": "F3"
+},
+"B": {
+"genuine": "YES",
+"role": "LINGUISTIC",
+"trigger": "UNCLEAR",
+"family": "F1"
+}
+},
+"I208": {
+"A": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "TOOL_DRIVEN",
+"family": "F2"
+},
+"B": {
+"genuine": "YES",
+"role": "MACHINE",
+"trigger": "PREVENTIVE",
+"family": "F2"
+}
+}
+}

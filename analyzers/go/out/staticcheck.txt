@@ -1,0 +1,8 @@
+p2_linguistic.go:1:1: at least one file in a package should have a package comment (ST1000)
+p2_machine.go:1:1: at least one file in a package should have a package comment (ST1000)
+p3_linguistic.go:1:1: at least one file in a package should have a package comment (ST1000)
+p3_machine.go:1:1: at least one file in a package should have a package comment (ST1000)
+p4_linguistic.go:1:1: at least one file in a package should have a package comment (ST1000)
+p4_machine.go:1:1: at least one file in a package should have a package comment (ST1000)
+p5_linguistic.go:1:1: at least one file in a package should have a package comment (ST1000)
+p5_machine.go:1:1: at least one file in a package should have a package comment (ST1000)

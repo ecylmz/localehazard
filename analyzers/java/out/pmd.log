@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< probes:cdm-probes >--------------------------
+[INFO] Building cdm-probes 1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- pmd:3.28.0:pmd (default-cli) @ cdm-probes ---
+[INFO] PMD version: 7.28.0
+[WARNING] Warning at /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/target/pmd/rulesets/006-design.xml:50:5
+ 48|     </rule>
+ 49| 
+ 50|     <rule name="AvoidCatchingGenericException" ref="category/java/errorprone.xml/AvoidCatchingGenericException" deprecated="true" />
+         ^^^^^ Use Rule name category/java/errorprone.xml/AvoidCatchingGenericException instead of the deprecated Rule name /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/target/pmd/rulesets/006-design.xml/AvoidCatchingGenericException. PMD 8.0.0 will remove support for this deprecated Rule name usage.
+
+ 51| 
+ 52|     <rule name="AvoidDeeplyNestedIfStmts"
+[WARNING] Warning at /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/target/pmd/rulesets/006-design.xml:50:5
+ 48|     </rule>
+ 49| 
+ 50|     <rule name="AvoidCatchingGenericException" ref="category/java/errorprone.xml/AvoidCatchingGenericException" deprecated="true" />
+         ^^^^^ Use Rule name category/java/errorprone.xml/AvoidCatchingGenericException instead of the deprecated Rule name /home/emrecan/github/ecylmz/in-review/localehazard/study2/detectors/java/target/pmd/rulesets/006-design.xml/AvoidCatchingGenericException. PMD 8.0.0 will remove support for this deprecated Rule name usage.
+
+ 51| 
+ 52|     <rule name="AvoidDeeplyNestedIfStmts"
+[WARNING] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified
+[WARNING] Adding current platform /usr/lib/jvm/java-25-openjdk-amd64/lib/jrt-fs.jar to auxClasspath, which could be the wrong java version. Please add the correct jrt-fs.jar explicitly to the auxClasspath. See https://docs.pmd-code.org/latest/pmd_languages_java.html#providing-the-auxiliary-classpath Set env var PMD_JAVA_DISABLE_AUX_CLASSPATH_WARNINGS=true to disable this warning.
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.888 s
+[INFO] Finished at: 2026-10-02T06:34:03+03:00
+[INFO] ------------------------------------------------------------------------
