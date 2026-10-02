@@ -1,5 +1,7 @@
 # LocaleHazard
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23103136.svg)](https://doi.org/10.5281/zenodo.23103136)
+
 Replication package for **"Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs, Static Analyzers, and PostgreSQL"**.
 
 A locale-sensitive text operation can behave exactly as documented and still be wrong for the text it processes: Turkish case mapping is correct for a Turkish word and wrong for a protocol keyword (`TITLE` → `tıtle`), and locale-neutral mapping is the reverse. The paper calls this a *contract–domain mismatch* (CDM) and studies whether repairs, static analyzers, and a database act on the role of the text.
@@ -95,4 +97,4 @@ The results are in `dbms/results/dbms_results_*.json`, with the raw `psql` outpu
 
 ## Citation
 
-See `CITATION.cff`.
+Archived on Zenodo: [10.5281/zenodo.23103136](https://doi.org/10.5281/zenodo.23103136) (all versions; v2.0.0 is [10.5281/zenodo.23103137](https://doi.org/10.5281/zenodo.23103137)). See `CITATION.cff`.
