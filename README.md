@@ -95,6 +95,12 @@ To re-run the tools you need Maven with Error Prone 2.50.0, SpotBugs 4.10.4, PMD
 
 The results are in `dbms/results/dbms_results_*.json`, with the raw `psql` output for each step in `dbms/results/raw_*`.
 
+## License
+
+- **Code** (adapters, scripts, analysis code, probes, experiment drivers, Semgrep rules): MIT, see [`LICENSE`](LICENSE).
+- **Data and documentation** (curated records, observations, coded samples, results, recorded tool outputs, protocol and codebook): CC BY 4.0, see [`LICENSE-DATA`](LICENSE-DATA).
+- The mined data contain commit subjects, repository names, and short code excerpts from public GitHub repositories. These excerpts remain under their original licenses and are included only to document and reproduce the analysis.
+
 ## Citation
 
 Archived on Zenodo: [10.5281/zenodo.23103136](https://doi.org/10.5281/zenodo.23103136) (all versions; v2.0.0 is [10.5281/zenodo.23103137](https://doi.org/10.5281/zenodo.23103137)). See `CITATION.cff`.

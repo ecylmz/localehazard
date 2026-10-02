@@ -2,8 +2,11 @@ cff-version: 1.2.0
 message: "If you use this replication package, please cite it and the associated paper."
 title: "LocaleHazard: replication package for 'Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs, Static Analyzers, and PostgreSQL'"
 type: software
-version: "2.0.0"
+version: "2.0.1"
 date-released: "2026-10-02"
+license:
+  - MIT
+  - CC-BY-4.0
 authors:
   - family-names: "Yılmaz"
     given-names: "Emre Can"

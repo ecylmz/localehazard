@@ -4,9 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "localehazard"
-version = "2.0.0"
+version = "2.0.1"
 description = "Replication utilities for the LocaleHazard study of text roles in locale-sensitive operations"
 requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
   {name = "Emre Can Yılmaz", email = "emrecan@omu.edu.tr"},
 ]
