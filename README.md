@@ -103,4 +103,4 @@ The results are in `dbms/results/dbms_results_*.json`, with the raw `psql` outpu
 
 ## Citation
 
-Archived on Zenodo: [10.5281/zenodo.23103136](https://doi.org/10.5281/zenodo.23103136) (all versions; v2.0.0 is [10.5281/zenodo.23103137](https://doi.org/10.5281/zenodo.23103137)). See `CITATION.cff`.
+Archived on Zenodo: [10.5281/zenodo.23103136](https://doi.org/10.5281/zenodo.23103136) (all versions; v2.0.2 is [10.5281/zenodo.23110491](https://doi.org/10.5281/zenodo.23110491)). See `CITATION.cff`.
