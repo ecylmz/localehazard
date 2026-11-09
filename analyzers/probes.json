@@ -44,7 +44,7 @@
    }
   }
  },
- "override_rationale": "Post-review (Reviewer 2C, confirmed by execution): C's byte-wise tolower and strcasecmp cannot map or compare multibyte UTF-8 Turkish letters, so these linguistic cells are mismatches as well.",
+ "override_rationale": "Post hoc (confirmed by execution): C's byte-wise tolower and strcasecmp cannot map or compare multibyte UTF-8 Turkish letters, so these linguistic cells are mismatches as well.",
  "js_p1_note": "ECMA-402 labels kept; Node 26.7/V8 applies root mapping to Latin-1-only strings when no locale is passed (js_p1_multi_input.jsonl), a contract nonconformance.",
  "context_probes": {
   "added": "2026-10-02 (post-review)",
