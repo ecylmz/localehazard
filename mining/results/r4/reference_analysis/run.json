@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "src/r4_reference_analysis.py"
+  ],
+  "cwd": ".",
+  "git_commit": "61515eff6a8c5d467f43414906e769edeb76bb43",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/processed/reference_commits.csv": "238ae4ab6e8f61535cd92388bf313a0eed1dd018fbf5b738602a0003fa6be7be",
+    "data/processed/locale_test_indicators.csv": "613fc03dd980c0fceda1f47c962adc9b764fd87b05c8dc01dfab6c65dd50a7fd"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-09T10:13:30+00:00",
+  "status": "ok",
+  "end": "2026-11-09T10:13:34+00:00",
+  "exit_code": 0
+}

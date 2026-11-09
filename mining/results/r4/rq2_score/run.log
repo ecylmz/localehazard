@@ -1,0 +1,133 @@
+{
+ "edit_sides": {
+  "pre_located": 1395,
+  "post_located": 1393,
+  "pre_line_not_found": 15,
+  "post_line_not_found": 17,
+  "pre_file_missing": 83,
+  "post_file_missing": 83
+ },
+ "lineages_with_files": 222,
+ "categories": {
+  "pin_machine": {
+   "lineages_located_both_sides": 82,
+   "ideal_flag_side": "pre",
+   "prototype": {
+    "flag_pre": 11,
+    "flag_post": 2,
+    "flag_only_ideal_side": 9
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 25,
+    "flag_post": 0,
+    "flag_only_ideal_side": 25
+   }
+  },
+  "pin_linguistic_misfit": {
+   "lineages_located_both_sides": 9,
+   "ideal_flag_side": "post",
+   "prototype": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 3,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   }
+  },
+  "aware_linguistic": {
+   "lineages_located_both_sides": 82,
+   "ideal_flag_side": "pre",
+   "prototype": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   }
+  },
+  "aware_machine_misfit": {
+   "lineages_located_both_sides": 10,
+   "ideal_flag_side": "post",
+   "prototype": {
+    "flag_pre": 1,
+    "flag_post": 1,
+    "flag_only_ideal_side": 0
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 6,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   }
+  },
+  "aware_machine_engine_dependent": {
+   "lineages_located_both_sides": 17,
+   "ideal_flag_side": "post",
+   "prototype": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   }
+  },
+  "aware_machine_role_neutral": {
+   "lineages_located_both_sides": 5,
+   "ideal_flag_side": null,
+   "prototype": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "registry": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "pmd": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   }
+  }
+ },
+ "findings_files": {
+  "prototype": 89,
+  "registry": 0,
+  "pmd": 287
+ },
+ "semgrep_version": "1.179.0\npmd 7.28.0"
+}

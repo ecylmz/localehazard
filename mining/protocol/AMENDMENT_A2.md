@@ -1,7 +1,6 @@
 # Scientific amendment A2 — evidence expansion
 
 **Decision date:** 2026-10-01
-**Decision owner:** Research Lead (autonomous, recorded per Empiria lifecycle rules)
 **Status of prior evidence:** the LocaleHazardBench controlled matrix (298 planned / 289 supported observations), the standards layer (141 validations), and their freeze manifests remain frozen and are reused unchanged.
 
 ## Motivation (recorded before any new outcome-bearing data were collected)

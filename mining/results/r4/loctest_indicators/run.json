@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "src/r4_loctest_indicators.py"
+  ],
+  "cwd": ".",
+  "git_commit": "24c94ef7596b648bfe2e13a3317d77a2672fe416",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/raw/commits": "2f61db49544ba222bbba0a0cd48f4f192733c17ab8bcf054cf766e8768d178c8",
+    "data/processed/commits_classified.csv": "c8b71dc8ec0af396ebd8b1bf8c44ca591d94737063cff12c60dd3c7ea245f9da",
+    "data/processed/commits_lineages.csv": "9f0ba5a5e9597030c653ae2f38fae11b57530d2e9b0a272464b47d20f8a01f72"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-08T21:47:19+00:00",
+  "status": "ok",
+  "end": "2026-11-08T21:47:21+00:00",
+  "exit_code": 0
+}

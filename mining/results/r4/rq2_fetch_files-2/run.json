@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "src/r4_rq2_fetch_files.py"
+  ],
+  "cwd": ".",
+  "git_commit": "47f5887431f5a3d2b18ff477d09b7d049ac0adc8",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/processed/repair_edits.csv": "529933e05ab44fe5353f5c7a1f62f747e92f386cd531929f932ee7e7c0bd9802",
+    "validation/ling/key.csv": "c0d6c8ef014a4b937134d9ed331038ddb54d3c3184fd4f695fce77ef1ecd526c"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-08T22:01:03+00:00",
+  "status": "ok",
+  "end": "2026-11-08T22:08:43+00:00",
+  "exit_code": 0
+}

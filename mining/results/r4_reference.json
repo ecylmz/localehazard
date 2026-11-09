@@ -1,0 +1,43 @@
+{
+ "repositories_with_reference": 2140,
+ "repositories_planned": 2187,
+ "reference_commits": 4267,
+ "failures": {
+  "404": 38,
+  "no_candidates": 9
+ },
+ "estimates": {
+  "repair_test": 0.2355,
+  "reference_test": 0.2157,
+  "repair_loctest": 0.0766,
+  "reference_loctest": 0.0047,
+  "diff_test": 0.0199,
+  "diff_loctest": 0.072
+ },
+ "ci95": {
+  "repair_test": [
+   0.2182,
+   0.2533
+  ],
+  "reference_test": [
+   0.2023,
+   0.2294
+  ],
+  "repair_loctest": [
+   0.0654,
+   0.0879
+  ],
+  "reference_loctest": [
+   0.0026,
+   0.007
+  ],
+  "diff_test": [
+   0.0009,
+   0.0379
+  ],
+  "diff_loctest": [
+   0.061,
+   0.0834
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+50/2187 repositories
+100/2187 repositories
+150/2187 repositories
+200/2187 repositories
+250/2187 repositories
+300/2187 repositories
+350/2187 repositories
+400/2187 repositories
+450/2187 repositories
+500/2187 repositories
+550/2187 repositories
+600/2187 repositories
+650/2187 repositories
+700/2187 repositories
+750/2187 repositories
+800/2187 repositories
+850/2187 repositories
+900/2187 repositories
+950/2187 repositories
+1000/2187 repositories
+1050/2187 repositories
+1100/2187 repositories
+1150/2187 repositories
+1200/2187 repositories
+1250/2187 repositories
+1300/2187 repositories
+1350/2187 repositories
+1400/2187 repositories
+1450/2187 repositories
+1500/2187 repositories
+1550/2187 repositories
+1600/2187 repositories
+1650/2187 repositories
+1700/2187 repositories
+1750/2187 repositories
+1800/2187 repositories
+1850/2187 repositories
+1900/2187 repositories
+1950/2187 repositories
+2000/2187 repositories
+2050/2187 repositories
+2100/2187 repositories
+2150/2187 repositories
+Traceback (most recent call last):
+  File "/home/emrecan/github/ecylmz/in-progress/localehazard/study2/src/r4_reference_commits.py", line 114, in <module>
+    "test_change": sum(r["test_change"] for r in ok), "locale_test_line": sum(r["locale_test_line"] for r in ok)}))
+                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

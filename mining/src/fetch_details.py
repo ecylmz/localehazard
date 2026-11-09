@@ -8,8 +8,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SEARCH = ROOT / "data/raw/search"
-CDIR = ROOT / "data/raw/commits"; CDIR.mkdir(parents=True, exist_ok=True)
-RDIR = ROOT / "data/raw/repos"; RDIR.mkdir(parents=True, exist_ok=True)
+CDIR = ROOT / "data/raw/commits"
+RDIR = ROOT / "data/raw/repos"
 def _token():
     try:
         return subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
@@ -18,10 +18,11 @@ def _token():
         return _os.environ.get("GITHUB_TOKEN", "")
 
 
-TOKEN = _token()
+# The token, the log file and the output directories are set up only when fetching (main), so that importing
+# this module for iter_search_rows() or candidates() reads no credential and writes nothing (round 4).
+TOKEN = None
 HITS = ROOT / "data/raw/search_hits.csv.gz"  # compact export of data/raw/search/*.jsonl
-(ROOT / "logs").mkdir(exist_ok=True)
-LOG = open(ROOT / "logs/fetch_details.log", "a")
+LOG = None
 lock = threading.RLock()
 import re
 # Malformed queries whose reported totals show that GitHub tokenized the identifier (see protocol/DEVIATIONS.md):
@@ -32,7 +33,8 @@ state = {"remaining": 5000, "reset": 0}
 def log(*a):
     s = " ".join(map(str, a))
     with lock:
-        LOG.write(s + "\n"); LOG.flush()
+        if LOG is not None:
+            LOG.write(s + "\n"); LOG.flush()
 
 
 def get(url):
@@ -129,6 +131,11 @@ def fetch_repo(name):
 
 
 def main():
+    global TOKEN, LOG
+    TOKEN = _token()
+    CDIR.mkdir(parents=True, exist_ok=True); RDIR.mkdir(parents=True, exist_ok=True)
+    (ROOT / "logs").mkdir(exist_ok=True)
+    LOG = open(ROOT / "logs/fetch_details.log", "a")
     loop = "--loop" in sys.argv
     while True:
         c = candidates()

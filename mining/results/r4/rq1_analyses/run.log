@@ -1,0 +1,302 @@
+{
+ "role_fit_r4": {
+  "n": 133,
+  "fit": 111,
+  "pin_on_linguistic": 10,
+  "mixed": 5,
+  "role_neutral": 4,
+  "aware_on_machine": 1,
+  "unclear": 2,
+  "misfit_combinations": 11,
+  "misfit_wilson": [
+   0.0468,
+   0.142
+  ],
+  "pinning_n": 123,
+  "pinning_misfits": 10,
+  "pinning_misfits_engine_dependent": 5,
+  "pinning_engine_dependent_all": 11,
+  "items": {
+   "pin_on_linguistic": [
+    "I015",
+    "I043",
+    "I081",
+    "I091",
+    "I122",
+    "I128",
+    "I131",
+    "I154",
+    "I157",
+    "I176"
+   ],
+   "mixed": [
+    "I007",
+    "I037",
+    "I050",
+    "I121",
+    "I163"
+   ],
+   "role_neutral": [
+    "I016",
+    "I052",
+    "I158",
+    "I184"
+   ],
+   "aware_on_machine_engine_dependent": [
+    "I177"
+   ],
+   "aware_on_machine": [
+    "I177"
+   ],
+   "unclear": [
+    "I060",
+    "I108"
+   ]
+  },
+  "pinning_engine_misfit_items": [
+   "I043",
+   "I081",
+   "I122",
+   "I128",
+   "I176"
+  ]
+ },
+ "opposite_census": {
+  "n_aware": 134,
+  "machine": 32,
+  "neutral_english_rule": [
+   "L044",
+   "L058",
+   "L128",
+   "L159"
+  ],
+  "neutral_untailored_rule": [
+   "L044",
+   "L058",
+   "L121",
+   "L128",
+   "L159"
+  ],
+  "misfits_printed_rule": 28,
+  "misfits_untailored_rule": 27,
+  "engine_dependent_no_arg_js": 17,
+  "engine_dependent_items": [
+   "L005",
+   "L011",
+   "L017",
+   "L045",
+   "L049",
+   "L057",
+   "L082",
+   "L095",
+   "L101",
+   "L111",
+   "L122",
+   "L135",
+   "L148",
+   "L152",
+   "L160",
+   "L165",
+   "L166"
+  ],
+  "misfits_not_engine_dependent": [
+   "L022",
+   "L023",
+   "L028",
+   "L036",
+   "L047",
+   "L069",
+   "L077",
+   "L106",
+   "L129",
+   "L133"
+  ]
+ },
+ "contrast": {
+  "printed_rule": {
+   "aware": "28/134",
+   "pinning": "10/123",
+   "aware_share": 0.209,
+   "pinning_share": 0.0813,
+   "fisher_p": 0.0046,
+   "diff_newcombe95": [
+    0.1277,
+    0.0413,
+    0.2124
+   ]
+  },
+  "untailored_rule": {
+   "aware": "27/134",
+   "pinning": "10/123",
+   "aware_share": 0.2015,
+   "pinning_share": 0.0813,
+   "fisher_p": 0.0073,
+   "diff_newcombe95": [
+    0.1202,
+    0.0345,
+    0.2043
+   ]
+  },
+  "engine_dependent_reclassified_kept_in_n": {
+   "aware": "10/134",
+   "pinning": "5/123",
+   "aware_share": 0.0746,
+   "pinning_share": 0.0407,
+   "fisher_p": 0.2941,
+   "diff_newcombe95": [
+    0.034,
+    -0.0271,
+    0.0958
+   ]
+  },
+  "engine_dependent_dropped_from_n": {
+   "aware": "10/117",
+   "pinning": "5/112",
+   "aware_share": 0.0855,
+   "pinning_share": 0.0446,
+   "fisher_p": 0.2871,
+   "diff_newcombe95": [
+    0.0408,
+    -0.0268,
+    0.1104
+   ]
+  }
+ },
+ "pinning_share_by_query": {
+  "all": {
+   "k": 2301,
+   "n": 2480,
+   "share": 0.9278,
+   "ci95": [
+    0.9175,
+    0.9386
+   ]
+  },
+  "manuscript_subset_not_only_pinning_queries": {
+   "k": 675,
+   "n": 846,
+   "share": 0.7979,
+   "ci95": [
+    0.7677,
+    0.8265
+   ]
+  },
+  "retrieved_by_any_non_api_query": {
+   "k": 524,
+   "n": 570,
+   "share": 0.9193,
+   "ci95": [
+    0.8941,
+    0.941
+   ]
+  },
+  "only_pinning_api_queries": {
+   "k": 1626,
+   "n": 1634,
+   "share": 0.9951,
+   "ci95": [
+    0.9914,
+    0.9982
+   ]
+  },
+  "opposite_api_only_among_rest": {
+   "k": 151,
+   "n": 276,
+   "share": 0.5471,
+   "ci95": [
+    0.4873,
+    0.6073
+   ]
+  },
+  "family_T": {
+   "k": 237,
+   "n": 278,
+   "share": 0.8525,
+   "ci95": [
+    0.8051,
+    0.8942
+   ]
+  },
+  "family_G": {
+   "k": 90,
+   "n": 93,
+   "share": 0.9677,
+   "ci95": [
+    0.9255,
+    1.0
+   ]
+  },
+  "family_A": {
+   "k": 200,
+   "n": 201,
+   "share": 0.995,
+   "ci95": [
+    0.984,
+    1.0
+   ]
+  },
+  "family_D": {
+   "k": 10,
+   "n": 11,
+   "share": 0.9091,
+   "ci95": [
+    0.7273,
+    1.0
+   ]
+  },
+  "family_J": {
+   "k": 540,
+   "n": 546,
+   "share": 0.989,
+   "ci95": [
+    0.9796,
+    0.9964
+   ]
+  },
+  "family_N": {
+   "k": 832,
+   "n": 834,
+   "share": 0.9976,
+   "ci95": [
+    0.9939,
+    1.0
+   ]
+  },
+  "family_C": {
+   "k": 195,
+   "n": 195,
+   "share": 1.0,
+   "ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "family_S1": {
+   "k": 153,
+   "n": 232,
+   "share": 0.6595,
+   "ci95": [
+    0.594,
+    0.7229
+   ]
+  },
+  "family_S2": {
+   "k": 72,
+   "n": 72,
+   "share": 1.0,
+   "ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "family_S3": {
+   "k": 0,
+   "n": 46,
+   "share": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

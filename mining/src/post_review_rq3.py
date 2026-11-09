@@ -1,4 +1,4 @@
-"""Post-review RQ3 analyses (requested by the simulated reviewers; all labelled POST_REVIEW in the manuscript)."""
+"""Post hoc RQ3 analyses (all labelled post hoc in the manuscript)."""
 import csv, gzip, json, math, pathlib, re, collections, datetime, statistics, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -55,7 +55,13 @@ out["pinning_only_excluding_pinning_queries"] = boot_share([c for c in reps if n
 # Turkish letters outside the case-insensitive group: under re.I Python treats U+0130/U+0131 as variants of i.
 LOCTEST = re.compile(r"(?i:tr[-_]TR|\"tr\"|'tr'|Locale\.setDefault|new Locale\(\s*\"tr|forLanguageTag\(\s*\"tr|CultureInfo\(\s*\"tr|Turkish|Turkey|LC_ALL|LC_CTYPE|LANG=|dotless|az[-_]AZ|lt[-_]LT)|[\u0130\u0131\u015e\u015f\u011e\u011f]")
 loc_test = {}
-for c in reps:
+# Without the raw patches (not redistributed), read the same indicator from the deposited
+# data/processed/locale_test_indicators.csv, written by src/r4_loctest_indicators.py from the patches (round 4).
+_IND = P / "locale_test_indicators.csv"
+if not (ROOT / "data/raw/commits").is_dir() or not any((ROOT / "data/raw/commits").glob("*.json.gz")):
+    _ind = {r["sha"]: r["locale_test_line"] == "1" for r in csv.DictReader(open(_IND))}
+    loc_test = {c["sha"]: _ind[c["sha"]] for c in reps}
+for c in ([] if loc_test else reps):
     d = json.load(gzip.open(ROOT / f"data/raw/commits/{c['sha']}.json.gz", "rt"))
     hit = False
     for f in d.get("files", []):

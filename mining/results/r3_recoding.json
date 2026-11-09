@@ -1,0 +1,280 @@
+{
+ "figures": {
+  "original": {
+   "precision_frozen": {
+    "k": 144,
+    "n": 150,
+    "wilson95": [
+     0.9155,
+     0.9815
+    ]
+   },
+   "precision_v2": {
+    "k": 133,
+    "n": 135,
+    "wilson95": [
+     0.9476,
+     0.9959
+    ]
+   },
+   "excluded_genuine": {
+    "k": 17,
+    "n": 60
+   },
+   "recall_turkic_subframe": 0.292,
+   "role_fit": {
+    "n": 133,
+    "fit": 111,
+    "pin_on_linguistic": 10,
+    "mixed": 5,
+    "role_neutral": 4,
+    "aware_on_machine": 1,
+    "unclear": 2,
+    "misfit": 11,
+    "misfit_wilson": [
+     0.0468,
+     0.142
+    ]
+   },
+   "trigger_genuine_included": {
+    "TOOL_DRIVEN": 21,
+    "PREVENTIVE": 89,
+    "OBSERVED_FAILURE": 29,
+    "UNCLEAR": 5
+   },
+   "trigger_v2": {
+    "TOOL_DRIVEN": 20,
+    "PREVENTIVE": 79,
+    "OBSERVED_FAILURE": 29,
+    "UNCLEAR": 5
+   },
+   "opposite": {
+    "n": 181,
+    "locale_aware": 134,
+    "fold": 47,
+    "machine": 32,
+    "role_inconsistent": 28,
+    "role_inconsistent_wilson": [
+     0.1487,
+     0.2854
+    ]
+   }
+  },
+  "D1_codex": {
+   "precision_frozen": {
+    "k": 142,
+    "n": 150,
+    "wilson95": [
+     0.8983,
+     0.9727
+    ]
+   },
+   "precision_v2": {
+    "k": 131,
+    "n": 135,
+    "wilson95": [
+     0.9263,
+     0.9884
+    ]
+   },
+   "excluded_genuine": {
+    "k": 22,
+    "n": 60
+   },
+   "recall_turkic_subframe": 0.239,
+   "role_fit": {
+    "n": 131,
+    "fit": 112,
+    "mixed": 6,
+    "pin_on_linguistic": 8,
+    "role_neutral": 3,
+    "aware_on_machine": 1,
+    "unclear": 1,
+    "misfit": 9,
+    "misfit_wilson": [
+     0.0366,
+     0.1254
+    ]
+   },
+   "trigger_genuine_included": {
+    "TOOL_DRIVEN": 21,
+    "PREVENTIVE": 78,
+    "OBSERVED_FAILURE": 43
+   },
+   "trigger_v2": {
+    "TOOL_DRIVEN": 20,
+    "PREVENTIVE": 69,
+    "OBSERVED_FAILURE": 42
+   },
+   "opposite": {
+    "n": 181,
+    "locale_aware": 111,
+    "fold": 47,
+    "machine": 23,
+    "role_inconsistent": 23,
+    "role_inconsistent_wilson": [
+     0.1422,
+     0.2918
+    ]
+   }
+  },
+  "D2_claude": {
+   "precision_frozen": {
+    "k": 143,
+    "n": 150,
+    "wilson95": [
+     0.9068,
+     0.9772
+    ]
+   },
+   "precision_v2": {
+    "k": 132,
+    "n": 135,
+    "wilson95": [
+     0.9367,
+     0.9924
+    ]
+   },
+   "excluded_genuine": {
+    "k": 20,
+    "n": 60
+   },
+   "recall_turkic_subframe": 0.258,
+   "role_fit": {
+    "n": 132,
+    "fit": 110,
+    "pin_on_linguistic": 11,
+    "mixed": 5,
+    "role_neutral": 4,
+    "aware_on_machine": 1,
+    "unclear": 1,
+    "misfit": 12,
+    "misfit_wilson": [
+     0.0528,
+     0.1522
+    ]
+   },
+   "trigger_genuine_included": {
+    "TOOL_DRIVEN": 19,
+    "PREVENTIVE": 86,
+    "OBSERVED_FAILURE": 37,
+    "UNCLEAR": 1
+   },
+   "trigger_v2": {
+    "TOOL_DRIVEN": 18,
+    "PREVENTIVE": 76,
+    "OBSERVED_FAILURE": 37,
+    "UNCLEAR": 1
+   },
+   "opposite": {
+    "n": 181,
+    "locale_aware": 117,
+    "fold": 47,
+    "machine": 19,
+    "role_inconsistent": 19,
+    "role_inconsistent_wilson": [
+     0.1065,
+     0.2398
+    ]
+   }
+  }
+ },
+ "agreement": {
+  "D1_codex_vs_original": {
+   "set1_genuine": {
+    "n": 210,
+    "raw": 0.962,
+    "kappa": 0.892
+   },
+   "set1_role": {
+    "n": 159,
+    "raw": 0.937,
+    "kappa": 0.812
+   },
+   "set1_trigger": {
+    "n": 159,
+    "raw": 0.849,
+    "kappa": 0.746
+   },
+   "set1_family": {
+    "n": 159,
+    "raw": 0.723,
+    "kappa": 0.575
+   },
+   "set2_change": {
+    "n": 181,
+    "raw": 0.873,
+    "kappa": 0.734
+   },
+   "set2_role": {
+    "n": 158,
+    "raw": 0.854,
+    "kappa": 0.732
+   }
+  },
+  "D2_claude_vs_original": {
+   "set1_genuine": {
+    "n": 210,
+    "raw": 0.971,
+    "kappa": 0.92
+   },
+   "set1_role": {
+    "n": 159,
+    "raw": 0.975,
+    "kappa": 0.925
+   },
+   "set1_trigger": {
+    "n": 159,
+    "raw": 0.912,
+    "kappa": 0.848
+   },
+   "set1_family": {
+    "n": 159,
+    "raw": 0.849,
+    "kappa": 0.775
+   },
+   "set2_change": {
+    "n": 181,
+    "raw": 0.906,
+    "kappa": 0.793
+   },
+   "set2_role": {
+    "n": 164,
+    "raw": 0.939,
+    "kappa": 0.873
+   }
+  },
+  "D1_codex_vs_D2_claude": {
+   "set1_genuine": {
+    "n": 210,
+    "raw": 0.962,
+    "kappa": 0.89
+   },
+   "set1_role": {
+    "n": 160,
+    "raw": 0.938,
+    "kappa": 0.815
+   },
+   "set1_trigger": {
+    "n": 160,
+    "raw": 0.9,
+    "kappa": 0.83
+   },
+   "set1_family": {
+    "n": 160,
+    "raw": 0.719,
+    "kappa": 0.56
+   },
+   "set2_change": {
+    "n": 181,
+    "raw": 0.967,
+    "kappa": 0.937
+   },
+   "set2_role": {
+    "n": 158,
+    "raw": 0.854,
+    "kappa": 0.731
+   }
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "within_repo": {
+  "groups": 2903,
+  "repositories": 2484,
+  "pinning_only": {
+   "k": 2709,
+   "n": 2903,
+   "share": 0.9332,
+   "ci95": [
+    0.9236,
+    0.9427
+   ]
+  },
+  "test_change": {
+   "k": 691,
+   "n": 2903,
+   "share": 0.238,
+   "ci95": [
+    0.2216,
+    0.2562
+   ]
+  }
+ },
+ "global": {
+  "pinning_only": {
+   "k": 2301,
+   "n": 2480,
+   "share": 0.9278,
+   "ci95": [
+    0.9171,
+    0.9377
+   ]
+  },
+  "test_change": {
+   "k": 599,
+   "n": 2480,
+   "share": 0.2415,
+   "ci95": [
+    0.2227,
+    0.2608
+   ]
+  },
+  "repositories_with_included_commits": 2484
+ },
+ "edited_line_pairs": {
+  "le2_share": 0.546,
+  "one_share": 0.3867
+ },
+ "role_fit_r3": {
+  "n": 133,
+  "fit": 111,
+  "pin_on_linguistic": 10,
+  "mixed": 5,
+  "role_neutral": 4,
+  "aware_on_machine": 1,
+  "unclear": 2,
+  "misfit_combinations": 11,
+  "misfit_wilson": [
+   0.0468,
+   0.142
+  ],
+  "items": {
+   "pin_on_linguistic": [
+    "I015",
+    "I043",
+    "I081",
+    "I091",
+    "I122",
+    "I128",
+    "I131",
+    "I154",
+    "I157",
+    "I176"
+   ],
+   "mixed": [
+    "I007",
+    "I037",
+    "I050",
+    "I121",
+    "I163"
+   ],
+   "role_neutral": [
+    "I016",
+    "I052",
+    "I158",
+    "I184"
+   ],
+   "aware_on_machine": [
+    "I177"
+   ],
+   "unclear": [
+    "I060",
+    "I108"
+   ]
+  }
+ },
+ "context_without_X3": {
+  "pairs": 15,
+  "cdm_flagged": 5,
+  "cdm_cells": 15,
+  "correct_flagged": 5,
+  "prototype_pairs": 6
+ },
+ "heuristic_baseline": {
+  "covered": 69,
+  "true_machine_covered": 62,
+  "always_machine_accuracy": 0.8986,
+  "heuristic_accuracy": 0.899
+ },
+ "excluded_genuine": {
+  "n": 17,
+  "role": {
+   "LINGUISTIC": 8,
+   "MACHINE": 7,
+   "UNCLEAR": 2
+  },
+  "family": {
+   "F1": 8,
+   "F2": 2,
+   "F5": 5,
+   "OTHER": 1,
+   "F3": 1
+  }
+ },
+ "env_shell_build": 165,
+ "f6_cells": {
+  "n": 36,
+  "contract_status": {
+   "conformant": 36
+  }
+ }
+}

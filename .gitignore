@@ -34,3 +34,8 @@ tmp/
 analyzers/java/target/
 analyzers/js/node_modules/
 mining/logs/
+
+# Round 4: run records and generated macros are part of the package
+!mining/results/r4/**/*.log
+!numbers/
+!numbers/*.tex

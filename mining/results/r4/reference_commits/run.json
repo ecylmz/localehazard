@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "src/r4_reference_commits.py"
+  ],
+  "cwd": ".",
+  "git_commit": "85bc4899a1fc47477266e2c2d650d0d511c97f3c",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/processed/commits_lineages.csv": "9f0ba5a5e9597030c653ae2f38fae11b57530d2e9b0a272464b47d20f8a01f72",
+    "data/processed/commits_classified.csv": "c8b71dc8ec0af396ebd8b1bf8c44ca591d94737063cff12c60dd3c7ea245f9da"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-08T21:52:07+00:00",
+  "status": "failed",
+  "end": "2026-11-08T23:46:55+00:00",
+  "exit_code": 1
+}

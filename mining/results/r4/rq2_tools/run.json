@@ -1,0 +1,21 @@
+{
+  "command": [
+    "sh",
+    "scripts/r4_rq2_run_tools.sh",
+    "data/raw/r4/realcode",
+    "results/r4/rq2_tools/out"
+  ],
+  "cwd": ".",
+  "git_commit": "138c530ca3b7f92912478a8911dd79aec057502b",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/raw/r4/realcode": "eb0eba99caac3a4b23f5b2af7bda3e4040f11ab2b3cc7b79504b7c9bcbb2c4c2",
+    "detectors/semgrep/role_aware_prototype.yml": "596afb2572a43834fc692e144f79029d10e643a7318ce36e8ffec1091db0e12c"
+  },
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "start": "2026-11-08T22:11:59+00:00",
+  "status": "ok",
+  "end": "2026-11-08T22:14:10+00:00",
+  "exit_code": 0
+}

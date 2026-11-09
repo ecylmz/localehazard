@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "src/r4_rq1_analyses.py"
+  ],
+  "cwd": ".",
+  "git_commit": "db50ab0e2a9e488fa7a74712473500f40f87960b",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/processed": "5bb08f7a06ebeb23195a252bba4ccacd9f865ae2d6f29ef45424a53acef45517",
+    "validation": "9748bd3045b4d5414e9e9dd73aee7d62acbeee1d1e476eedc1d06be85ce56d5f"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-08T21:45:04+00:00",
+  "status": "ok",
+  "end": "2026-11-08T21:45:35+00:00",
+  "exit_code": 0
+}

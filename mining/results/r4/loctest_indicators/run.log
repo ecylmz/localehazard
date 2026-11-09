@@ -1,0 +1,11 @@
+{
+ "lineages": 2480,
+ "locale_test_line": 188,
+ "share": 0.0758,
+ "strata": {
+  "positive": 188,
+  "negative_test_change": 411,
+  "negative_no_test_change": 1881
+ },
+ "sample": 100
+}

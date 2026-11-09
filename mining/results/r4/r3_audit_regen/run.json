@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "src/r3_audit_analyses.py"
+  ],
+  "cwd": ".",
+  "git_commit": "f54632bed0e8e568323253f661da3742f48d9b0a",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/processed": "b4e64101d5a9a3ea9fc2301eca907b24e0d9da7d1524c66d78cbf65e445f5881"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-08T22:24:38+00:00",
+  "status": "ok",
+  "end": "2026-11-08T22:25:08+00:00",
+  "exit_code": 0
+}
