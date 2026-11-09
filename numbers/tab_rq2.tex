@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{RQ3: B-tree integrity in PostgreSQL~18.6 after restarting a cluster indexed under glibc~2.27 collation data; each row gives the collation data used after the restart and the glibc version PostgreSQL saw. Missed lookups are among 20,000 existing keys; wrong ranges are counts that differ from a sequential scan, among the non-empty range queries; duplicates are re-inserted existing keys accepted by the \code{UNIQUE} index; the last column is PostgreSQL's collation-version mismatch warning. ICU and \code{C} databases, which do not use glibc collation data, were clean in every condition, and every remediated copy (\code{REINDEX} plus \code{REFRESH COLLATION VERSION}) was consistent.}
+\label{tab:rq2}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Condition & \code{amcheck} & Missed & Wrong & Duplicate & Mismatch \\
+ & & lookups & ranges & keys & warning \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{Synthetic keys (200,000 rows)}} \\
+\quad libc, 2.27$\to$2.43, 2.43 reported & \textbf{fail} & 2,575 & 511/1,830 & 26,704 & yes \\
+\quad libc, 2.27$\to$2.28, 2.28 reported & \textbf{fail} & 2,575 & 511/1,830 & 26,704 & yes \\
+\quad libc, 2.27$\to$2.43, 2.27 reported & \textbf{fail} & 2,575 & 511/1,830 & 26,704 & no \\
+\quad libc, unchanged 2.27 & pass & 0 & 0/1,827 & 0 & no \\
+\quad ICU \code{en}, 2.27$\to$2.43 & pass & 0 & 0/1,837 & 0 & no \\
+\quad \code{C} collation, 2.27$\to$2.43 & pass & 0 & 0/2,000 & 0 & no \\
+\multicolumn{6}{@{}l}{\emph{English word list (104,334 rows)}} \\
+\quad libc, 2.27$\to$2.43, 2.43 reported & \textbf{fail} & 4,275 & 387/1,699 & 22,533 & yes \\
+\quad libc, 2.27$\to$2.28, 2.28 reported & \textbf{fail} & 4,275 & 387/1,699 & 22,533 & yes \\
+\quad libc, 2.27$\to$2.43, 2.27 reported & \textbf{fail} & 4,275 & 387/1,699 & 22,533 & no \\
+\quad libc, unchanged 2.27 & pass & 0 & 0/1,699 & 0 & no \\
+\quad ICU \code{en}, 2.27$\to$2.43 & pass & 0 & 0/1,699 & 0 & no \\
+\quad \code{C} collation, 2.27$\to$2.43 & pass & 0 & 0/2,000 & 0 & no \\
+\bottomrule
+\end{tabular}
+\end{table}
