@@ -1,0 +1,261 @@
+﻿coder,set,item_id,genuine,change,role,trigger,family,fit,loctest,note,complete
+H2,2,B001,,LOCALE_AWARE,MACHINE,,,MISFIT,,Kamera kontrol tuşları locale'e bağlı kanonikleştiriliyor; Türkçe I tuşu ı olur ve i tabanlı tuş tanımlarıyla ayrışabilir.,1
+H2,2,B002,,LOCALE_AWARE,MACHINE,,,FIT,,Tam diff ROLLBACK_WORD değerinin GERİ AL olduğunu gösteriyor; tr-TR büyütmesi geri al girdisini GERİ AL ile doğru eşleştiriyor. Yerelleştirilmiş onay komutu sözleşmesine uygun. Kaynak: https://github.com/akay-sinan/fitness-tracker-ds/commit/bdd255c0d1aa2949c5eb95fdd871ab7d5d779d14,1
+H2,1,A001,YES,,MACHINE,PREVENTIVE,F3,FIT,,"Cron anahtarları, API yolları ve alan adları için kültürel karşılaştırma yerine ordinal karşılaştırma kullanılıyor.",1
+H2,1,A002,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Patch boş; commit mesajı HTTP başlığı üretimindeki sort çağrısına LC_ALL=C eklenerek locale kaynaklı tekrarlanabilir derleme sorununun giderildiğini açıkça belirtiyor.,1
+H2,2,B003,,LOCALE_AWARE,MACHINE,,,FIT,,Sözlük URL'si dilin harflerine göre tanımlanmış; tr için İ -> i dönüşümü hedeflenen route sözleşmesine uygun.,1
+H2,1,A003,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,Tam diff frontend/src/styles/globals.css içindeki .card-title sınıfından uppercase dönüşümünün kaldırıldığını doğruluyor; Türkçe başlık metni zorunlu casing uygulanmadan korunuyor. Çeviri kaynakları tek başına gerekçe değil. Kaynak: https://github.com/Growity-ai-lab/attribution-intelligence-hub/commit/d76f977ac5840a5ee8513a40adc622be41a26895,1
+H2,2,B004,,LOCALE_AWARE,MACHINE,,,MISFIT,,Sipariş durum sabiti PENDING Türkçe locale'de pendıng olur ve pending ile eşleşmez.,1
+H2,2,B005,,LOCALE_AWARE,LINGUISTIC,,,CANNOT_TELL,,Sesli komut dilbilgisi kişi ve uygulama görünen adlarından üretiliyor; runtime varsayılan locale'inin tanıma/kullanıcı diliyle uyumu kesitte görünmüyor.,1
+H2,2,B006,,LOCALE_AWARE,MACHINE,,,MISFIT,,Ülke kodları ve bot komutlarının locale'e bağlı küçültülmesi Türkçe I içeren anahtarları değiştirebilir.,1
+H2,1,A004,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,CA1304 nedeniyle diagnostic yapılandırma anahtarları ToLowerInvariant ile kanonikleştiriliyor.,1
+H2,1,A005,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,FIT,,Lucene öneri testinde analiz edilmiş sorgu ve girdi tokenlarının tam önek eşleşmesi ordinal yapılıyor; mesaj belirli bir test hatasını adlandırıyor.,1
+H2,2,B007,,LOCALE_AWARE,MACHINE,,,FIT,,Türkçe işletme adı slug'ı tr-TR ile küçültülüp ASCII'ye translitere ediliyor; İ için birleşen nokta sorunu önleniyor.,1
+H2,2,B008,,LOCALE_AWARE,MIXED,,,MISFIT,,"Türkçe sektör adları için tr doğru; İngilizce teknik IT kodu Türkçe küçültmede ıt olur, it kontrolünden kaçıp MANUFACTURING'e düşer.",1
+H2,1,A006,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Patch boş; mesaj host locale değişkenlerinin chroot içindeki Perl araçlarını bozduğunu ve post_commands için LC_ALL=C kullanıldığını belirtiyor.,1
+H2,2,B009,,LOCALE_AWARE,MACHINE,,,MISFIT,,E-posta hesap anahtarları sunucunun locale'ine bağlanıyor; ASCII I Türkçe ortamda ı olur.,1
+H2,2,B010,,LOCALE_AWARE,MIXED,,,MISFIT,,HTML tablo sıralaması insan metni olabilir; tür/constructor ve CSS renk biçimi adları ise makine metni. Makine adlarında locale'e bağlı dönüşüm uygun değil.,1
+H2,2,B011,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Görünen oyun adları ve başarı etiketleri getLang() ile seçilen arayüz diline göre büyütülüyor.,1
+H2,1,A007,NO,,,,,,,Vendored tz ağacının toplu sürüm güncellemesi; özgün bir metin locale düzeltmesi gösterilmiyor.,1
+H2,2,B012,,LOCALE_AWARE,LINGUISTIC,,,CANNOT_TELL,,Kullanıcı mesajı ve çevrilmiş yardım sözcüğü sunucunun varsayılan locale'ini kullanıyor; çok kullanıcılı Messenger servisinde bu locale'in kullanıcının dili olduğu gösterilmiyor.,1
+H2,2,B013,,LOCALE_AWARE,MIXED,,,MISFIT,,"Tam kaynakta Türkçe arama dönüşümü var; fakat highlightHTML içindeki locale bağımsız regex gi, ırmak sorgusunu IRMAK üzerinde eşleştirmez. replaceAccent de ı/İ eşlemiyor; Türkçe casing desteği zincirin tamamında tutarlı değil. Kaynak: https://github.com/enesflow/enessiir/commit/b4225d94b2af88394ac4da3f29d389fa30ac4f74",1
+H2,2,B014,,OTHER,,,,,,"Java toUpperCase() zaten Locale.getDefault() kullanır; eklenen locale de Locale.getDefault(). Statik analiz uyarısı susturulmuş, casing semantiği değişmiyor.",1
+H2,2,B015,,OTHER,,,,,,JavaScript toLowerCase ile en-US toLocaleLowerCase aynı varsayılan Unicode küçük harf eşlemesini uygular; commit mesajındaki browser locale iddiası bu iki çağrı için geçerli değil. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,2,B016,,OTHER,,,,,,Eşleştirilmiş satırlar ortak private metoda taşınmış; eski ToUpperInvariant/ToLowerInvariant API'leri yine InvariantCulture geçiriyor. Yeni kültürlü API eklenmesi mevcut invariant davranışın değiştirilmesi değil.,1
+H2,2,B017,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,Sabit FOLLOWED/UNFOLLOWED/SCRAPED/NONE enum adları ASCII; lower ile casefold sonuçları aynı.,1
+H2,2,B018,,LOCALE_AWARE,MACHINE,,,MISFIT,,JSON log anahtarlarının gizleme blacklist'i locale'e bağlanıyor; Türkçe I içeren anahtar ve sabit farklı küçülebilir.,1
+H2,2,B019,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe şehir adları ve sorgu tr-TR ile aynı biçimde küçültülüyor.,1
+H2,1,A008,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,Lorebook metni ve arama anahtarları aynı varsayılan locale ile küçültülüyor; Türkçe kullanıcı locale'inde I/ı eşleşmesi korunur. İçerik dili ile kullanıcı locale'inin uyumlu olduğu kullanım için uygundur.,1
+H2,1,A009,YES,,MACHINE,PREVENTIVE,F4,FIT,,"Türkçe durum komutu regex'i i/ı ve isteğe bağlı birleşen nokta U+0307 varyantlarını kabul ediyor; yeni özellik, bildirilmiş bir arıza yok.",1
+H2,2,B020,,OTHER,,,,,,"Sınıflandırıcı farklı dallardaki satırları eşleştirmiş. Gerçek değişiklik GMT dalında Java toUpperCase() -> Locale.ROOT; locale'e bağımlılıktan bağımsızlığa geçiş, LOCALE_AWARE yönünün tersi. Diğer dalın toLowerCase(locale) davranışı aynı.",1
+H2,2,B021,,LOCALE_AWARE,MIXED,,,MISFIT,,Terminal shell kimliği/komutları ile insan test açıklamaları birlikte değişiyor; makine kimliklerinin varsayılan locale'e bağlı olması Türkçe I için hatalıdır.,1
+H2,2,B022,,OTHER,,,,,,Java no-arg toLowerCase/toUpperCase zaten locale'e duyarlı. Varsayılan locale yerine settingsService locale'i seçiliyor; bağımsız/ASCII işlemden locale-aware işleme geçiş değil.,1
+H2,2,B023,,LOCALE_AWARE,LINGUISTIC,,,FIT,,A008 ile aynı commit: lorebook metni ve anahtarları aynı kullanıcı locale'iyle küçültülüyor; içerik dili/kullanıcı locale'i uyumlu kullanım için uygundur.,1
+H2,1,A010,YES,,MACHINE,PREVENTIVE,F3,FIT,,Paket/dosya adı araması ve önbellek yolu önekleri OrdinalIgnoreCase kullanıyor.,1
+H2,2,B024,,LOCALE_AWARE,MIXED,,,MISFIT,,İçerik/FAQ araması seçili uygulama dilini kullanıyor; profil adı baş harfi parametresiz toLocaleUpperCase kullanarak cihaz locale'ine bağlı kalıyor. Türkçe arayüz + İngilizce cihazda ipek -> I olabilir. Silme onayı makine komutu da değişiyor.,1
+H2,1,A011,YES,,MACHINE,PREVENTIVE,F2,FIT,,E-posta hesap anahtarları Locale.ROOT ile sunucu locale'inden bağımsızlaştırılıyor; mesaj belirli bir locale arızası raporlamıyor.,1
+H2,1,A012,YES,,LINGUISTIC,OBSERVED_FAILURE,F6,MISFIT,,CouchDB map/reduce anahtarlarında morfem ve gloss metni toLowerCase ile kalıcılaştırılıyor. Sonuç ortamdan bağımsızdır; ancak Türkçe I/ı gibi dilsel eşlemeler kaybolur. Mesaj #1846 issue referansı veriyor.,1
+H2,1,A013,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,Görev başlığı/açıklaması araması ROOT kullanıyor; Türkçe IRMAK ile ırmak eşleşmez. Fix başlığı tek başına gözlenmiş arıza kanıtı değil.,1
+H2,1,A014,NO,,,,,,,Sabit logo metnindeki SEZGIN yazımı SEZGİN olarak düzeltiliyor; metin işlemi semantiği değişmiyor.,1
+H2,2,B025,,OTHER,,,,,,Java toLowerCase() zaten locale-aware; bu commit sözlükte lower yerine upper(locale) seçiyor. Bağımsız/ASCII işlemden locale-aware geçiş veya Unicode fold değil.,1
+H2,1,A015,NO,,,,,,,LC_ALL=C yalnızca awk sayısal karşılaştırma ve ondalık biçimlendirmesi için; kılavuz sayı biçimlendirmesini kapsam dışında bırakıyor.,1
+H2,1,A016,NO,,,,,,,Yalnızca Türkçe çeviri kaynak dosyası ekleniyor.,1
+H2,1,A017,YES,,MACHINE,PREVENTIVE,F3,FIT,,Dosyadan okunan modifikasyon sabiti Phosph ordinal olarak karşılaştırılıyor.,1
+H2,2,B026,,OTHER,,,,,,HTTP başlık sabiti için en-US küçültme JavaScript toLowerCase ile aynı sonucu verir. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,2,B027,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Citation title-case işlemleri metnin langArray/config.lang_array değerini kullanıyor; Türkçe başlık casing hatasıyla uyumlu düzeltme.,1
+H2,2,B028,,OTHER,,,,,,"Mevcut toLocaleLowerCase çağrıları korunuyor; optional chaining, arama sorgusu değişkeni ve dependency listesi değişmiş. Yeni locale-aware/fold dönüşümü yok.",1
+H2,2,B029,,LOCALE_AWARE,MIXED,,,MISFIT,,Kişi adı baş harfi/arama insan metni; dosya uzantısı ise makine metni. Uzantı dönüşümünde Türkçe .GIF -> .gıf gibi sonuçlar uygun değil.,1
+H2,1,A018,NO,,,,,,,"Paket sürümü, manifest ve arşiv checksum güncellemesi; metin locale işlemi değiştiren bir satır yok.",1
+H2,2,B030,,OTHER,,,,,,Slug için fr-FR küçültmesi varsayılan Unicode toLowerCase ile aynı eşlemeyi yapar. Diğer slug temizleme değişiklikleri ayrı. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,2,B031,,LOCALE_AWARE,MACHINE,,,MISFIT,,JSON sorgusundan üretilen cache anahtarının varsayılan locale'e bağlanması ortama göre farklı anahtar üretir.,1
+H2,1,A019,YES,,MACHINE,PREVENTIVE,F3,FIT,,Sıralama sorgusu işareti ve API yol öneki kültür yerine ordinal semantiğe geçiriliyor.,1
+H2,2,B032,,LOCALE_AWARE,MACHINE,,,MISFIT,,"Arşiv dosya adı önek eşlemesi süreç locale'ine bağlanıyor; dosya sistemi ad semantiğiyle örtüşmez, Türkçe I/i için farklı seçimler yapabilir.",1
+H2,1,A020,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Python 2 bytestring upper işleminin Türkçe locale'de regex importunu bozması için ASCII çeviri tablosu ekleniyor.,1
+H2,1,A021,YES,,MACHINE,PREVENTIVE,F3,FIT,,Performans gerekçeli olsa da ToUpper/ToLower ile kültürel StartsWith/EndsWith yerine ordinal karşılaştırma semantiği getiriliyor; MIME başlıkları için uygundur.,1
+H2,1,A022,NO,,,,,,,Dil listeleri ve Türkçe çeviri kaynakları; metin işlemi değişmiyor.,1
+H2,2,B033,,UNICODE_FOLD,MIXED,,,FIT,,Trivia kategori adları ve sabit easy/medium/hard seçenekleri Unicode caseless eşleniyor; İngilizce API kategorileri ve seçenek sözleşmesiyle uyumlu.,1
+H2,2,B034,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe Wordle harfleri ve yapıştırılan sözcükler tr-TR ile büyütülüyor.,1
+H2,1,A023,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,Fiat para birimi API tanımlayıcısı toLowerCase ile kanonikleştiriliyor; mesaj PE-139 referansı veriyor.,1
+H2,2,B035,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,"Tam diff sorguyu yalnızca tr-TR, İngilizce ürün başlığını en-US ile küçültüyor. ICED sorgusu ıced, İngilizce Iced başlığı iced olur ve eşleşmez. Türkçe başlık tarafı için aynı tr-TR kullanımı uygun. Kaynak: https://github.com/atkaratas/openbazaar/commit/cd3b99a12ff544e81b864abc38dbe69bb05a1a74",1
+H2,2,B036,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Çevrilmiş kaldır düğmesi etiketi kullanıcı locale'iyle küçültülüyor; kullanıcı/çeviri dili uyumlu kullanımda doğru.,1
+H2,2,B037,,LOCALE_AWARE,MACHINE,,,MISFIT,,Login e-posta lookup anahtarı server locale'ine bağlanıyor; Türkçe I ile hesap bulma davranışı değişebilir.,1
+H2,2,B038,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe kurum adlarında İlkokul/ilkokul eşleşmesi tr ile düzeltiliyor.,1
+H2,1,A024,NO,,,,,,,Matematik sembol tablosuna sabit noktasız i/j glifleri ekleniyor; eşleme veya karşılaştırma algoritması değişmiyor.,1
+H2,2,B039,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe kişi adı ve görünen etiketler tr-TR ile büyütülüyor; Semİha/SEMİHA kullanımına uygun.,1
+H2,2,B040,,LOCALE_AWARE,MACHINE,,,MISFIT,,Case-insensitive dosya yollarının eşitliği/alt dizin kontrolü kullanıcı locale'iyle tanımlanamaz; Türkçe I/i dosya sistemi sözleşmesiyle ayrışır.,1
+H2,2,B041,,UNICODE_FOLD,MACHINE,,,FIT,,Tam kaynak ret alanlarının Diplomacy emirlerindeki territory/origin/target tanımlayıcıları olduğunu gösteriyor. Eşitlik ve sıralama anahtarlarında locale bağımsız Unicode caseless eşleme bu teknik oyun alanıyla uyumlu. Kaynak: https://github.com/AquilaIrreale/diplobot/commit/678f81ec314abfd6cd9ab6c4e05f9ad93f79b0f1,1
+H2,2,B042,,LOCALE_AWARE,MIXED,,,MISFIT,,Emoji araması yanında e-posta ve genel lowercase alan kaydı değişiyor; e-posta anahtarlarını locale'e bağlamak Türkçe I için yanlış.,1
+H2,1,A025,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,Ders ve antrenman adları/açıklamalarında dilsel arama için toLowerCase kullanılıyor; Türkçe I/ı eşleşmesi bozulabilir. Mesajın locale yok varsayımı desteklenen dillerin kanıtı değil.,1
+H2,2,B043,,LOCALE_AWARE,MACHINE,,,MISFIT,,Sabit zaman birimi/protokol anahtarları locale'e bağlanıyor; örneğin MINUTE Türkçe locale'de mınute olur ve minute seçeneğiyle eşleşmez.,1
+H2,1,A026,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,MISFIT,,Rapor annotation açıklamaları arama için locale bağımsız küçültülüyor; Türkçe I/ı eşleşmesi kaybolabilir. Mesaj gerçek undefined arama indeksi hatasını açıklıyor.,1
+H2,2,B044,,UNICODE_FOLD,MACHINE,,,FIT,,Sabit İngilizce komut cümleleri Unicode caseless olarak eşleştiriliyor; default casefold locale'den bağımsız ve bu komut alfabesiyle uyumlu.,1
+H2,1,A027,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,PMD/SpotBugs gerekçesiyle komut ve whitelist alan adlarında Locale.ROOT kullanımı mesajda açık; kesit biçimlendirme nedeniyle ilgili çağrıya ulaşmadan bitiyor.,1
+H2,2,B045,,LOCALE_AWARE,MACHINE,,,MISFIT,,İndeks prefix doğrulama ve cache/data adapter slug anahtarları toLocaleLowerCase kullanıyor; I içeren teknik adlar Türkçe ortamda ayrışır.,1
+H2,2,B046,,OTHER,,,,,,Sınıflandırıcı yorum satırlarını eşleştirmiş. Görünen çalıştırılabilir örnekte toLowerCase hâlâ var; yeni locale-aware çağrı gösterilmiyor.,1
+H2,2,B047,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Görünen oyuncu adları Türkçe locale'le eşleniyor; teknik member ID anahtarları ayrı helper'da locale bağımsız kalıyor.,1
+H2,1,A028,YES,,MIXED,TOOL_DRIVEN,F3,CANNOT_TELL,,"CA1309 ve analyzer temizliği: claim, SQL adları ve JSON adları makine metni; DialogSearchTag doğal dil etiketi olabilir. Etiketlerin kullanım sözleşmesi kesitten anlaşılmıyor.",1
+H2,1,A029,YES,,MACHINE,PREVENTIVE,F3,FIT,,"SQL LIKE kaçışı, bağlantı anahtarı ve .NET namespace/assembly öneklerinde ordinal eşleşme doğru. Performans amacı semantik değişikliği ortadan kaldırmıyor.",1
+H2,1,A030,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,MISFIT,,Avatar kişi adı baş harfleri ToUpperInvariant kullanıyor; Türkçe isim ipek için İ yerine I üretir. Mesaj Türkçe i arızasını adlandırıyor.,1
+H2,1,A031,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,İnsan metni arama/sıralamasında sorgu ve adaylar aynı kullanıcı locale'iyle küçültülüyor; localeCompare ile birlikte kullanılıyor.,1
+H2,1,A032,YES,,LINGUISTIC,PREVENTIVE,F3,CANNOT_TELL,,"Filipin yer adlarını arama sorguları ROOT ile küçültülüyor; veritabanı collation'ı ve servis eşlemesi görünmediğinden nihai arama uygunluğu doğrulanamıyor. Analiz araçları eklenmiş, fakat locale değişikliğinin araç uyarısından kaynaklandığı açık değil.",1
+H2,1,A033,NO,,,,,,,LC_ALL=C yalnızca appcast tarihinin İngilizce biçimlenmesi için; tarih biçimlendirmesi kılavuzda kapsam dışı.,1
+H2,2,B048,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe ürün başlığındaki İndigo renk sözcüğü tr ile indigo sözlük anahtarına doğru eşleniyor.,1
+H2,1,A034,YES,,MACHINE,PREVENTIVE,F3,FIT,,"SVG MIME, uzantı, base64 ve charset işaretleri ordinal karşılaştırılıyor.",1
+H2,1,A035,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,FIT,,İptal/İade filtrelerinin birleşen nokta nedeniyle boş sonuç verdiği açık; her iki taraf tr locale'iyle küçültülüyor.,1
+H2,2,B049,,OTHER,,,,,,Java varsayılan locale dönüşümleri Locale.ENGLISH ile sabitleniyor; locale-aware'e geçişin ters yönü.,1
+H2,2,B050,,OTHER,,,,,,Java toLowerCase() zaten locale-aware; JSON alan adları için locale parametresi ekleniyor. Bağımsız/ASCII işlemden locale-aware işleme geçiş değil.,1
+H2,2,B051,,OTHER,,,,,,Görünen allocation filtresindeki Java no-arg çağrılarına yine Locale.getDefault() geçiriliyor; matched satırlar aynı semantiği koruyor.,1
+H2,1,A036,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,"C99/POSIX derleme uyumluluğu için mdbtools içinde strcasecmp yerine g_ascii_strcasecmp getiriliyor; tablo/sütun tanımlayıcılarının karşılaştırması süreç locale'inden ayrılıyor. Sadece taşınmış vendor kodu değil, çağrılar değişmiş.",1
+H2,1,A037,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,SONAR-9890 Türkçe locale başlangıç hatası: enum kaynaklı indeks adı varsayılan locale yerine İngilizce küçültülüyor.,1
+H2,2,B052,,OTHER,,,,,,Ders konusu eşlemesinde en locale küçültmesi JavaScript varsayılan toLowerCase ile aynı sonucu verir. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,2,B053,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe il/ilçe adları ve sorgu her iki tarafta tr ile küçültülüyor.,1
+H2,2,B054,,LOCALE_AWARE,MACHINE,,,MISFIT,,VS Code extension ID'leri kullanıcı locale'ine göre küçültülüyor; Türkçe I/i teknik kimlik eşleşmesini bozabilir.,1
+H2,2,B055,,LOCALE_AWARE,MIXED,,,MISFIT,,Türkçe ilan metni araması uygun; e-posta ve deal stage enum'larında tr-TR yanlış. inquiry -> İNQUİRY teknik INQUIRY sabitiyle eşleşmez.,1
+H2,1,A038,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,CA1304 kapsamında finansal enstrüman kodu InvariantCulture ile büyütülüyor.,1
+H2,1,A039,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,Türkçe/İngilizce metin parçalarına lang atanarak CSS büyük harf dönüşümünün doğru dil tablosunu seçmesi sağlanıyor; mesaj İngilizce metindeki Türkçe casing hatasını adlandırıyor.,1
+H2,1,A040,YES,,MIXED,PREVENTIVE,F3,MISFIT,,Kısayol etiketleri/kategorileri ve tuş adları arama için Unicode casefold kullanıyor. Almanca ß için iyileşir; Türkçe I/ı ve İ/i dilsel eşlemesini sağlamaz.,1
+H2,2,B056,,UNICODE_FOLD,MIXED,,,MISFIT,,A040 ile aynı commit: çevrilmiş etiketler/kategoriler ve tuş adları fold ediliyor; Türkçe I/ı ve İ/i dilsel eşlemeleri sağlanmıyor.,1
+H2,1,A041,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,SpotBugs DM_CONVERT_CASE: MD5 hex çıktısına ROOT ekleniyor. Olası karakterler 0-9/a-f olduğundan gerçekçi locale farkı yok.,1
+H2,2,B057,,UNICODE_FOLD,LINGUISTIC,,,CANNOT_TELL,,Palindrom normalizasyonu Unicode fold'a geçiyor; ß -> ss gibi uzunluk değişikliklerinin istenen palindrom tanımına uyumu ve desteklenen diller kesitten anlaşılmıyor.,1
+H2,2,B058,,UNICODE_FOLD,MACHINE,,,MISFIT,,to_irc_lower için Unicode casefold IRC casemapping yerine geçmez; RFC 2812 §2.2 [] ve {} gibi protokole özgü eşlemeler tanımlar. Kaynak: https://www.rfc-editor.org/rfc/rfc2812#section-2.2,1
+H2,1,A042,YES,,MACHINE,PREVENTIVE,F3,FIT,,Encoding alias sözlüğü ordinal harf duyarsız anahtar karşılaştırmasına geçiriliyor.,1
+H2,1,A043,YES,,MIXED,OBSERVED_FAILURE,F3,MISFIT,,Uzantı ve SQL adları için invariant doğru; aynı commit kanal adlarını da invariant küçültüyor. Türkçe insan metni olan kanal adlarında I/ı eşleşmesi kaybolabilir.,1
+H2,1,A044,YES,,LINGUISTIC,PREVENTIVE,F1,NEUTRAL,,CSS kw-lc sınıfı başlıktaki sabit ve bağlacını lowercase yapıyor. Dilsel sunum işlemi var; gösterilen ve sözcüğünde locale'e göre farklılaşan harf yok.,1
+H2,1,A045,YES,,MACHINE,PREVENTIVE,F3,FIT,,Bootstrap ikon sınıfı öneki ve container ortam değişkeni değeri ordinal karşılaştırılıyor.,1
+H2,2,B059,,LOCALE_AWARE,MACHINE,,,MISFIT,,Derleme giriş dosyası adı libraryName'den runtime locale'ine göre türetiliyor; Türkçe I içeren kütüphane adları farklı dosyaya yönlenebilir.,1
+H2,2,B060,,LOCALE_AWARE,LINGUISTIC,,,FIT,,A031 ile aynı commit: aranan insan metni ve sorgu kullanıcı locale'iyle küçültülüyor; localeCompare ile uyumlu kullanım.,1
+H2,2,B061,,OTHER,,,,,,JavaScript toUpperCase ve en-US toLocaleUpperCase aynı büyük harf eşlemesini yapar. Kişi adı baş harfindeki Türkçe i -> İ gereksinimini bu satırlar düzeltmez; eski/yeni sonuç aynı. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,1,A046,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,MISFIT,,Kişi adı title-case işlemi locale bağımsız yapılıyor; Türkçe İPEK için I/İ ve birleşen nokta sorunu doğabilir. Mesaj tr-TR skew belirtisini adlandırıyor.,1
+H2,1,A047,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,"Türkçe locale çökmeleri için config anahtarı, enum ve model yolu dönüşümleri sabit İngilizce locale'e alınıyor.",1
+H2,2,B062,,LOCALE_AWARE,LINGUISTIC,,,CANNOT_TELL,,Transkript sözcük frekansı cihazın varsayılan locale'iyle hesaplanıyor; transkript diliyle locale'in eşleştirildiği gösterilmiyor.,1
+H2,1,A048,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,PHP dialer'ı bozan Türkçe süreç locale'i için LANG=en_US.UTF-8 geçiliyor. Yalnızca tr_TR ve tr_TR.UTF-8 yazımları kapsanıyor; LC_ALL baskınsa bu workaround yetmeyebilir.,1
+H2,1,A049,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,"CA1304/CA1311 nedeniyle testte CRC hex metni invariant küçültülüyor; hex alfabesinde locale farkı yok. Char IndexOf zaten ordinaldi, ek argüman semantiği değiştirmiyor.",1
+H2,1,A050,YES,,MACHINE,OBSERVED_FAILURE,F4,FIT,,Slug üretiminde İ önceden i yapılarak toLowerCase'in ürettiği birleşen noktanın URL slug'ını bozması önleniyor; İstanbul testi eklenmiş.,1
+H2,2,B063,,OTHER,,,,,,Portekizce cinsiyet/yönelim etiketlerinde pt-BR küçültmesi varsayılan Unicode küçültmeyle aynı sonucu verir. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,1,A051,YES,,MACHINE,OBSERVED_FAILURE,F3,CANNOT_TELL,,Tam diff es5 URL parametresinin true/false kontrollerini Strings.eqIgnoreCase yerine query.equalsIgnoreCase yapıyor. Eski helper İngilizce küçültüp eşitlik kontrol ediyor; GWT emülasyonunun yeni çağrıdaki Unicode uç durum semantiği doğrulanamadı. Mesaj gerçek build arızası bildiriyor. Kaynak: https://github.com/jasvir/google-caja/commit/833f13b20f8af6c4bbff18333a5f2e29ed3855f1,1
+H2,2,B064,,LOCALE_AWARE,MIXED,,,CANNOT_TELL,,Genel form ResultValue ve FileProxy.name için ilk karakter kullanıcı locale'iyle büyütülüyor. Çıktının görünen başlık mı yoksa makine/dosya adı mı olarak kullanıldığı gösterilmiyor.,1
+H2,2,B065,,LOCALE_AWARE,MACHINE,,,MISFIT,,"HTTP yöntemleri, parametre ve başlık adları runtime locale'ine bağlanıyor; ID gibi teknik anahtarlar Türkçe ortamda ıd olabilir.",1
+H2,1,A052,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,MISFIT,,GUARD-541: konum adları ToUpperInvariant ile eşleştiriliyor; Türkçe i/İ ve ı/I ayrımı korunmaz. locationId.name insan tarafından adlandırılmış konum metni olarak kullanılıyor.,1
+H2,2,B066,,UNICODE_FOLD,LINGUISTIC,,,MISFIT,,Görünen kullanıcı adı listesi Unicode code-point sırasına göre sıralanıyor; casefold dilsel collation sağlamaz. Türkçe I/ı/İ/i adları Türkçe sırasına göre dizilmez.,1
+H2,2,B067,,UNICODE_FOLD,MACHINE,,,CANNOT_TELL,,Genel CaseInsensitiveDict anahtarları fold ediliyor; docstring HTTP başlığı örneği veriyor ama gerçek çağıranlar görünmüyor. ASCII protokol anahtarları ile genel Unicode kimliklerin sözleşmesi doğrulanamıyor.,1
+H2,2,B068,,LOCALE_AWARE,MACHINE,,,MISFIT,,PR label ve git tag adları changelog yapılandırmasının anahtarları olarak kullanılıyor; runner locale'i teknik eşleştirmeyi değiştirmemeli.,1
+H2,2,B069,,UNICODE_FOLD,LINGUISTIC,,,MISFIT,,"Gönderi sözcükleri ve filtre seti birlikte casefold ediliyor; Türkçe I/ı ve İ/i eşdeğerleri aynı sözcük sayılmaz, frekans/filtre sonucu yanlış olabilir.",1
+H2,2,B070,,OTHER,,,,,,Java yardımcıları locale parametresine ayrılıyor; eski overload'lar yine Locale.getDefault() geçiriyor. Bağımsız/ASCII işlemden locale-aware'e geçiş değil.,1
+H2,1,A053,YES,,MACHINE,PREVENTIVE,F2,FIT,,CLI rapor biçimi seçenekleri ToLowerInvariant ile switch sabitlerine eşleniyor.,1
+H2,2,B071,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe topluluk etiketleri tr ile küçültülerek saklanıyor ve tekilleştiriliyor; belirtilen Türkçe etiket kullanımıyla uyumlu.,1
+H2,2,B072,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,Disabled ve görüntü işleme yöntemi seçeneklerinin sabit İngilizce/ASCII adlarında lower ve casefold aynı sonucu verir.,1
+H2,1,A054,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Mesaj ve changelog bug #490894: configure seçeneklerini bozan Türkçe locale için tr çağrısına LC_ALL=C eklenmiş. Çağrının kendisi patch kesitinde yok.,1
+H2,1,A055,YES,,MIXED,TOOL_DRIVEN,F3,MISFIT,,CA1304/CA1308: regex grup adları için invariant doğru; serbest log açıklaması/Pattern aramasında Türkçe I/ı dilsel eşleşmesi kaybolabilir.,1
+H2,1,A056,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Patch boş; mesaj pacman -Qi çıktısını ayrıştıran hesaplama için LC_ALL=C.UTF-8 ile İngilizce alan adlarının sabitlendiğini açıklıyor.,1
+H2,1,A057,NO,,,,,,,Para birimi çeviri kaynaklarında sabit metinlerin yazımı değişiyor; metin işleme semantiği değil.,1
+H2,2,B073,,LOCALE_AWARE,LINGUISTIC,,,FIT,,VPN konumlarının görünen adları ile sorgu aynı kullanıcı locale'iyle küçültülüyor; kullanıcı dilinde konum araması için uygun.,1
+H2,1,A058,NO,,,,,,,Yalnızca Türkçe resx çeviri kaynakları değişiyor.,1
+H2,1,A059,YES,,MIXED,OBSERVED_FAILURE,F3,MISFIT,,Enum/uzantı/hex için ROOT uygun; aynı commit insanlara gösterilen boss adlarının aramasını da ROOT yapıyor. Türkçe I/ı adlarında yanlış eşleşme olabilir.,1
+H2,1,A060,YES,,MACHINE,PREVENTIVE,F2,FIT,,"OM kullanıcı kimliği, e-posta anahtarı ve barkod invariant olarak kanonikleştiriliyor.",1
+H2,1,A061,YES,,MACHINE,PREVENTIVE,F3,FIT,,WordPiece tokenizasyonunun ## kontrol işareti literal ordinal önek olarak karşılaştırılıyor.,1
+H2,2,B074,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,Mesaj revert dese de diff toLocaleLowerCase ekliyor. Kontrol edilen sabit true içinde locale'e özel casing harfi yok; geçerli boolean değerlerinin sonucu aynı.,1
+H2,1,A062,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,Eser başlıklarını eşleştirirken toLowerCase kullanılıyor; Türkçe I/ı başlık varyantları eşleşmeyebilir. Başlığın yalnızca teknik kimlik olduğu kanıtlanmıyor.,1
+H2,1,A063,YES,,MACHINE,PREVENTIVE,F3,FIT,,API URL sözlük anahtarları ve dependency injection parametre adları ordinal harf duyarsız karşılaştırılıyor.,1
+H2,2,B075,,LOCALE_AWARE,MACHINE,,,FIT,,Türkçe şehir/ilçe adlarından URL parametreleri ve veri bileşeni anahtarları tr-TR ile tutarlı türetiliyor; dil bağımlı route sözleşmesine uygun.,1
+H2,2,B076,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe şehir adları ve sorgu her iki tarafta tr ile küçültülüyor.,1
+H2,1,A064,NO,,,,,,,Yalnızca Türkçe Rails çeviri kaynağı ekleniyor.,1
+H2,1,A065,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,Mesaj kültüre bağlı testhost.dll arama başarısızlığını açıklıyor; paket adı ve dosya yolu OrdinalIgnoreCase kullanıyor.,1
+H2,1,A066,YES,,MACHINE,PREVENTIVE,F5,FIT,,Config boolean sabitlerinin C strcasecmp çağrıları ASCII karşılaştırmasına geçiriliyor; süreç locale'i etkisi kaldırılıyor.,1
+H2,2,B077,,OTHER,,,,,,Kalıcı anahtar NFKC ardından en-US ile küçültülüyor; önceki JavaScript toLowerCase zaten runtime locale'inden bağımsız ve aynı eşlemeyi yapıyor. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,1,A067,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,CA1310/CA1311: kod üreticisi anahtarları ve parser kontrol önekleri invariant/ordinal semantiğe alınıyor.,1
+H2,1,A068,YES,,MACHINE,PREVENTIVE,F2,NEUTRAL,,MD5/SHA256 hex çıktısı invariant küçültülüyor; yalnızca 0-9/A-F olabildiğinden locale'ler arasında davranış farkı yok.,1
+H2,1,A069,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,CA1310: API yolu ve Bearer protokol işareti ordinal önek kontrolüne geçiriliyor. Tarih/sayı değişiklikleri bu kararın gerekçesi değil.,1
+H2,2,B078,,UNICODE_FOLD,MIXED,,,CANNOT_TELL,,RSS enum/boolean sabitleri yanında doğal dil keyword çıkarımı da fold'a geçiyor. Dil bazlı stopword listelerinin aynı fold sözleşmesiyle üretildiği kesitte yok.,1
+H2,1,A070,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,Türkçe locale'de INSERT -> ınsert yüzünden QueryType bulunamıyor; SQL anahtar sözcüğü İngilizce locale ile küçültülüyor.,1
+H2,2,B079,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Türkçe kampüs konumu adları ve sorgu tr-TR ile eşleştiriliyor.,1
+H2,2,B080,,LOCALE_AWARE,MACHINE,,,MISFIT,,HTML tag/attribute adları güvenlik filtrelerinde runtime locale'ine göre küçültülüyor; Türkçe INPUT -> ınput gibi sonuçlar HTML ASCII sözleşmesine aykırı.,1
+H2,1,A071,YES,,MACHINE,PREVENTIVE,F3,FIT,,"Dosya yolları, tür/parametre ve alias sözlükleri ordinal harf duyarsız semantiğe geçiriliyor.",1
+H2,2,B081,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Tam diff normalizeTurkishText zincirini gösteriyor: tr-TR küçültmesi ardından ç/ğ/ı/ö/ş/ü ASCII eşlemesi. Türkçe şehir/üniversite arama anahtarları için açık ve tutarlı normalizasyon. Kaynak: https://github.com/koder-cog/kepce/commit/0a001297955c64b99600743eb8837b412523d898,1
+H2,1,A072,NO,,,,,,,Yalnızca mevcut arama davranışını sınayan İstanbul ve Diyarbakır test verileri ekleniyor; metin işleminin semantiği değişmiyor.,1
+H2,1,A073,YES,,MACHINE,PREVENTIVE,F2,FIT,,Hashtag URL anahtarı depolamadaki ROOT sözleşmesiyle eşitleniyor. Mesaj sorunu latent olarak tanımlıyor; gözlenmiş arıza veya locale testi gösterilmiyor.,1
+H2,2,B082,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,"Aday metin toLowerCase, sorgu toLocaleLowerCase kullanıyor; aynı normalizasyon uygulanmıyor. Türkçe I adayda i, sorguda ı olur.",1
+H2,1,A074,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,ANSI kod enum sabitleriyle eşlemek için sabit İngilizce büyük harf dönüşümü; mesaj Türkçe locale belirtisini açıkça adlandırıyor.,1
+H2,1,A075,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,Mesaj Türkçe locale'de ID/id eşitsizliğini adlandırıyor; tanımlayıcı yardımcıları CurrentCulture yerine Ordinal kullanıyor.,1
+H2,1,A076,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,input seçenek ad/değerleri ve lookup anahtarı ROOT ile büyütülüyor; Türkçe locale'de çalışmama hatası belirtilmiş.,1
+H2,1,A077,YES,,MACHINE,PREVENTIVE,F3,FIT,,Windows domain ve HTTP yetkilendirme protokolü eşlemesi İngilizce locale ile sabitleniyor; mesaj belirli bir locale arızası göstermiyor.,1
+H2,2,B083,,OTHER,,,,,,Path küçültmesinde en-US ile JavaScript toLowerCase aynı casing sonucunu verir; transliterasyon/regex değişiklikleri ayrı davranışlar. Casing eşlemesi tüm girdiler için değişmediğinden değişiklik türü OTHER.,1
+H2,3,C001,,,,,,,NO,Tam diff kontrolü: cache/saga/host/yedekleme testleri var; locale gereksinimini kuran veya doğrulayan test eklenmemiş. Kaynak: https://github.com/DiabolitoDotNet/DaemonLayer/commit/8e5cc1f4d522c3e8a567aebeb0e0c672d09f911c,1
+H2,3,C002,,,,,,,YES,FilesTest ve NavigationFormatRegistryTest JVM varsayılan locale'ini tr-TR yapıp CURRENT.ITN uzantısının/format seçiminin doğru kaldığını doğruluyor.,1
+H2,3,C003,,,,,,,NO,Yalnızca src/cHLDos.cs ve src/frmMain.cs değişmiş; test eklenmemiş.,1
+H2,3,C004,,,,,,,NO,Tam diff kontrolü: relation metni ve soft-link yönlendirme testleri değişmiş; locale davranışı testi yok. Kaynak: https://github.com/BilderLoong/yomitan-dictionary/commit/d6217cd921129b8eab9e8e5d6ce8c4e3e61f2491,1
+H2,3,C005,,,,,,,NO,Tam diff kontrolü: storage sentezi/parity ve rollback testleri var; locale koşulu veya locale regresyon assertion'ı yok. Kaynak: https://github.com/medievalrp-net/Spyglass/commit/a438598ea179fd27df869de20baea4755e156669,1
+H2,3,C006,,,,,,,YES,FileExtensionsTest tr-TR varsayılan locale altında dosya uzantısı ve CLI extension tokenlarının ASCII küçük harf kaldığını doğruluyor.,1
+H2,3,C007,,,,,,,YES,Test toLocaleLowerCase'i Türkçe I -> ı davranışıyla mock edip sink türü eşleşmesinin locale'den bağımsız kaldığını doğruluyor.,1
+H2,3,C008,,,,,,,NO,Test içindeki OS adı dönüşümüne Locale.ENGLISH eklenmiş; locale kurulumu veya locale'e özel beklenen davranış testi eklenmemiş.,1
+H2,3,C009,,,,,,,YES,"Yeni shell testi sort çağrılarının LC_ALL=C taşıdığını ve çıplak sort bulunmadığını assert ediyor; locale gereksinimini yapısal olarak doğruluyor, gerçek Türkçe ortamda sort çalıştırmıyor.",1
+H2,3,C010,,,,,,,NO,Tam diff kontrolü: token-mint adapter'ına taşınan OAuth2 testleri ve port delegasyonu var; locale davranışı testi yok. Kaynak: https://github.com/Rollingcat-Software/identity-core-api/commit/415469d208accf2497eb2a5a861d9b7f3dd4a5ae,1
+H2,3,C011,,,,,,,YES,QxColor ve PropertyResolver testleri tr-TR locale kurup WHITE sabitinin doğru renk olarak çözüldüğünü doğruluyor.,1
+H2,3,C012,,,,,,,YES,"EndpointComparer testinde /I, /i ve /ı route'ları için beklenen ordinal harf duyarsız sıralama doğrulanıyor.",1
+H2,3,C013,,,,,,,YES,Tam diff mevcut CultureContext(ru-MD) altında IndexOf/LastIndexOf locale-sensitivity testlerinin beklentilerinin değiştiğini gösteriyor; CurrentCulture sonuçları string API ile karşılaştırılıyor ve OrdinalIgnoreCase assertion'ları ekleniyor. Kaynak: https://github.com/NightOwl888/J2N/commit/60936c34960f5981d9c23a742ffc606ef6e9aaba,1
+H2,3,C014,,,,,,,YES,Test varsayılan locale'i Türkçe yapıp PHOTO.GIF dosyasının gif allow-list'iyle eşleştiğini doğruluyor.,1
+H2,3,C015,,,,,,,YES,Adı Türkçe locale regresyonunu açıkça belirten test AI içeren iki ürün anahtarının ASCII i ile normalleştiğini assert ediyor; runtime locale değiştirilmeden eski Türkçe dönüşüm sonucuna karşı beklenti kurulmuş.,1
+H2,3,C016,,,,,,,YES,Yeni lint testi shell scriptlerinin ilk komutunun export LC_ALL=C olmasını veya açık locale bağımlılığı açıklamasını zorunlu tutuyor; locale gereksinimini doğrulayan yapısal test.,1
+H2,3,C017,,,,,,,YES,RoundTripIT tr-TR varsayılan locale altında mnemonic'lerde invoke/getstatic ASCII kalmasını ve round-trip'i doğruluyor.,1
+H2,3,C018,,,,,,,YES,StringMethodTests tr-TR CurrentCulture kurup JavaScript i.toUpperCase çıktısının I olduğunu doğruluyor ve culture'ı geri yüklüyor.,1
+H2,3,C019,,,,,,,NO,clsCodeTest içindeki credentials sözlüğünün comparer'ı değişmiş; locale koşulu veya locale'e özel test assertion'ı eklenmemiş.,1
+H2,3,C020,,,,,,,YES,Culture_sensitive_StartsWith testi soft hyphen U+00AD içeren YAML satırının kültürel karşılaştırmada yutulmayıp literal metin kaldığını assert ediyor.,1
+H2,3,C021,,,,,,,NO,Tam diff kontrolü: alarm CRUD ve sıradan case-insensitive enum testleri var; Türkçe/benzeri locale kurulumu veya özel casing regresyonu yok. Kaynak: https://github.com/BerkanGulyagci/finance-portal/commit/fb08e4f5f234a676bdf4a3538b8a3b3b27b91467,1
+H2,3,C022,,,,,,,NO,"Görünen eklemeler telemetry, sertifika ve mock düzenlemeleri; locale kurulumu/duyarlı metin assertion'ı yok.",1
+H2,3,C023,,,,,,,NO,JSON beklenen çıktısındaki enum adı ToLowerInvariant yapılmış; locale koşulu sınayan yeni test yok.,1
+H2,3,C024,,,,,,,NO,"Authorization, persistence ve UI test düzenlemeleri var; ordinal helper çağrısı eklemek locale davranışını sınayan test eklemek değil.",1
+H2,3,C025,,,,,,,NO,Test adı taşıyan SwaigTest.java CLI aracının altyapısı değişmiş; listelenen gerçek test dosyalarına eklenen satır yok. Gösterilen CLI eklemesi locale testi değil.,1
+H2,3,C026,,,,,,,NO,Test altyapısında skip yorumları ve transfer istatistiği helper'ı değişmiş; locale davranışı testi yok.,1
+H2,3,C027,,,,,,,YES,tr ve az varsayılan locale davranışı mock edilip İngilizce Iced tea ürünlerinin iced/ICED sorgularıyla bulunması doğrulanıyor.,1
+H2,3,C028,,,,,,,YES,BandScale testi İyi girdisinin iyi olduğunu ve birleşen nokta içermediğini assert ediyor.,1
+H2,3,C029,,,,,,,YES,Ülke çıkarımı İspanya ve Hırvatistan gibi Türkçe locale'e duyarlı girdilerle beklenen ülke değerini doğruluyor.,1
+H2,3,C030,,,,,,,NO,Mevcut test/assertion yardımcılarına StringComparison eklenmiş; locale kurulumu veya locale'e özgü regresyon girdisi eklenmemiş.,1
+H2,3,C031,,,,,,,NO,Mevcut Lucene test karşılaştırmalarına Ordinal eklenmiş; locale davranışını sınayan test durumu eklenmemiş.,1
+H2,3,C032,,,,,,,NO,Yeni testler http/https bölme ve true/false JS literal çıktısını doğruluyor; özel bir locale kurmuyor ve locale'e göre ayrışan metin girdisi kullanmıyor.,1
+H2,3,C033,,,,,,,NO,"Tam diff kontrolü: BOM temizleme ve GBK araç tespiti testleri var; LANG/LC_ALL yalnızca yorumda, locale davranışı sınanmıyor. Kaynak: https://github.com/zgsm-ai/costrict/commit/82792cb483aa1a95af004e274b99a736b7391ef9",1
+H2,3,C034,,,,,,,NO,Testler ve test altyapısındaki dönüşümlere Locale.ROOT eklenmiş; locale koşulu/duyarlı girdinin sonucu sınanmıyor.,1
+H2,3,C035,,,,,,,YES,TurkishISpec varsayılan locale'i tr-TR yapıp ISO-8859-1 dönüşümünü ve HttpCharsets yeniden kurulumunu sınayan regresyon testi ekliyor.,1
+H2,3,C036,,,,,,,NO,Yeni MIME helper testleri sıradan ASCII case-insensitive eşleşme/null davranışını sınar; locale kurulumu veya Türkçe/benzeri özel durum hedeflenmiyor.,1
+H2,3,C037,,,,,,,NO,Test verisi hazırlama ve OS koşullarındaki dönüşümlere ROOT eklenmiş; farklı locale veya locale'e duyarlı girdiyle yeni test yok.,1
+H2,3,C038,,,,,,,YES,PowerShell ayrı süreçte LANG=C.UTF-8 ile çalıştırılıp hashtable p/P anahtar erişiminin doğru kaldığı assert ediliyor.,1
+H2,3,C039,,,,,,,NO,Test harness'ına safesort helper'ı ve deterministik sort ortamı eklenmiş; sort'un locale davranışını veya ayar gereksinimini assert eden test eklenmemiş.,1
+H2,3,C040,,,,,,,NO,Tam diff kontrolü: LC_ALL=C HTTP testindeki response preview temizleme helper'ına eklenmiş; locale gereksinimini doğrulayan test yok. Kaynak: https://github.com/hanax-ai/HX-Infrastructure-/commit/ac146b725163cea2fbc1556d7b50d3e2d0ec60b1,1
+H2,3,C041,,,,,,,NO,Yalnızca üretim ResourceManager.java dosyası değişiyor; test yok.,1
+H2,3,C042,,,,,,,YES,"ZIP uzantısı, highlight style ve --VERSION seçeneği tr-TR varsayılan locale altında doğru çalıştığı assert edilerek sınanıyor.",1
+H2,3,C043,,,,,,,YES,LocaleIndependenceTest Türkçe varsayılan locale kurup büyük harf dönüşümünün beklenen sonucunu doğruluyor.,1
+H2,3,C044,,,,,,,NO,Mevcut test scriptindeki sort çağrısına LC_ALL=C eklenmiş; locale davranışını doğrulayan ek bir test veya assertion yok.,1
+H2,3,C045,,,,,,,NO,Yeni test caller reference'ın URL path'te reddedilmesini sınar; locale koşulu ile ilgili değil.,1
+H2,3,C046,,,,,,,YES,Azerice İdeal ve Latin Ideal girdilerinin ayrı kalması ve INTERNET/internet duplicate davranışı assert ediliyor; açık dotted-I regresyon testi.,1
+H2,3,C047,,,,,,,NO,Yalnızca iki üretim Java dosyası değişiyor; test eklenmemiş.,1
+H2,3,C048,,,,,,,NO,"BusinessSpec üretim sorgu specification'ı, test değil; eşleşen satır yalnızca Locale.ROOT ekliyor.",1
+H2,3,C049,,,,,,,YES,Test tr-TR CurrentCulture kurup JavaScript I.toLowerCase sonucunun ASCII i olduğunu doğruluyor.,1
+H2,3,C050,,,,,,,YES,Yeni test_harness_locale_sort.sh test harness'ının metinsel sort çağrılarında LC_ALL=C gereksinimini açık assertion'larla kontrol ediyor.,1
+H2,3,C051,,,,,,,YES,CatalogCourseCodeTest İngilizce ve Türkçe varsayılan locale'lerde bil101 kodunun BIL101 olarak normalleştiğini doğruluyor.,1
+H2,3,C052,,,,,,,YES,ActualStateBLTest/UpgradeRunnerTest ve sunucu başlangıç testi tr-TR locale kurup SQL tablo/kolon adları ile başlangıç davranışını sınar.,1
+H2,3,C053,,,,,,,NO,spring-test modülündeki üretim annotation/parser sınıfları değişmiş; gerçek bir test eklemesi yok.,1
+H2,3,C054,,,,,,,YES,Analyzer testleri İ/ı/I/i token beklentileri; arama entegrasyon testi Izmir/İzmir/ızmir için beklenen sonuç sayıları ekliyor.,1
+H2,3,C055,,,,,,,YES,YamlConfigTest tr-TR varsayılan locale kurup quasi_id benzeri küçük harf enum değerlerinin doğru parse edilmesini doğruluyor.,1
+H2,3,C056,,,,,,,YES,İmza authorization çıktısı önce Locale.US altında hesaplanıp tr-TR altında aynı kaldığı assert ediliyor.,1
+H2,3,C057,,,,,,,NO,Görünen test eklemeleri run-configuration XML/command oluşturma ile ilgili; locale kurulumu veya locale'e özgü assertion yok.,1
+H2,3,C058,,,,,,,NO,Kusto hits/metadata testlerinde sıradan model/assertion değişiklikleri; locale davranışı sınanmıyor.,1
+H2,3,C059,,,,,,,NO,Test build'ine StringCaseLocaleUsage analyzer kuralı eklenmiş ve notification testi düzenlenmiş; locale koşulu kuran veya locale'e özgü çıktı doğrulayan test eklenmemiş.,1
+H2,3,C060,,,,,,,YES,RequestRewritingClientTest tr-TR varsayılan locale kurup büyük I içeren INDEX.COM host rewrite davranışını sınar.,1
+H2,3,C061,,,,,,,NO,"Tam diff kontrolü: render, stok, sevkiyat ve iş akışı testleri var. Türkçe örnek veriler casing testi değil; locale dönüşüm gereksinimi sınanmıyor. Kaynak: https://github.com/oguzhandemirc/TeksERP/commit/3cca1d37b4b4c76301e812384740017003184262",1
+H2,3,C062,,,,,,,YES,ConvergenceStrategyLocaleTest setUp'ta Türkçe locale kurup karışık büyük/küçük harfli verdict eşleşmelerini ve farklı verdict'leri doğruluyor.,1
+H2,3,C063,,,,,,,NO,Fixture oluştururken binary git index üzerinde sed çalıştırmaya LC_ALL=C eklenmiş; locale davranışını doğrulayan test assertion'ı yok.,1
+H2,3,C064,,,,,,,NO,Test generator helper'ında iki sıradan kod satırı değişmiş; locale regresyon testi yok.,1
+H2,3,C065,,,,,,,NO,Değişen dosyalar üretim Sponge registry/entity/mixin kodu; test dosyası yok.,1
+H2,3,C066,,,,,,,NO,"Test proje ayarları, HostBot ve belge düzenlemeleri; locale koşulu veya locale'e duyarlı assertion yok.",1
+H2,3,C067,,,,,,,NO,Yalnızca üretim komut/version/component dosyaları değişmiş; test yok.,1
+H2,3,C068,,,,,,,YES,SqlAnalyzerTest tr-TR varsayılan locale kurup UNION gibi SELECT sınırlarının yanlış küçültülmediğini ve analiz güvencelerinin korunduğunu sınar.,1
+H2,3,C069,,,,,,,YES,Workbench testi LC_ALL=C altında uzun Kiril metnini kesip UTF-8 bütünlüğünü iconv ile ve 140 karakter uzunluğunu assert ediyor.,1
+H2,3,C070,,,,,,,YES,F# Argu testi tr-TR CurrentCulture kurup Install union seçeneğinin --install olarak parse edilmesini doğruluyor.,1
+H2,3,C071,,,,,,,NO,77 test dosyasındaki eklemelerde nullable/mock/assertion düzenlemeleri var; locale kurulumu veya locale'e özgü metin regresyonu eklenmemiş. Tek InvariantCulture kullanımı converter argümanı.,1
+H2,3,C072,,,,,,,NO,Tek test eklemesi GeoIP veri satırı; ülke/konum verisi locale davranışını sınayan test değil.,1
+H2,3,C073,,,,,,,YES,Türkçe locale/registry/tokenizer kurularak içinde ve İÇİNDE girdilerinin ikisinin de duration cue olarak bulunduğu assert ediliyor.,1
+H2,3,C074,,,,,,,YES,ScanSpecLocaleTest tr-TR varsayılan locale kurup FILE scheme'inin ASCII file olarak saklandığını doğruluyor.,1
+H2,3,C075,,,,,,,YES,Locale data provider Türkçe dahil birçok locale sağlıyor; CQL identifier TITLE -> title ve diğer parser/compressor işlemleri bu locale'lerde çalıştırılıp assert ediliyor.,1
+H2,3,C076,,,,,,,YES,Platform guard testleri parametresiz locale çağrılarını reddediyor; normalize testi Türkçe i -> İ farkını açıkça assert edip speaker marker anahtarını doğruluyor.,1
+H2,3,C077,,,,,,,NO,Yalnızca üretim string extensions dosyası değişmiş; test yok.,1
+H2,3,C078,,,,,,,YES,Kotlin test tr-TR varsayılan locale kurup miter değerinin enum adı MITER olmasını doğruluyor. Testin locale restore satırı hatalı olsa da locale davranışını sınayan test mevcut.,1
+H2,3,C079,,,,,,,YES,Header güvenlik testi AUTHORIZATION ve COOKIE dahil casing varyantlarının credential.denied verdiğini doğruluyor; açıklama Türkçe I regresyonunu açıkça hedefliyor. Runtime locale değiştirilmemiş.,1
+H2,3,C080,,,,,,,YES,ReportResponseTest tr-TR varsayılan locale kurup status'un locale bağımsız küçültüldüğünü doğruluyor.,1
+H2,3,C081,,,,,,,NO,Eklenenler BenchmarkDotNet performans ölçümleri; locale koşulu kuran veya locale davranışını assert eden doğruluk testi değil.,1
+H2,3,C082,,,,,,,NO,Tam diff kontrolü: overflow/replenishment/HTTP validation testleri var; locale koşulu veya locale'e özel metin assertion'ı yok. Kaynak: https://github.com/facupepi/challenge-tenoro/commit/827c00ebac96dfef84942fc977dc789829118905,1
+H2,3,C083,,,,,,,NO,HttpURLConnectionMock yalnızca test altyapısındaki başlık anahtarlarını Locale.ENGLISH ile küçültüyor; locale davranışını sınayan test eklenmiyor.,1
+H2,3,C084,,,,,,,YES,"Postgres regression SQL/expected dosyaları ICU case-sensitive/nondeterministic collation, normalizasyon eşitliği, indeks ve replication davranışını sınar.",1
+H2,3,C085,,,,,,,NO,Yalnızca üretim AddItem.js bileşeni değişmiş; test yok.,1
+H2,3,C086,,,,,,,NO,Mevcut Lucene testlerindeki arama/expected helper çağrılarına Ordinal eklenmiş; locale'e özgü bir test durumu yok.,1
+H2,3,C087,,,,,,,NO,Mevcut test assertion'larına Ordinal/OrdinalIgnoreCase eklenmiş; locale koşulu veya özel casing regresyonu eklenmemiş.,1
+H2,3,C088,,,,,,,YES,"Yugabyte SQL/expected regression testleri collation sağlayıcısı, locale ve version mismatch/refresh senaryolarını açıkça kurup beklenen sonuçları doğruluyor.",1
+H2,3,C089,,,,,,,NO,Test yolu kuralı docs/patra/specs altındaki tasarım HTML belgesini yakalamış; gerçek test dosyası değil.,1
+H2,3,C090,,,,,,,NO,Tam diff kontrolü: çeviri mesajı/sayısal biçimlendirme ve assertion/helper temizliği; onarılan metin işleminin locale gereksinimini sınayan test yok. Kaynak: https://github.com/nuuvify/Nuuvify.CommonPack/commit/230aa6c9ce6555b3f0fe10c3b8034b13794dd5c6,1
+H2,3,C091,,,,,,,NO,Değişen üç dosya üretim UI/upload/helper kodu; test yok.,1
+H2,3,C092,,,,,,,NO,Yalnızca üretim TransferQueueActivity.java değişmiş; test yok.,1
+H2,3,C093,,,,,,,NO,Passphrase testlerinin expected casing helper'ları invariant yapılmış; farklı locale veya özel casing girdisi sınanmıyor.,1
+H2,3,C094,,,,,,,YES,Checksum testi script'i LC_ALL=en_US.UTF-8 altında A.deb/b.deb/C.deb girdileriyle çalıştırıp C sıralamasını assert ederek iç LC_ALL=C gereksinimini sınar.,1
+H2,3,C095,,,,,,,YES,HTMLScannerTest tr-TR varsayılan locale kurup HTML tag parsing sonucunun locale'den etkilenmediğini doğruluyor.,1
+H2,3,C096,,,,,,,NO,Test içindeki Windows OS kontrolüne Locale.ROOT eklenmiş; locale davranışını sınayan test eklenmemiş.,1
+H2,3,C097,,,,,,,NO,Değişen dosyalar üretim 2sxc kodu; test dosyası yok.,1
+H2,3,C098,,,,,,,NO,Tam diff kontrolü: mevcut GWT testleri/helpers StringCase kullanacak şekilde düzenlenmiş; özel locale kurulumu veya locale regresyon testi eklenmemiş. Kaynak: https://github.com/dankurka/gwt/commit/541a9fe9644235c62593909c0510ffb0b9a05a9f,1
+H2,3,C099,,,,,,,YES,"Patch bağlamı TurkishEncodingOfI testinin skip'inin kaldırıldığını, mevcut tr-TR culture altında FIFA 18 -> fifa-18 beklentisinin değiştirildiğini gösteriyor. Yalnızca eklenen satır listesi locale setup'ını göstermiyor.",1
+H2,3,C100,,,,,,,NO,C037 ile aynı tür micrometer düzeltmesi: test hazırlık/OS kontrol çağrılarına ROOT eklenmiş; locale'e özgü test koşulu veya yeni regresyon assertion'ı yok.,1

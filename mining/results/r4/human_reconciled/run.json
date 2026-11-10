@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "validation/human_r4/analyze_human_r4.py",
+    "validation/human_r4/responses/human_coding_H1_2026-11-09.csv",
+    "validation/human_r4/responses/human_coding_H2_2026-11-09.csv",
+    "validation/human_r4/responses/human_coding_reconciled_2026-11-11.csv"
+  ],
+  "cwd": ".",
+  "git_commit": "b86fcb5eeeb952aa69fb9ce92aa5735b578b8c08",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "validation/human_r4/responses/human_coding_H1_2026-11-09.csv": "6739b73b38ccaff28397db319a1ab90e54c4f4d75d57986551d548024bed1463",
+    "validation/human_r4/responses/human_coding_H2_2026-11-09.csv": "1b0190504d857b27887d6117ddb29ce188b2170d51ced23637ad94e372caffe5",
+    "validation/human_r4/responses/human_coding_reconciled_2026-11-11.csv": "48cef6ad9dd5ae3bb2f1e33414e1a53e19846c40ddacde29e1c1d61600fc478c",
+    "validation/human_r4/key_r4.csv": "d5e872855344f11198c68d93760f7da3569f13da483e76b1dbc3febb42d461dc"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-10T21:10:05+00:00",
+  "status": "ok",
+  "end": "2026-11-10T21:10:07+00:00",
+  "exit_code": 0
+}

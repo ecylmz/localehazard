@@ -1,0 +1,261 @@
+﻿coder,set,item_id,genuine,change,role,trigger,family,fit,loctest,note,complete
+H1,2,B001,,LOCALE_AWARE,MACHINE,,,MISFIT,,Tuş adları makine metni; Türkçe locale'de 'I' tuşu 'ı' olur ve 'i' ile eşleşmez.,1
+H1,2,B002,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Arayüz tamamen Türkçe olduğundan onay kelimesinin Türkçe olduğu varsayıldı.,1
+H1,1,A001,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,InvariantCultureIgnoreCase locale'den bağımsız olduğundan ASCII yol/anahtar adları için sonuç değişmez.,1
+H1,1,A002,YES,,MACHINE,PREVENTIVE,F5,FIT,,,1
+H1,2,B003,,LOCALE_AWARE,MACHINE,,,FIT,,URL yolu ama Türkçe alfabe harfleri için sayfa diline bağlı açık tr-TR seçimi doğru.,1
+H1,1,A003,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,"CSS uppercase kaldırma satırı patch alıntısında görünmüyor, yalnızca mesajda Türkçe İ sorunu olarak geçiyor.",1
+H1,2,B004,,LOCALE_AWARE,MACHINE,,,MISFIT,,Durum değerleri makine sabiti; Türkçe locale'de 'PENDING' 'pendıng' olur.,1
+H1,2,B005,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B006,,LOCALE_AWARE,MACHINE,,,MISFIT,,Komutlar ve ülke kodları Türkçe locale'de I→ı yüzünden eşleşmeyebilir.,1
+H1,1,A004,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+H1,1,A005,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,"Terimler kullanıcı metni olsa da test, Lucene'in ordinal eşleşmesini taklit ettiği için MACHINE kodlandı.",1
+H1,2,B007,,LOCALE_AWARE,MACHINE,,,FIT,,Türkçe addan slug üretimi; ı→i replace zinciri İngilizce adlardaki I'yı da düzeltiyor.,1
+H1,2,B008,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,Türkçe İ düzeldi ama 'IT' gibi ASCII büyük I içeren girdiler 'ıt' olup İngilizce anahtar kelimelerle eşleşmiyor.,1
+H1,1,A006,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,,1
+H1,2,B009,,LOCALE_AWARE,MACHINE,,,MISFIT,,E-posta sunucunun varsayılan locale'iyle küçültülüyor; Türkçe locale'de I→ı.,1
+H1,2,B010,,LOCALE_AWARE,MIXED,,,MISFIT,,Tür ve renk adları Türkçe locale'de I→ı ile bozulur; doğal sıralama kısmı dilsel.,1
+H1,2,B011,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A007,NO,,,,,,,,1
+H1,2,B012,,LOCALE_AWARE,LINGUISTIC,,,CANNOT_TELL,,Kullanıcı mesajı kullanıcının değil sunucunun varsayılan locale'iyle küçültülüyor.,1
+H1,2,B013,,LOCALE_AWARE,MIXED,,,FIT,,Türkçe site araması için uygun; 'k' kısayol tuşu için fark yok.,1
+H1,2,B014,,OTHER,,,,,,,1
+H1,2,B015,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,JS toLowerCase() ile en-US sonucu aynı; davranış değişmiyor.,1
+H1,2,B016,,LOCALE_AWARE,UNCLEAR,,,CANNOT_TELL,,Genel amaçlı sorgu dili fonksiyonu; metnin kullanımı belli değil.,1
+H1,2,B017,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,,1
+H1,2,B018,,LOCALE_AWARE,MACHINE,,,MISFIT,,Log anahtarları Türkçe locale'de I→ı ile kara listeyle eşleşmeyebilir.,1
+H1,2,B019,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A008,YES,,LINGUISTIC,PREVENTIVE,F1,FIT,,,1
+H1,1,A009,UNCLEAR,,,,,,,Yeni komut kalıbına Türkçe ı/i/i̇ varyantları eklenmiş; mevcut bir işlemin locale/karşılaştırma semantiği değişmiyor olabilir.,1
+H1,2,B020,,OTHER,,,,,,,1
+H1,2,B021,,LOCALE_AWARE,MIXED,,,MISFIT,,Kabuk adları/komut anahtar kelimeleri Türkçe locale'de I→ı ile bozulur.,1
+H1,2,B022,,LOCALE_AWARE,MACHINE,,,MISFIT,,Dosya yolları ayarlardaki locale ile küçültülüyor; Türkçe ayarda 'MUSIC' ile 'Music' eşleşmez.,1
+H1,2,B023,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A010,YES,,MIXED,PREVENTIVE,F3,MISFIT,,"Arama kutusunda OrdinalIgnoreCase, Türkçe kullanıcının i/İ eşleşmesini bozar (eski ToLower iki tarafta aynı kültürü kullanıyordu); yalnızca Türkçe/Azerice için.",1
+H1,2,B024,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A011,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+H1,1,A012,YES,,LINGUISTIC,OBSERVED_FAILURE,F6,FIT,,#1846 referansının bir arızayı gösterip göstermediği belirsiz; CouchDB indeks kararlılığı için uygun ama Türkçe morfemlerde I/İ eşlemesi dil-duyarlı değil.,1
+H1,1,A013,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,Locale.ROOT ile Türkçe başlıkta 'İstanbul' aramasında 'istanbul' eşleşmez; yalnızca Türkçe/Azerice için.,1
+H1,1,A014,NO,,,,,,,,1
+H1,2,B025,,OTHER,,,,,,,1
+H1,1,A015,NO,,,,,,,LC_ALL=C yalnızca awk sayı biçimi/ondalık ayırıcı için; sayı biçimlendirme NO sayılır.,1
+H1,1,A016,NO,,,,,,,,1
+H1,1,A017,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,2,B026,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,,1
+H1,2,B027,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B028,,OTHER,,,,,,,1
+H1,2,B029,,LOCALE_AWARE,MIXED,,,MISFIT,,Dosya uzantısı Türkçe locale'de I→ı ile bozulur; kişi adları kısmı uygun.,1
+H1,1,A018,NO,,,,,,,,1
+H1,2,B030,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,fr-FR harf dönüşümü varsayılanla aynı.,1
+H1,2,B031,,LOCALE_AWARE,MACHINE,,,CANNOT_TELL,,Önbellek anahtarı tutarlı üretiliyor; başka bir yerle karşılaştırılıp karşılaştırılmadığı görünmüyor.,1
+H1,1,A019,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+H1,2,B032,,LOCALE_AWARE,UNCLEAR,,,CANNOT_TELL,,Dosya adında ilk harfe göre gezinme; makine mi dilsel mi belirsiz.,1
+H1,1,A020,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Python 2 bytestring upper() C kütüphanesi locale'ine bağlı olduğundan F5 seçildi; F2 de uyuyor.,1
+H1,1,A021,YES,,MACHINE,PREVENTIVE,F3,FIT,,Performans gerekçeli ama ToUpper() kültüre duyarlı olduğundan Türkçe locale'de davranış değişiyor.,1
+H1,1,A022,NO,,,,,,,,1
+H1,2,B033,,UNICODE_FOLD,MIXED,,,NEUTRAL,,,1
+H1,2,B034,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A023,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,PE-139 bilet referansının içeriği görünmüyor.,1
+H1,2,B035,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B036,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Tarayıcı locale'i uygulama dilinden farklıysa sorun çıkabilir.,1
+H1,2,B037,,LOCALE_AWARE,MACHINE,,,MISFIT,,E-posta Türkçe locale'de I→ı ile bozulur.,1
+H1,2,B038,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A024,NO,,,,,,,,1
+H1,2,B039,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,Dil değiştirilip İngilizce kullanıldığında da tr-TR uygulanıyor; i harfi İ olur.,1
+H1,2,B040,,LOCALE_AWARE,MACHINE,,,MISFIT,,Dosya yolları Türkçe locale'de I→ı ile yanlış karşılaştırılır.,1
+H1,2,B041,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,,1
+H1,2,B042,,LOCALE_AWARE,MIXED,,,MISFIT,,E-posta/kullanıcı adı alanları Türkçe locale'de I→ı ile bozulur.,1
+H1,1,A025,YES,,LINGUISTIC,PREVENTIVE,F3,NEUTRAL,,Yazar çalışma ortamında sistem locale'i olmadığını belirtiyor; aksi halde Türkçe ad eşleşmesinde fark olabilir.,1
+H1,2,B043,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de 'MINUTE' gibi I içeren anahtar sözcükler ı'ya dönüşüp eşleşmez.,1
+H1,1,A026,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,Bildirilen 'undefined' arızası locale ile ilgisiz; locale değişikliği tutarlılık amaçlı.,1
+H1,2,B044,,UNICODE_FOLD,MACHINE,,,FIT,,,1
+H1,1,A027,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+H1,2,B045,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de başlıktan türetilen ad (ör. 'LIST' → 'lıst') ASCII olmayan ı içerir.,1
+H1,2,B046,,OTHER,,,,,,,1
+H1,2,B047,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A028,YES,,MIXED,TOOL_DRIVEN,F2,FIT,,"Arama etiketleri (DialogSearchTag) dilsel metin, diğerleri makine metni.",1
+H1,1,A029,YES,,MACHINE,PREVENTIVE,F3,FIT,,Mesaj performans gerekçeli ama kültüre duyarlı StartsWith/EndsWith -> Ordinal karşılaştırma semantiğini değiştiriyor.,1
+H1,1,A030,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,MISFIT,,Türkçe kişi adlarında baş harf i -> I olur (İ olmalı); yalnızca Türkçe/Azerice için yanlış.,1
+H1,1,A031,YES,,LINGUISTIC,PREVENTIVE,F1,FIT,,,1
+H1,1,A032,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,Aynı commit errorprone ekliyor ama Locale.ROOT gerekçesi araç olarak adlandırılmamış.,1
+H1,1,A033,NO,,,,,,,LC_ALL=C yalnızca date komutunun tarih biçimlendirmesini etkiliyor; tarih biçimlendirme dışlaması uygulandı.,1
+H1,2,B048,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A034,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,1,A035,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,Türkçe arayüz için sabit 'tr' locale'i uygun.,1
+H1,2,B049,,OTHER,,,,,,,1
+H1,2,B050,,OTHER,,,,,,Java toLowerCase() zaten varsayılan locale'e duyarlı; yeni locale parametresinin değeri gösterilmiyor.,1
+H1,2,B051,,OTHER,,,,,,,1
+H1,1,A036,YES,,MACHINE,PREVENTIVE,F5,FIT,,Vendored mdbtools kodunda davranış değişikliği (taşıma değil).,1
+H1,1,A037,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+H1,2,B052,,OTHER,,,,,,,1
+H1,2,B053,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B054,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de I içeren eklenti kimlikleri küçük harfli girdiyle eşleşmez.,1
+H1,2,B055,,LOCALE_AWARE,MIXED,,,MISFIT,,"tr-TR e-posta ve 'INQUIRY' gibi enum değerlerini bozar (i→İ, I→ı); arama filtreleri ise uygun.",1
+H1,1,A038,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+H1,1,A039,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,CSS text-transform için lang=tr/en ile doğru harf tablosu seçiliyor.,1
+H1,1,A040,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,casefold da Türkçe İ/ı eşleşmesini çözmüyor (önceki lower ile aynı).,1
+H1,2,B056,,UNICODE_FOLD,LINGUISTIC,,,FIT,,,1
+H1,1,A041,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,,1
+H1,2,B057,,UNICODE_FOLD,LINGUISTIC,,,FIT,,,1
+H1,2,B058,,UNICODE_FOLD,MACHINE,,,CANNOT_TELL,,IRC casemapping protokolce tanımlı; sunucunun hangi eşlemeyi beklediği gösterilmiyor.,1
+H1,1,A042,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,1,A043,YES,,MIXED,OBSERVED_FAILURE,F2,FIT,,"Uzantılar/tablo adları makine, kanal adları eşleme için kullanılan dilsel metin.",1
+H1,1,A044,NO,,,,,,,,1
+H1,1,A045,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,2,B059,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'li derleme makinesinde I içeren kütüphane adı yanlış dosya yolu üretir.,1
+H1,2,B060,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B061,,OTHER,,,,,,,1
+H1,1,A046,YES,,LINGUISTIC,PREVENTIVE,F1,MISFIT,,"Türkçe adlarda (İSMAİL, IŞIK) locale'siz dönüşüm yanlış harf üretir; yalnızca Türkçe/Azerice için yanlış.",1
+H1,1,A047,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+H1,2,B062,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A048,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Yalnızca tr_TR denetleniyor; az_AZ gibi locale'ler kapsanmıyor.,1
+H1,1,A049,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,,1
+H1,1,A050,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+H1,2,B063,,OTHER,,,,,,,1
+H1,1,A051,YES,,UNCLEAR,OBSERVED_FAILURE,F3,CANNOT_TELL,,Değişen karşılaştırma satırı gösterilmiyor; eqIgnoreCase -> equalsIgnoreCase geri dönüşü yalnızca mesajdan çıkarıldı.,1
+H1,2,B064,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B065,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de I içeren başlık/parametre adları ı'ya dönüşür.,1
+H1,1,A052,YES,,LINGUISTIC,UNCLEAR,F3,FIT,,GUARD-541 biletinin arıza olup olmadığı belirsiz; Türkçe İ/i ile farklı yazılmış konum adları eşleşmez.,1
+H1,2,B066,,UNICODE_FOLD,LINGUISTIC,,,FIT,,,1
+H1,2,B067,,UNICODE_FOLD,MACHINE,,,CANNOT_TELL,,IRC casemapping protokolce tanımlı; casefold'un buna uyup uymadığı gösterilmiyor.,1
+H1,2,B068,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de I içeren etiket/tag adları yapılandırmayla eşleşmez.,1
+H1,2,B069,,UNICODE_FOLD,LINGUISTIC,,,FIT,,,1
+H1,2,B070,,OTHER,,,,,,,1
+H1,1,A053,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+H1,2,B071,,LOCALE_AWARE,LINGUISTIC,,,FIT,,İngilizce etiketlerde (ör. 'AI') tr eşlemesi ı üretir.,1
+H1,2,B072,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,,1
+H1,1,A054,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Değişen tr satırı gösterilmemiş; karar mesajdaki LC_ALL=C ve Türkçe locale hata raporuna dayanıyor.,1
+H1,1,A055,YES,,MIXED,TOOL_DRIVEN,F3,FIT,,"Regex grup adları makine metni, Extractor'daki harf duyarsız arama ise kullanıcı desenini log metninde arıyor.",1
+H1,1,A056,YES,,MACHINE,PREVENTIVE,F5,FIT,,Patch boş; karar yalnızca mesajdaki LC_ALL=C.UTF-8 ayarına dayanıyor.,1
+H1,1,A057,NO,,,,,,,,1
+H1,2,B073,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A058,NO,,,,,,,,1
+H1,1,A059,YES,,MIXED,OBSERVED_FAILURE,F2,FIT,,"Boss adı aramasında Locale.ROOT, Türkçe 'İ' içeren adlarda küçük bir eşleşme sorunu çıkarabilir; geri kalan enum/hex/dosya adı dönüşümleri uygun.",1
+H1,1,A060,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+H1,1,A061,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+H1,2,B074,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,,1
+H1,1,A062,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,Türkçe başlıklar eşleşme için iki tarafta da aynı locale'den bağımsız biçimde normalleştiriliyor; İ birleşik noktalı i'ye dönüşse de simetrik uygulandığı için eşleşme tutarlı kalıyor.,1
+H1,1,A063,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,2,B075,,LOCALE_AWARE,MACHINE,,,FIT,,Türkçe şehir/ilçe adları URL ve anahtar olarak kullanılıyor; tr eşlemesi tutarlı.,1
+H1,2,B076,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A064,NO,,,,,,,,1
+H1,1,A065,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,,1
+H1,1,A066,YES,,MACHINE,PREVENTIVE,F5,FIT,,,1
+H1,2,B077,,OTHER,,,,,,,1
+H1,1,A067,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,,1
+H1,1,A068,YES,,MACHINE,PREVENTIVE,F2,NEUTRAL,,,1
+H1,1,A069,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,,1
+H1,2,B078,,UNICODE_FOLD,MIXED,,,FIT,,,1
+H1,1,A070,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+H1,2,B079,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,2,B080,,LOCALE_AWARE,MACHINE,,,MISFIT,,Türkçe locale'de büyük harfli nodeName (ör. 'IFRAME') 'ıframe' olur.,1
+H1,1,A071,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,,1
+H1,2,B081,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+H1,1,A072,NO,,,,,,,Yalnızca Türkçe i için test durumları eklenmiş; gösterilen patch'te metin işlemini değiştiren bir satır yok.,1
+H1,1,A073,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,Hashtag kullanıcı içeriği ama burada saklama tarafıyla aynı Locale.ROOT anahtarına eşleniyor; Türkçe etiketlerde tutarlılığı sağlıyor.,1
+H1,2,B082,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,"Aranan metin toLowerCase, arama terimi toLocaleLowerCase; tr/az locale'de I eşleşmez.",1
+H1,1,A074,YES,,MACHINE,PREVENTIVE,F2,FIT,,"Mesaj Türkçe locale hatasını genel olarak anıyor, bildirilmiş somut bir arıza yok.",1
+H1,1,A075,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,Mesaj Türkçe locale'de ID≠id belirtisini adıyla anıyor ama bu bir denetim maddesi (P0-2) olabilir; önleyici de sayılabilir.,1
+H1,1,A076,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+H1,1,A077,YES,,MACHINE,UNCLEAR,F3,FIT,,"'[ci]' etiketi bir CI hatasına mı yoksa bir analiz aracına mı işaret ediyor, belli değil.",1
+H1,2,B083,,OTHER,,,,,,,1
+H1,3,C001,,,,,,,NO,,1
+H1,3,C002,,,,,,,YES,,1
+H1,3,C003,,,,,,,NO,,1
+H1,3,C004,,,,,,,NO,,1
+H1,3,C005,,,,,,,NO,,1
+H1,3,C006,,,,,,,YES,,1
+H1,3,C007,,,,,,,YES,,1
+H1,3,C008,,,,,,,NO,,1
+H1,3,C009,,,,,,,NO,,1
+H1,3,C010,,,,,,,NO,,1
+H1,3,C011,,,,,,,YES,,1
+H1,3,C012,,,,,,,YES,,1
+H1,3,C013,,,,,,,UNCLEAR,Eklenen testler CurrentCulture/OrdinalIgnoreCase sonuçlarını karşılaştırıyor ama searchFor girdisinin locale'e duyarlı olup olmadığı ve kültür ayarı gösterilen satırlardan anlaşılmıyor.,1
+H1,3,C014,,,,,,,YES,,1
+H1,3,C015,,,,,,,YES,,1
+H1,3,C016,,,,,,,NO,,1
+H1,3,C017,,,,,,,YES,,1
+H1,3,C018,,,,,,,YES,,1
+H1,3,C019,,,,,,,NO,,1
+H1,3,C020,,,,,,,YES,,1
+H1,3,C021,,,,,,,UNCLEAR,Yeni AlarmServiceTest dosyası kesik; Türkçe locale veya küçük harfli enum girdisi sınanıp sınanmadığı görünmüyor.,1
+H1,3,C022,,,,,,,NO,,1
+H1,3,C023,,,,,,,NO,,1
+H1,3,C024,,,,,,,NO,,1
+H1,3,C025,,,,,,,NO,,1
+H1,3,C026,,,,,,,NO,,1
+H1,3,C027,,,,,,,YES,,1
+H1,3,C028,,,,,,,YES,,1
+H1,3,C029,,,,,,,YES,,1
+H1,3,C030,,,,,,,NO,,1
+H1,3,C031,,,,,,,NO,,1
+H1,3,C032,,,,,,,NO,,1
+H1,3,C033,,,,,,,NO,,1
+H1,3,C034,,,,,,,NO,,1
+H1,3,C035,,,,,,,YES,,1
+H1,3,C036,,,,,,,NO,,1
+H1,3,C037,,,,,,,NO,,1
+H1,3,C038,,,,,,,YES,,1
+H1,3,C039,,,,,,,NO,,1
+H1,3,C040,,,,,,,NO,,1
+H1,3,C041,,,,,,,NO,,1
+H1,3,C042,,,,,,,YES,,1
+H1,3,C043,,,,,,,YES,,1
+H1,3,C044,,,,,,,NO,,1
+H1,3,C045,,,,,,,NO,,1
+H1,3,C046,,,,,,,YES,,1
+H1,3,C047,,,,,,,NO,,1
+H1,3,C048,,,,,,,NO,,1
+H1,3,C049,,,,,,,YES,,1
+H1,3,C050,,,,,,,UNCLEAR,"Eklenen test sort çağrılarında LC_ALL=C bulunduğunu yalnızca grep ile statik olarak denetliyor, locale davranışını çalıştırarak sınamıyor.",1
+H1,3,C051,,,,,,,YES,,1
+H1,3,C052,,,,,,,YES,,1
+H1,3,C053,,,,,,,NO,,1
+H1,3,C054,,,,,,,YES,,1
+H1,3,C055,,,,,,,YES,,1
+H1,3,C056,,,,,,,YES,,1
+H1,3,C057,,,,,,,NO,,1
+H1,3,C058,,,,,,,NO,,1
+H1,3,C059,,,,,,,NO,,1
+H1,3,C060,,,,,,,YES,,1
+H1,3,C061,,,,,,,NO,,1
+H1,3,C062,,,,,,,YES,,1
+H1,3,C063,,,,,,,NO,,1
+H1,3,C064,,,,,,,NO,,1
+H1,3,C065,,,,,,,NO,,1
+H1,3,C066,,,,,,,NO,,1
+H1,3,C067,,,,,,,NO,,1
+H1,3,C068,,,,,,,YES,,1
+H1,3,C069,,,,,,,YES,,1
+H1,3,C070,,,,,,,YES,,1
+H1,3,C071,,,,,,,NO,,1
+H1,3,C072,,,,,,,NO,,1
+H1,3,C073,,,,,,,YES,,1
+H1,3,C074,,,,,,,YES,,1
+H1,3,C075,,,,,,,YES,,1
+H1,3,C076,,,,,,,YES,,1
+H1,3,C077,,,,,,,NO,,1
+H1,3,C078,,,,,,,YES,,1
+H1,3,C079,,,,,,,YES,,1
+H1,3,C080,,,,,,,YES,,1
+H1,3,C081,,,,,,,NO,,1
+H1,3,C082,,,,,,,NO,,1
+H1,3,C083,,,,,,,NO,,1
+H1,3,C084,,,,,,,YES,,1
+H1,3,C085,,,,,,,NO,,1
+H1,3,C086,,,,,,,NO,,1
+H1,3,C087,,,,,,,NO,,1
+H1,3,C088,,,,,,,UNCLEAR,"Test, yerel ayarlı veritabanında collation sürüm raporlamasını doğruluyor; metin işleminin sonucunu değil, bu yüzden kapsam belirsiz.",1
+H1,3,C089,,,,,,,NO,,1
+H1,3,C090,,,,,,,NO,,1
+H1,3,C091,,,,,,,NO,,1
+H1,3,C092,,,,,,,NO,,1
+H1,3,C093,,,,,,,NO,,1
+H1,3,C094,,,,,,,YES,,1
+H1,3,C095,,,,,,,YES,,1
+H1,3,C096,,,,,,,NO,,1
+H1,3,C097,,,,,,,NO,,1
+H1,3,C098,,,,,,,NO,,1
+H1,3,C099,,,,,,,YES,,1
+H1,3,C100,,,,,,,NO,,1

@@ -19,6 +19,7 @@ numbers:
 	cd mining && $(PY) src/rq3_round2.py > /dev/null
 	cd mining && $(PY) src/r4_rq1_analyses.py > /dev/null
 	cd mining && $(PY) src/r4_reference_analysis.py > /dev/null
+	cd mining && $(PY) validation/human_r4/analyze_human_r4.py validation/human_r4/responses/human_coding_H1_2026-11-09.csv validation/human_r4/responses/human_coding_H2_2026-11-09.csv validation/human_r4/responses/human_coding_reconciled_2026-11-11.csv > /dev/null
 	$(PY) analyzers/analyze_detectors.py > /dev/null
 	cd mining && $(PY) src/rq3_numbers.py > /dev/null
 	cd mining && $(PY) src/generate_numbers.py

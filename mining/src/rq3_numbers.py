@@ -211,4 +211,30 @@ if _H.exists():
         N.update(RvHumValMisfit=pc(w["validation_misfit_share"]["estimate"]), RvHumAwareMisfit=pc(w["aware_misfit_share"]["estimate"]),
                  RvHumPinMisfit=pc(w["pinning_misfit_share"]["estimate"]), RvHumLocPrec=pc(lt["precision"]["estimate"]),
                  RvHumLocRecall=pc(lt["recall"]["estimate"]))
+        sg = lambda x: f"$-${-x:.1f}" if x < 0 else f"{x:.1f}"
+        CI = lambda d: f"{sg(100 * d['ci95'][0])}--{sg(100 * d['ci95'][1])}"
+        k = Hh["agreement_h1_h2"]; kl = Hh["agreement_h_llm"]
+        kk = lambda d: f"{d['kappa']:.2f}"
+        other = [k[q]["kappa"] for q in k if not q.endswith("_fit")]
+        N.update(RvHumValMisfitCI=CI(w["validation_misfit_share"]), RvHumAwareMisfitCI=CI(w["aware_misfit_share"]),
+                 RvHumPinMisfitCI=CI(w["pinning_misfit_share"]),
+                 RvHumAwareMisfitEng=pc(w["aware_misfit_share_without_engine_dependent"]["estimate"]),
+                 RvHumAwareMisfitEngCI=CI(w["aware_misfit_share_without_engine_dependent"]),
+                 RvHumPinMisfitEng=pc(w["pinning_misfit_share_without_engine_dependent"]["estimate"]),
+                 RvHumPinMisfitEngCI=CI(w["pinning_misfit_share_without_engine_dependent"]),
+                 RvHumDiff=pc(w["aware_minus_pinning"]["estimate"]), RvHumDiffCI=CI(w["aware_minus_pinning"]),
+                 RvHumDiffEng=pc(w["aware_minus_pinning_without_engine_dependent"]["estimate"]),
+                 RvHumDiffEngCI=CI(w["aware_minus_pinning_without_engine_dependent"]),
+                 RvHumNVal=w["coded_n"]["validation_genuine_included"], RvHumNAware=w["coded_n"]["aware"],
+                 RvHumNPin=w["coded_n"]["pinning"],
+                 RvHumLocPrecCI=CI(lt["precision"]), RvHumLocRecallCI=CI(lt["recall"]),
+                 RvHumLocTrue=pc(lt["true_locale_test_share"]["estimate"]), RvHumLocTrueCI=CI(lt["true_locale_test_share"]),
+                 RvHumItems=sum(v["items"] for v in Hh["complete"].values()),
+                 RvHumKMin=f"{min(other):.2f}", RvHumKMax=f"{max(other):.2f}",
+                 RvHumKFitOne=kk(k["set1_fit"]), RvHumKFitTwo=kk(k["set2_fit"]), RvHumKLoc=kk(k["set3_loctest"]),
+                 RvHumKRoleLlmMin=f"{min(kl[q]['kappa'] for q in kl if '_role_' in q):.2f}",
+                 RvHumKRoleLlmMax=f"{max(kl[q]['kappa'] for q in kl if '_role_' in q):.2f}",
+                 RvHumKGenLlmMin=f"{min(kl[q]['kappa'] for q in kl if '_genuine_' in q):.2f}",
+                 RvHumKChangeLlmMin=f"{min(kl[q]['kappa'] for q in kl if '_change_' in q):.2f}",
+                 RvHumKChangeLlmMax=f"{max(kl[q]['kappa'] for q in kl if '_change_' in q):.2f}")
 json.dump(N, open(ROOT / "results/rq3_numbers.json", "w"), indent=1)

@@ -123,6 +123,24 @@ if rec:
     out["locale_test_regex"] = {"precision": boot(s3, prec), "recall": boot(s3, recall),
                                 "true_locale_test_share": boot(s3, lambda g: sum(size[st] * p(g, st) for st in size) / sum(size.values())),
                                 "unclear": sum(lab(h, "loctest") == "UNCLEAR" for v in s3.values() for h in v), "strata": size}
+    # Difference of the two directional shares (added after the shares were seen; post hoc). The two arms come from
+    # different sets, so the strata of both sets are resampled together. Computed after all other intervals, so the
+    # random stream of the intervals above is unchanged.
+    joint = {f"1:{k}": v for k, v in s1.items()} | {f"2:{k}": v for k, v in s2.items()}
+    part = lambda g, n: {k.split(":", 1)[1]: v for k, v in g.items() if k.startswith(n + ":")}
+
+    def diff(g, eng):
+        a = wshare(part(g, "2"), lambda h: lab(h, "fit") == "MISFIT" and not (eng and eng_aware(key[h]["sha"])),
+                   lambda h: lab(h, "change") == "LOCALE_AWARE")
+        b = wshare(part(g, "1"), lambda h: lab(h, "fit") == "MISFIT" and not (eng and eng_pin(key[h]["sha"])),
+                   lambda h: genuine_inc(h) and pin_only(key[h]["sha"]))
+        return None if a is None or b is None else a - b
+    out["weighted"]["aware_minus_pinning"] = boot(joint, lambda g: diff(g, False))
+    out["weighted"]["aware_minus_pinning_without_engine_dependent"] = boot(joint, lambda g: diff(g, True))
+    cnt = lambda grp, den: sum(1 for v in grp.values() for h in v if den(h))
+    out["weighted"]["coded_n"] = {"validation_genuine_included": cnt(s1, genuine_inc),
+                                  "aware": cnt(s2, lambda h: lab(h, "change") == "LOCALE_AWARE"),
+                                  "pinning": cnt(s1, lambda h: genuine_inc(h) and pin_only(key[h]["sha"]))}
 
 out_path = ROOT / "results/r4_human.json"
 json.dump(out, open(out_path, "w"), indent=1)

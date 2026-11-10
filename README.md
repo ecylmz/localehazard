@@ -52,7 +52,7 @@ manuscript RQ2 (analyzers), `rq2`/`Rtwo*` = manuscript RQ3 (PostgreSQL). Macros 
 | RQ1 locale-test indicator | `r4_loctest_indicators.py` | `data/processed/locale_test_indicators.csv` | post hoc |
 | RQ1 reference rate | `r4_reference_commits.py`, `r4_reference_analysis.py` | `data/processed/reference_commits.csv`, `r4_reference.json` | post hoc |
 | RQ1 agent comparison, multi-lineage repositories | `rq3_round2.py` | `rq3_round2.json` | post hoc |
-| RQ1 human coding (round 4) | `validation/human_r4/` | `results/r4_human.json` (after coding) | planned validation |
+| RQ1 human coding (round 4) | `validation/human_r4/analyze_human_r4.py` | `results/r4_human.json`, `validation/human_r4/responses/` | planned validation (difference intervals post hoc) |
 | RQ2 probes, Figure 4 | `analyzers/analyze_detectors.py` | `analyzers/results/` | planned / post hoc (context probes) |
 | RQ2 real code | `r4_rq2_fetch_files.py`, `mining/scripts/r4_rq2_run_tools.sh`, `r4_rq2_score.py` | `results/r4/rq2_tools/out/`, `r4_rq2_realcode.json` | exploratory |
 | RQ3 Table 3 | `dbms/run_dbms_experiment.py`, `dbms/emulation_check.py` | `dbms/results/`, `numbers/tab_rq2.tex` | planned / post hoc (two conditions) |
@@ -65,9 +65,11 @@ log are in `mining/protocol/`. Evidence on real silent locale-data drift: `dbms/
 
 ## Human coding (round 4)
 
-`mining/validation/human_r4/` holds the blinded coding page and its analysis script. The key maps blinded IDs to
-items and strata. It is withheld until the human coding is complete, because the strata come from the model labels.
-Coders must not consult `mining/validation/`, which holds the model labels by SHA.
+`mining/validation/human_r4/` holds the blinded coding page, the reconciliation page, the two coders' independent
+exports, the reconciled labels, the key that maps blinded IDs to items and strata, and the analysis script. Two
+coders (H1, H2) coded 260 items, then reconciled the 94 answers on which they differed. `make numbers` recomputes
+the agreement and the stratum-weighted estimates. Anyone who re-codes the page should not consult
+`mining/validation/`, which holds the model labels by SHA.
 
 ## RQ3: PostgreSQL
 

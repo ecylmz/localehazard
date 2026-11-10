@@ -1,0 +1,261 @@
+﻿coder,set,item_id,genuine,change,role,trigger,family,fit,loctest,note,complete
+RECONCILED,1,A001,YES,,MACHINE,PREVENTIVE,F3,FIT,,Anahtarlar ve alan adları ASCII ile sınırlı değil; ordinal karşılaştırma Unicode dizelerinin kültürel olarak birleştirilmesini önler. [Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/base-types/best-practices-strings),1
+RECONCILED,1,A002,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,"Mesaj, locale nedeniyle derleme çıktısının değişmesi şeklinde somut bir tekrarlanabilirlik sorunu bildiriyor.",1
+RECONCILED,1,A003,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,,1
+RECONCILED,1,A004,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+RECONCILED,1,A005,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,FIT,,"Karşılaştırılan terimler, kullanıcı sorgusu ve öneri metninin vurgulanacak parçalarıdır.",1
+RECONCILED,1,A006,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,,1
+RECONCILED,1,A007,NO,,,,,,,,1
+RECONCILED,1,A008,YES,,LINGUISTIC,PREVENTIVE,F1,FIT,,İnsan metninin eşleştirilmesi kullanıcı locale'ine uyarlanıyor; F2/F3 eşitlik kuralı burada uygulanmaz.,1
+RECONCILED,1,A009,YES,,MACHINE,PREVENTIVE,F4,FIT,,"Yeni komut regex'i, bildirilmiş arıza olmadan Türkçe harf ve birleşen nokta varyantlarını kabul ederek karşılaştırma semantiğini uygun biçimde genişletiyor.",1
+RECONCILED,1,A010,YES,,MACHINE,PREVENTIVE,F3,FIT,,Paket ve dosya adlarıyla önbellek yolları makine metnidir ve ordinal karşılaştırma bu kullanıma uygundur.,1
+RECONCILED,1,A011,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+RECONCILED,1,A012,YES,,LINGUISTIC,OBSERVED_FAILURE,F6,MISFIT,,İndeks kararlılığı sağlansa da Türkçe morfemlerde I harfinin i yapılması beklenen I/ı eşleşmesini bozuyor.,1
+RECONCILED,1,A013,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,,1
+RECONCILED,1,A014,NO,,,,,,,,1
+RECONCILED,1,A015,NO,,,,,,,,1
+RECONCILED,1,A016,NO,,,,,,,,1
+RECONCILED,1,A017,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,Sabit ASCII modifikasyon adı Phosph ve olağan harf varyantları için iki karşılaştırma da aynı sonucu verir.,1
+RECONCILED,1,A018,NO,,,,,,,,1
+RECONCILED,1,A019,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+RECONCILED,1,A020,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,,1
+RECONCILED,1,A021,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+RECONCILED,1,A022,NO,,,,,,,,1
+RECONCILED,1,A023,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+RECONCILED,1,A024,NO,,,,,,,,1
+RECONCILED,1,A025,YES,,LINGUISTIC,PREVENTIVE,F3,NEUTRAL,,Commit mesajında belirtilen sistem locale'i bulunmayan çalışma ortamında iki dönüşüm eşdeğerdir.,1
+RECONCILED,1,A026,YES,,LINGUISTIC,OBSERVED_FAILURE,F3,FIT,,Açıklama normalizasyonu sorgu ve diğer indeks alanlarıyla aynı hale geliyor; Türkçe cihazdaki asimetrik dönüşüm gideriliyor.,1
+RECONCILED,1,A027,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+RECONCILED,1,A028,YES,,MIXED,TOOL_DRIVEN,F3,CANNOT_TELL,,Makine alanları için uygun; Norveç platformu olması serbest arama etiketlerinin dilini ve eşleme sözleşmesini kanıtlamaz.,1
+RECONCILED,1,A029,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+RECONCILED,1,A030,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,MISFIT,,,1
+RECONCILED,1,A031,YES,,LINGUISTIC,PREVENTIVE,F1,FIT,,İnsanların aradığı ve sıraladığı metni kullanıcı locale’ine göre eşlemek F1’in doğrudan kapsamındadır.,1
+RECONCILED,1,A032,YES,,LINGUISTIC,PREVENTIVE,F3,FIT,,"Filipin yer adlarının normalizasyonunu sunucu locale'inden ayırmak, Türkçe sunucuda ILOILO gibi sorguların bozulmasını önler.",1
+RECONCILED,1,A033,NO,,,,,,,,1
+RECONCILED,1,A034,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,"Gösterilen ASCII MIME, uzantı ve biçim belirteçlerinde iki karşılaştırma aynı sonucu verir.",1
+RECONCILED,1,A035,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,Türkçe kullanıcı metnindeki İ/I eşlemesini Türkçe locale ile düzeltmek doğrudan dilsel uyarlamadır.,1
+RECONCILED,1,A036,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,Belirtilen C99/POSIX derleme koşulunu mümkün kılan ve FIXED-IN taşıyan değişiklik somut uyumluluk arızasını giderir.,1
+RECONCILED,1,A037,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+RECONCILED,1,A038,YES,,MACHINE,TOOL_DRIVEN,F2,FIT,,,1
+RECONCILED,1,A039,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,FIT,,,1
+RECONCILED,1,A040,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,Etiketler ve tuş gösterimleri insanların aradığı metindir; casefold Türkçe I/ı ve İ/i eşleşmelerini sağlayamaz.,1
+RECONCILED,1,A041,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,,1
+RECONCILED,1,A042,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,Geçerli ASCII kodlama takma adlarında eski ve yeni eşitlik sonuçları aynıdır.,1
+RECONCILED,1,A043,YES,,MIXED,OBSERVED_FAILURE,F3,MISFIT,,Uzantılar düzeliyor; ancak Türkçe kanal adlarında IŞIK ve ışık invariant küçültmeyle eşleşmez. Çoğunlukla Latin marka adı olması bunu dışlamaz.,1
+RECONCILED,1,A044,NO,,,,,,,Sabit başlığın yazımı ve CSS harf sunumu değişiyor; metin işleminin locale'i veya harf eşleme tablosu değişmiyor.,1
+RECONCILED,1,A045,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,ASCII bi öneki ve true değeri için iki yöntem aynı sonucu verir.,1
+RECONCILED,1,A046,YES,,LINGUISTIC,OBSERVED_FAILURE,F1,MISFIT,,Commit mesajı tr-TR kaynaklı dönüşüm sapmasını açıkça adlandırıyor.,1
+RECONCILED,1,A047,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+RECONCILED,1,A048,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,,1
+RECONCILED,1,A049,YES,,MACHINE,TOOL_DRIVEN,F2,NEUTRAL,,,1
+RECONCILED,1,A050,YES,,MACHINE,OBSERVED_FAILURE,F4,FIT,,"İ harfinin önceden değiştirilmesi, küçültmenin ürettiği birleşen noktayla slug normalizasyonunun etkileşimini gideriyor.",1
+RECONCILED,1,A051,YES,,MACHINE,OBSERVED_FAILURE,F3,CANNOT_TELL,,"[Tam diffte](https://github.com/jasvir/google-caja/commit/833f13b20f8af6c4bbff18333a5f2e29ed3855f1) karşılaştırılan metin, es5 URL parametresinin true/false değerleridir.",1
+RECONCILED,1,A052,YES,,LINGUISTIC,UNCLEAR,F3,MISFIT,,"Konum adları İngilizceyle sınırlı değil; İzmir ve izmir invariant büyütmeyle farklı kalır, Türkçe eşleşme bozulur.",1
+RECONCILED,1,A053,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+RECONCILED,1,A054,YES,,MACHINE,OBSERVED_FAILURE,F5,FIT,,,1
+RECONCILED,1,A055,YES,,MIXED,TOOL_DRIVEN,F3,MISFIT,,"Invariant dönüşüm, doğal dildeki log aramasında Türkçe I/ı eşleşmesini bozabilir.",1
+RECONCILED,1,A056,YES,,MACHINE,PREVENTIVE,F5,FIT,,"Mesaj, bildirilmiş somut bir arıza göstermeden İngilizce dışındaki çıktılardan doğabilecek sorunları önlemeyi anlatıyor.",1
+RECONCILED,1,A057,NO,,,,,,,,1
+RECONCILED,1,A058,NO,,,,,,,,1
+RECONCILED,1,A059,YES,,MIXED,OBSERVED_FAILURE,F3,MISFIT,,Enum ve dosya dönüşümleri uygun; fakat özelleştirilebilir boss adlarında KILIÇ ve kılıç araması ROOT ile eşleşmez.,1
+RECONCILED,1,A060,YES,,MACHINE,PREVENTIVE,F2,FIT,,,1
+RECONCILED,1,A061,YES,,MACHINE,PREVENTIVE,F3,FIT,,,1
+RECONCILED,1,A062,YES,,LINGUISTIC,PREVENTIVE,F3,MISFIT,,İki tarafa aynı dönüşüm uygulansa da Türkçe başlıklardaki I/ı ve İ/i çiftleri doğru eşleşmeyebilir.,1
+RECONCILED,1,A063,YES,,MACHINE,PREVENTIVE,F3,NEUTRAL,,Gösterilen sabit ASCII URL anahtarları ve parametre adlarında iki karşılaştırıcı aynı sonucu verir.,1
+RECONCILED,1,A064,NO,,,,,,,,1
+RECONCILED,1,A065,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,,1
+RECONCILED,1,A066,YES,,MACHINE,PREVENTIVE,F5,FIT,,,1
+RECONCILED,1,A067,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,,1
+RECONCILED,1,A068,YES,,MACHINE,PREVENTIVE,F2,NEUTRAL,,,1
+RECONCILED,1,A069,YES,,MACHINE,TOOL_DRIVEN,F3,FIT,,,1
+RECONCILED,1,A070,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+RECONCILED,1,A071,YES,,MACHINE,PREVENTIVE,F3,FIT,,Dosya yolları ASCII ile sınırlı değildir; kültürel Unicode eşdeğerliği farklı dosya adlarını birleştirebilir. [Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/base-types/best-practices-strings),1
+RECONCILED,1,A072,NO,,,,,,,,1
+RECONCILED,1,A073,YES,,MACHINE,PREVENTIVE,F2,FIT,,Hashtag burada URL ve depolama anahtarı olarak kullanılıyor ve dönüşüm depolamanın ROOT sözleşmesiyle eşitleniyor.,1
+RECONCILED,1,A074,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,"Mesaj, Türkçe locale altında büyük harf dönüşümünün İngilizce sabitlerle eşleşmeyi bozduğunu açıkça belirtiyor.",1
+RECONCILED,1,A075,YES,,MACHINE,OBSERVED_FAILURE,F3,FIT,,,1
+RECONCILED,1,A076,YES,,MACHINE,OBSERVED_FAILURE,F2,FIT,,,1
+RECONCILED,1,A077,YES,,MACHINE,PREVENTIVE,F3,FIT,,Mesajda belirli bir arıza veya analiz aracı belirtilmiyor ve ci etiketi bunları tek başına kanıtlamıyor.,1
+RECONCILED,2,B001,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B002,,LOCALE_AWARE,MACHINE,,,FIT,,"Onay girdisi, programın yorumladığı sabit bir komutla karşılaştırılıyor.",1
+RECONCILED,2,B003,,LOCALE_AWARE,MACHINE,,,FIT,,,1
+RECONCILED,2,B004,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B005,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Kişi ve görünen uygulama adlarının varsayılan locale ile eşleştirilmesi dilsel kullanıma uygundur.,1
+RECONCILED,2,B006,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B007,,LOCALE_AWARE,MACHINE,,,FIT,,,1
+RECONCILED,2,B008,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,Dönüştürülen girdi serbest sektör adıdır; içindeki IT kısaltması ayrı bir makine metni işlemi oluşturmaz.,1
+RECONCILED,2,B009,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B010,,LOCALE_AWARE,MIXED,,,MISFIT,,,1
+RECONCILED,2,B011,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B012,,LOCALE_AWARE,LINGUISTIC,,,CANNOT_TELL,,,1
+RECONCILED,2,B013,,LOCALE_AWARE,MIXED,,,MISFIT,,"Türkçe küçültmeyle üretilen ırmak deseni, locale bağımsız gi regex'iyle IRMAK metnini eşleştiremiyor.",1
+RECONCILED,2,B014,,OTHER,,,,,,,1
+RECONCILED,2,B015,,OTHER,,,,,,JavaScript'te en-US seçimi mevcut Unicode küçük harf eşlemesini değiştirmediğinden davranış aynı kalıyor.,1
+RECONCILED,2,B016,,OTHER,,,,,,Mevcut invariant API aynı kültürü kullanmayı sürdürüyor; kültürlü API eklenmesi mevcut işlemin değiştirilmesi değildir.,1
+RECONCILED,2,B017,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,,1
+RECONCILED,2,B018,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B019,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B020,,OTHER,,,,,,,1
+RECONCILED,2,B021,,LOCALE_AWARE,MIXED,,,MISFIT,,,1
+RECONCILED,2,B022,,OTHER,,,,,,Java'nın parametresiz harf dönüşümü zaten locale'e duyarlıdır; yalnızca kullanılan locale değiştiriliyor.,1
+RECONCILED,2,B023,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B024,,LOCALE_AWARE,MIXED,,,FIT,,"Aramalar uygulama dilini, baş harf kullanıcı cihazının locale'ini kullanıyor; silme onayındaki İ dönüşümü de ele alınmış.",1
+RECONCILED,2,B025,,OTHER,,,,,,,1
+RECONCILED,2,B026,,OTHER,,,,,,Sabit en-US küçültmesi mevcut Unicode eşlemesini değiştirmediğinden rol ve uygunluk sorulmaz.,1
+RECONCILED,2,B027,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B028,,OTHER,,,,,,,1
+RECONCILED,2,B029,,LOCALE_AWARE,MIXED,,,MISFIT,,,1
+RECONCILED,2,B030,,OTHER,,,,,,fr-FR küçültmesi mevcut harf eşlemesini değiştirmez; diğer slug temizleme değişiklikleri LOCALE_AWARE değildir.,1
+RECONCILED,2,B031,,LOCALE_AWARE,MACHINE,,,MISFIT,,Makine anahtarının varsayılan locale ile küçültülmesi Türkçe ortamda farklı anahtarlar ve ek çakışmalar üretebilir.,1
+RECONCILED,2,B032,,LOCALE_AWARE,MACHINE,,,MISFIT,,Dosya adları makine metnidir ve Türkçe locale altında i tuşu INDEX gibi adları bulamayabilir.,1
+RECONCILED,2,B033,,UNICODE_FOLD,MIXED,,,NEUTRAL,,İngilizce kategori adları ve sabit easy/medium/hard seçeneklerinde lower ile casefold aynı sonucu verir.,1
+RECONCILED,2,B034,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B035,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,"Sorgu tr-TR, İngilizce başlık en-US ile küçültüldüğünden ICED sorgusu Iced başlığını kaçırabilir.",1
+RECONCILED,2,B036,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B037,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B038,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B039,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,İngilizce kullanımda da tr-TR uygulanması Alice gibi adları yanlış biçimde ALİCE yapar.,1
+RECONCILED,2,B040,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B041,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,Sıralama anahtarındaki kanonik bölge kodları ASCII olduğundan lower ve casefold aynı sonucu verir.,1
+RECONCILED,2,B042,,LOCALE_AWARE,MIXED,,,MISFIT,,,1
+RECONCILED,2,B043,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B044,,UNICODE_FOLD,MACHINE,,,FIT,,,1
+RECONCILED,2,B045,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B046,,OTHER,,,,,,,1
+RECONCILED,2,B047,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B048,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B049,,OTHER,,,,,,,1
+RECONCILED,2,B050,,OTHER,,,,,,,1
+RECONCILED,2,B051,,OTHER,,,,,,,1
+RECONCILED,2,B052,,OTHER,,,,,,,1
+RECONCILED,2,B053,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B054,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B055,,LOCALE_AWARE,MIXED,,,MISFIT,,,1
+RECONCILED,2,B056,,UNICODE_FOLD,LINGUISTIC,,,MISFIT,,Aranan etiketler ve tuş gösterimleri dilsel metindir; casefold Türkçe harf duyarsız aramada eşleşmeleri kaçırır.,1
+RECONCILED,2,B057,,UNICODE_FOLD,LINGUISTIC,,,FIT,,Gösterilen Rusça/İngilizce palindrom kullanımında harf duyarsız normalizasyon uygundur; başka dillerdeki uzunluk değişimleri tek başına yanlışlık kanıtlamaz.,1
+RECONCILED,2,B058,,UNICODE_FOLD,MACHINE,,,CANNOT_TELL,,Sunucunun CASEMAPPING sözleşmesi görünmüyor; önceden de bulunan RFC eşleme eksikliği değişikliğin uygunsuzluğunu tek başına göstermez.,1
+RECONCILED,2,B059,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B060,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B061,,OTHER,,,,,,,1
+RECONCILED,2,B062,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Kullanıcının transkriptindeki sözcükleri kullanıcı cihazının locale'iyle gruplamak belirtilen dilsel kullanıma uygundur.,1
+RECONCILED,2,B063,,OTHER,,,,,,,1
+RECONCILED,2,B064,,LOCALE_AWARE,LINGUISTIC,,,FIT,,Not içine yazılan form metni ve görünen dosya adı biçimleniyor; kullanıcı locale'iyle baş harf büyütme kardeş getter'larla tutarlı.,1
+RECONCILED,2,B065,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B066,,UNICODE_FOLD,LINGUISTIC,,,MISFIT,,"Casefold sonrasında kod noktasıyla sıralama, görünen kullanıcı adları için Türkçe alfabetik sırayı sağlamaz.",1
+RECONCILED,2,B067,,UNICODE_FOLD,MACHINE,,,CANNOT_TELL,,,1
+RECONCILED,2,B068,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B069,,UNICODE_FOLD,LINGUISTIC,,,MISFIT,,Casefold Türkçe I/ı ve İ/i eşdeğerlerini birleştirmediğinden sözcük frekansı ve filtreleme yanlış sonuç verebilir.,1
+RECONCILED,2,B070,,OTHER,,,,,,,1
+RECONCILED,2,B071,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B072,,UNICODE_FOLD,MACHINE,,,NEUTRAL,,,1
+RECONCILED,2,B073,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B074,,LOCALE_AWARE,MACHINE,,,NEUTRAL,,,1
+RECONCILED,2,B075,,LOCALE_AWARE,MACHINE,,,FIT,,,1
+RECONCILED,2,B076,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B077,,OTHER,,,,,,,1
+RECONCILED,2,B078,,UNICODE_FOLD,MIXED,,,CANNOT_TELL,,Anahtar sözcük çıkarımında kullanılan durak sözcük listesinin casefold dönüşümüyle uyumu gösterilmiyor.,1
+RECONCILED,2,B079,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B080,,LOCALE_AWARE,MACHINE,,,MISFIT,,,1
+RECONCILED,2,B081,,LOCALE_AWARE,LINGUISTIC,,,FIT,,,1
+RECONCILED,2,B082,,LOCALE_AWARE,LINGUISTIC,,,MISFIT,,,1
+RECONCILED,2,B083,,OTHER,,,,,,,1
+RECONCILED,3,C001,,,,,,,NO,,1
+RECONCILED,3,C002,,,,,,,YES,,1
+RECONCILED,3,C003,,,,,,,NO,,1
+RECONCILED,3,C004,,,,,,,NO,,1
+RECONCILED,3,C005,,,,,,,NO,,1
+RECONCILED,3,C006,,,,,,,YES,,1
+RECONCILED,3,C007,,,,,,,YES,,1
+RECONCILED,3,C008,,,,,,,NO,,1
+RECONCILED,3,C009,,,,,,,YES,"Test, onarılan sort çağrılarında LC_ALL=C bulunmasını doğrudan doğruluyor; yapısal olması locale gereksinimiyle ilişkisini kaldırmaz.",1
+RECONCILED,3,C010,,,,,,,NO,,1
+RECONCILED,3,C011,,,,,,,YES,,1
+RECONCILED,3,C012,,,,,,,YES,,1
+RECONCILED,3,C013,,,,,,,YES,"Tam diff, ru-MD kültürü altında IndexOf ve LastIndexOf karşılaştırmalarının beklenen sonuçlarını doğruluyor.",1
+RECONCILED,3,C014,,,,,,,YES,,1
+RECONCILED,3,C015,,,,,,,YES,,1
+RECONCILED,3,C016,,,,,,,YES,Yeni lint testi scriptlerin locale bağımsızlığını sağlayan export LC_ALL=C koşulunu veya açık istisnasını doğruluyor.,1
+RECONCILED,3,C017,,,,,,,YES,,1
+RECONCILED,3,C018,,,,,,,YES,,1
+RECONCILED,3,C019,,,,,,,NO,,1
+RECONCILED,3,C020,,,,,,,YES,,1
+RECONCILED,3,C021,,,,,,,NO,price girdisi sıradan harf duyarsız enum ayrıştırmasını sınar; Türkçe locale kurulmadığından locale bağımlılığının geri gelmesini doğrudan denetlemez.,1
+RECONCILED,3,C022,,,,,,,NO,,1
+RECONCILED,3,C023,,,,,,,NO,,1
+RECONCILED,3,C024,,,,,,,NO,,1
+RECONCILED,3,C025,,,,,,,NO,,1
+RECONCILED,3,C026,,,,,,,NO,,1
+RECONCILED,3,C027,,,,,,,YES,,1
+RECONCILED,3,C028,,,,,,,YES,,1
+RECONCILED,3,C029,,,,,,,YES,,1
+RECONCILED,3,C030,,,,,,,NO,,1
+RECONCILED,3,C031,,,,,,,NO,,1
+RECONCILED,3,C032,,,,,,,NO,,1
+RECONCILED,3,C033,,,,,,,NO,,1
+RECONCILED,3,C034,,,,,,,NO,,1
+RECONCILED,3,C035,,,,,,,YES,,1
+RECONCILED,3,C036,,,,,,,NO,,1
+RECONCILED,3,C037,,,,,,,NO,,1
+RECONCILED,3,C038,,,,,,,YES,,1
+RECONCILED,3,C039,,,,,,,NO,,1
+RECONCILED,3,C040,,,,,,,NO,,1
+RECONCILED,3,C041,,,,,,,NO,,1
+RECONCILED,3,C042,,,,,,,YES,,1
+RECONCILED,3,C043,,,,,,,YES,,1
+RECONCILED,3,C044,,,,,,,NO,,1
+RECONCILED,3,C045,,,,,,,NO,,1
+RECONCILED,3,C046,,,,,,,YES,,1
+RECONCILED,3,C047,,,,,,,NO,,1
+RECONCILED,3,C048,,,,,,,NO,,1
+RECONCILED,3,C049,,,,,,,YES,,1
+RECONCILED,3,C050,,,,,,,YES,"Test, ilgili sort çağrılarında LC_ALL=C şartını doğrudan doğruluyor. Testler çalıştırılmadı; değerlendirme kaynak incelemesine dayanıyor.",1
+RECONCILED,3,C051,,,,,,,YES,,1
+RECONCILED,3,C052,,,,,,,YES,,1
+RECONCILED,3,C053,,,,,,,NO,,1
+RECONCILED,3,C054,,,,,,,YES,,1
+RECONCILED,3,C055,,,,,,,YES,,1
+RECONCILED,3,C056,,,,,,,YES,,1
+RECONCILED,3,C057,,,,,,,NO,,1
+RECONCILED,3,C058,,,,,,,NO,,1
+RECONCILED,3,C059,,,,,,,NO,,1
+RECONCILED,3,C060,,,,,,,YES,,1
+RECONCILED,3,C061,,,,,,,NO,,1
+RECONCILED,3,C062,,,,,,,YES,,1
+RECONCILED,3,C063,,,,,,,NO,,1
+RECONCILED,3,C064,,,,,,,NO,,1
+RECONCILED,3,C065,,,,,,,NO,,1
+RECONCILED,3,C066,,,,,,,NO,,1
+RECONCILED,3,C067,,,,,,,NO,,1
+RECONCILED,3,C068,,,,,,,YES,,1
+RECONCILED,3,C069,,,,,,,YES,,1
+RECONCILED,3,C070,,,,,,,YES,,1
+RECONCILED,3,C071,,,,,,,NO,,1
+RECONCILED,3,C072,,,,,,,NO,,1
+RECONCILED,3,C073,,,,,,,YES,,1
+RECONCILED,3,C074,,,,,,,YES,,1
+RECONCILED,3,C075,,,,,,,YES,,1
+RECONCILED,3,C076,,,,,,,YES,,1
+RECONCILED,3,C077,,,,,,,NO,,1
+RECONCILED,3,C078,,,,,,,YES,,1
+RECONCILED,3,C079,,,,,,,YES,,1
+RECONCILED,3,C080,,,,,,,YES,,1
+RECONCILED,3,C081,,,,,,,NO,,1
+RECONCILED,3,C082,,,,,,,NO,,1
+RECONCILED,3,C083,,,,,,,NO,,1
+RECONCILED,3,C084,,,,,,,YES,,1
+RECONCILED,3,C085,,,,,,,NO,,1
+RECONCILED,3,C086,,,,,,,NO,,1
+RECONCILED,3,C087,,,,,,,NO,,1
+RECONCILED,3,C088,,,,,,,YES,"Locale belirtilerek oluşturulan veritabanlarında collation sürümü, uyumsuzluk uyarısı ve yenileme sonuçları doğrulanıyor.",1
+RECONCILED,3,C089,,,,,,,NO,,1
+RECONCILED,3,C090,,,,,,,NO,,1
+RECONCILED,3,C091,,,,,,,NO,,1
+RECONCILED,3,C092,,,,,,,NO,,1
+RECONCILED,3,C093,,,,,,,NO,,1
+RECONCILED,3,C094,,,,,,,YES,,1
+RECONCILED,3,C095,,,,,,,YES,,1
+RECONCILED,3,C096,,,,,,,NO,,1
+RECONCILED,3,C097,,,,,,,NO,,1
+RECONCILED,3,C098,,,,,,,NO,,1
+RECONCILED,3,C099,,,,,,,YES,,1
+RECONCILED,3,C100,,,,,,,NO,,1
