@@ -158,7 +158,7 @@ const Q = {
     {k: "loctest", t: "Q6 Yerel test", sub: "commit, onarılan işlemin locale gereksinimini kuran, doğrulayan veya çalıştıran bir test ekliyor ya da değiştiriyor mu?", o: ["YES", "NO", "UNCLEAR"]},
   ],
 };
-const COLS = ["coder", "set", "item_id", "genuine", "change", "role", "trigger", "family", "fit", "loctest", "note", "complete", "updated_at"];
+const COLS = ["coder", "set", "item_id", "genuine", "change", "role", "trigger", "family", "fit", "loctest", "note", "complete"];
 
 const fresh = coder => ({coder, answers: {}, set: 1, cur: {1: 0, 2: 0, 3: 0}});
 let state = fresh("");
@@ -243,7 +243,7 @@ function renderItem() {
 }
 
 function upd(it, patch) {
-  state.answers[it.id] = Object.assign({}, state.answers[it.id], patch, {updated_at: new Date().toISOString()});
+  state.answers[it.id] = Object.assign({}, state.answers[it.id], patch);
   save();
 }
 function setAns(it, k, v) {
@@ -305,7 +305,7 @@ function importCsv(file) {
       const o = Object.fromEntries(h.map((k, j) => [k, row[j] ?? ""]));
       if (!ids.has(o.item_id)) continue;
       coder = coder || o.coder;
-      const a = {}; for (const k of ["genuine", "change", "role", "trigger", "family", "fit", "loctest", "note", "updated_at"]) if (o[k]) a[k] = o[k];
+      const a = {}; for (const k of ["genuine", "change", "role", "trigger", "family", "fit", "loctest", "note"]) if (o[k]) a[k] = o[k];
       if (Object.keys(a).length) { state.answers[o.item_id] = a; n++; }
     }
     if (!state.coder.trim() && coder) { state.coder = coder; document.getElementById("coder").value = coder; }

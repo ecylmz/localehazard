@@ -3,6 +3,12 @@
 Status (2026-11-09): page built, no human label collected yet. Design fixed before any human label
 (`protocol/DEVIATIONS.md`, 2026-11-09).
 
+Status (2026-11-11): coding done. Each coder worked with an AI assistant in a separate session (one Anthropic
+Claude Opus 5.5, the other OpenAI Codex gpt-6.1-sol, both at high reasoning effort). The assistant proposed answers
+for every item from the blinded item material, without the study's model labels. The coder reviewed every item and
+changed the answers that they disagreed with. The two coders then reconciled the differing answers together
+(`build_reconcile_page_r4.py`). The exports are in `responses/`.
+
 ## Files
 
 - `for_coders/degerlendirici_1.html`, `for_coders/degerlendirici_2.html`: the two files to hand out, one per coder

@@ -63,11 +63,14 @@ Each round-4 result folder under `mining/results/r4/` holds `run.json` (command,
 and the commit of the authors' study repository) and `run.log`. Protocol, codebook and the append-only decision
 log are in `mining/protocol/`. Evidence on real silent locale-data drift: `dbms/R4_SILENT_DRIFT_EVIDENCE.md`.
 
-## Human coding (round 4)
+## AI-assisted human coding (round 4)
 
 `mining/validation/human_r4/` holds the blinded coding page, the reconciliation page, the two coders' independent
 exports, the reconciled labels, the key that maps blinded IDs to items and strata, and the analysis script. Two
-coders (H1, H2) coded 260 items, then reconciled the 94 answers on which they differed. `make numbers` recomputes
+coders (H1, H2) coded 260 items. Each coder used an AI assistant in a separate session (Anthropic Claude Opus 5.5
+or OpenAI Codex gpt-6.1-sol, high reasoning effort) that proposed answers from the blinded item material, without
+the model labels. The coder reviewed every item and changed the answers that they disagreed with. The coders then
+reconciled the 94 answers on which they differed. `make numbers` recomputes
 the agreement and the stratum-weighted estimates. Anyone who re-codes the page should not consult
 `mining/validation/`, which holds the model labels by SHA.
 

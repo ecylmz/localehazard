@@ -170,7 +170,8 @@ fmt = lambda x: f"{x:,}" if isinstance(x, int) else str(x)
 def _p(x):
     return "<0.001" if x < 0.001 else f"{x:.3f}" if x < 0.01 else f"{x:.2f}"
 def _d(c):  # difference and Newcombe interval in percentage points
-    return f"{100 * c['diff_newcombe95'][0]:.1f}", f"{100 * c['diff_newcombe95'][1]:.1f} to {100 * c['diff_newcombe95'][2]:.1f}"
+    sg = lambda x: f"$-${-x:.1f}" if x < 0 else f"{x:.1f}"
+    return f"{100 * c['diff_newcombe95'][0]:.1f}", f"{sg(100 * c['diff_newcombe95'][1])}{' to ' if c['diff_newcombe95'][1] < 0 else '--'}{sg(100 * c['diff_newcombe95'][2])}"
 _V = ROOT / "results/r4_rq1.json"
 if _V.exists():
     V = json.load(open(_V)); C = V["contrast"]; oc = V["opposite_census"]; rf = V["role_fit_r4"]; fam = V["pinning_share_by_query"]
@@ -212,7 +213,7 @@ if _H.exists():
                  RvHumPinMisfit=pc(w["pinning_misfit_share"]["estimate"]), RvHumLocPrec=pc(lt["precision"]["estimate"]),
                  RvHumLocRecall=pc(lt["recall"]["estimate"]))
         sg = lambda x: f"$-${-x:.1f}" if x < 0 else f"{x:.1f}"
-        CI = lambda d: f"{sg(100 * d['ci95'][0])}--{sg(100 * d['ci95'][1])}"
+        CI = lambda d: f"{sg(100 * d['ci95'][0])}{' to ' if d['ci95'][0] < 0 else '--'}{sg(100 * d['ci95'][1])}"
         k = Hh["agreement_h1_h2"]; kl = Hh["agreement_h_llm"]
         kk = lambda d: f"{d['kappa']:.2f}"
         other = [k[q]["kappa"] for q in k if not q.endswith("_fit")]

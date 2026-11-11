@@ -41,7 +41,7 @@ ax.tick_params(length=0)
 from matplotlib.lines import Line2D
 h = [Rectangle((0, 0), 1, 1, facecolor=BLUE, edgecolor=BLUE), Rectangle((0, 0), 1, 1, facecolor="white", edgecolor=MUTED),
      Line2D([], [], marker="x", ls="", color=INK, ms=5), Rectangle((0, 0), 1, 1, facecolor="white", edgecolor=GRID, hatch="////")]
-ax.legend(h, ["flagged by a locale-relevant rule", "not flagged", "cell is a CDM (label confirmed by execution)", "API not in the language's standard surface"],
+ax.legend(h, ["flagged by a locale-relevant rule", "not flagged", "cell is a CDM under its stated role", "API not in the language's standard surface"],
           loc="lower center", bbox_to_anchor=(0.5, 1.06), ncol=2, frameon=False, fontsize=7, handlelength=1.2)
 groups = [("Java", 0, 4), (".NET", 4, 5), ("Go", 5, 7), ("Python", 7, 9), ("JS", 9, 10), ("C", 10, 12)]
 for name, a, b in groups:
