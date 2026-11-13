@@ -1,0 +1,20 @@
+{
+  "command": [
+    "sh",
+    "-c",
+    "python3 src/rq3_numbers.py > /dev/null && python3 src/generate_numbers.py"
+  ],
+  "cwd": ".",
+  "git_commit": "46a2065430a58d7899cd0b5fe787d00022d825d4",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "results/r4_human.json": "2a948928b6fe56f7e2d52df72a685e43e07ab249310fadf25b91488f0a0fcfde",
+    "results/r4_rq2_realcode.json": "c63c4bf73db8d8459a5d8b8acba977abe1088b73451bab61094a563b6a8e9d33"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-13T20:05:14+00:00",
+  "status": "ok",
+  "end": "2026-11-13T20:05:14+00:00",
+  "exit_code": 0
+}

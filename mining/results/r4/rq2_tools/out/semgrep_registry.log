@@ -1,0 +1,35 @@
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 1439 files with 1082 Code rules:
+                                                                                                                        
+  Language      Rules   Files          Origin      Rules                                                                
+ ─────────────────────────────        ───────────────────                                                               
+  <multilang>      47    1439          Community    1082                                                                
+  java            118     656                                                                                           
+  csharp           40     334                                                                                           
+  ts              164     294                                                                                           
+  js              154     154                                                                                           
+  json              4       1                                                                                           
+                                                                                                                        
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+✅ Scan completed successfully.
+ • Findings: 318 (318 blocking)
+ • Rules run: 370
+ • Targets scanned: 1439
+ • Parsed lines: ~99.9%
+ • Scan skipped: 
+   ◦ Files matching .semgrepignore patterns: 66
+ • For a detailed list of skipped files and lines, run semgrep with the --verbose flag
+Ran 370 rules on 1439 files: 318 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading
+
+📢 Too many findings? Try Semgrep Pro for more powerful queries and less noise.
+   See https://sg.run/false-positives.

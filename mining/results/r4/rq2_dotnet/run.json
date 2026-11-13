@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "src/r4_rq2_run_dotnet.py",
+    "data/raw/r4/realcode",
+    "results/r4/rq2_dotnet/out"
+  ],
+  "cwd": ".",
+  "git_commit": "639f14ce55d4e9b846e9d224135f2cc81bb115f5",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "data/raw/r4/realcode": "eb0eba99caac3a4b23f5b2af7bda3e4040f11ab2b3cc7b79504b7c9bcbb2c4c2",
+    "src/r4_rq2_dotnet_runner": "8c97bfb68e7626c10d5846a4af92a50194c7b022b81c1f7f8bd4e2c34d1e79e5"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-13T20:01:38+00:00",
+  "status": "ok",
+  "end": "2026-11-13T20:02:07+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,4 @@
+dotnet sdk 10.0.115
+analyzers 7, roslyn 5.0.0.0
+rules CA1304 CA1305 CA1307 CA1308 CA1309 CA1310 CA1311 CA1862
+sides 100

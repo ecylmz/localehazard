@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "src/r4_rq2_score.py",
+    "results/r4/rq2_tools/out",
+    "results/r4/rq2_dotnet/out"
+  ],
+  "cwd": ".",
+  "git_commit": "7826813285ae6fbbc8944138c15a532c95a6ba4e",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "results/r4/rq2_tools/out": "9206bb892b8aeb464634a38cf23e8b06dc510be55af927fa6b6c9cbcd57979fb",
+    "results/r4/rq2_dotnet/out": "0ca4fe6bf39a48525996c11f6960360921d53ba5062714612ec3b824a90385e1",
+    "data/processed/realcode_files.csv": "a8f8e5fbbffe6091214c84f485b94aa1b8ef07239d929010665a01869d6ba636",
+    "validation/human_r4/responses/human_coding_reconciled_2026-11-11.csv": "48cef6ad9dd5ae3bb2f1e33414e1a53e19846c40ddacde29e1c1d61600fc478c"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-13T20:04:32+00:00",
+  "status": "ok",
+  "end": "2026-11-13T20:05:05+00:00",
+  "exit_code": 0
+}

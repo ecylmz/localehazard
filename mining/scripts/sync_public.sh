@@ -11,7 +11,7 @@ rsync -a $EX "$ST/src/" "$PU/mining/src/"
 rsync -a --exclude=AMENDMENT_A2.md "$ST/protocol/" "$PU/mining/protocol/"  # the public amendment is the edited version
 rsync -a $EX "$ST/validation/" "$PU/mining/validation/"
 sed -i "s/\(H[12]\) ([^)]*)/\1/g" "$PU/mining/validation/human_r4/for_coders/uzlasma.html" "$PU/mining/validation/human_r4/build_reconcile_page_r4.py"
-sed -i "s/H1 = [^,]* (the author), H2 = [^.]*\./H1 = the author, H2 = a second coder./" "$PU/mining/protocol/DEVIATIONS.md"
+sed -i "s/H1 = [^,]* (the author), H2 = [^.]*\./H1 = the first author, H2 = the second author./" "$PU/mining/protocol/DEVIATIONS.md"
 rsync -a "$ST/results/" "$PU/mining/results/"
 mkdir -p "$PU/mining/scripts" "$PU/mining/docs"
 rsync -a "$ST/scripts/" "$PU/mining/scripts/"

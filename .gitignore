@@ -37,5 +37,10 @@ mining/logs/
 
 # Round 4: run records and generated macros are part of the package
 !mining/results/r4/**/*.log
+!mining/results/r4/**/out/
+!mining/results/r4/**/out/**
+mining/results/r4/**/out/runner_bin/
+mining/src/**/bin/
+mining/src/**/obj/
 !numbers/
 !numbers/*.tex

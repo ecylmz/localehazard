@@ -26,7 +26,91 @@
     "flag_pre": 25,
     "flag_post": 0,
     "flag_only_ideal_side": 25
-   }
+   },
+   "dotnet": {
+    "flag_pre": 33,
+    "flag_post": 13,
+    "flag_only_ideal_side": 20
+   },
+   "by_language": {
+    "csharp": {
+     "n": 43,
+     "prototype": {
+      "flag_pre": 3,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 33,
+      "flag_post": 13
+     }
+    },
+    "java": {
+     "n": 32,
+     "prototype": {
+      "flag_pre": 8,
+      "flag_post": 2
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 25,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    },
+    "js_ts": {
+     "n": 7,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {
+     "locale-sensitive-case-into-machine-sink": 2
+    },
+    "registry": {},
+    "pmd": {},
+    "dotnet": {
+     "CA1307": 4,
+     "CA1308": 12,
+     "CA1862": 2,
+     "CA1305": 1,
+     "CA1310": 1
+    }
+   },
+   "human_coded": {
+    "set1:-/FIT": 21,
+    "set1:-/NEUTRAL": 4,
+    "set1:-/MISFIT": 1
+   },
+   "human_coded_lineages": 26
   },
   "pin_linguistic_misfit": {
    "lineages_located_both_sides": 9,
@@ -45,7 +129,83 @@
     "flag_pre": 3,
     "flag_post": 0,
     "flag_only_ideal_side": 0
-   }
+   },
+   "dotnet": {
+    "flag_pre": 1,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "by_language": {
+    "csharp": {
+     "n": 1,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 1,
+      "flag_post": 0
+     }
+    },
+    "java": {
+     "n": 3,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 3,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    },
+    "js_ts": {
+     "n": 5,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {},
+    "registry": {},
+    "pmd": {},
+    "dotnet": {}
+   },
+   "human_coded": {
+    "set1:-/FIT": 4,
+    "set1:-/NEUTRAL": 1,
+    "set1:-/MISFIT": 4
+   },
+   "human_coded_lineages": 9
   },
   "aware_linguistic": {
    "lineages_located_both_sides": 82,
@@ -64,7 +224,66 @@
     "flag_pre": 0,
     "flag_post": 0,
     "flag_only_ideal_side": 0
-   }
+   },
+   "dotnet": {
+    "flag_pre": 1,
+    "flag_post": 0,
+    "flag_only_ideal_side": 1
+   },
+   "by_language": {
+    "csharp": {
+     "n": 1,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 1,
+      "flag_post": 0
+     }
+    },
+    "js_ts": {
+     "n": 81,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {},
+    "registry": {},
+    "pmd": {},
+    "dotnet": {}
+   },
+   "human_coded": {
+    "set2:LOCALE_AWARE/FIT": 18,
+    "set2:OTHER/-": 4,
+    "set2:LOCALE_AWARE/MISFIT": 3,
+    "set1:-/FIT": 2,
+    "set2:LOCALE_AWARE/CANNOT_TELL": 1
+   },
+   "human_coded_lineages": 27
   },
   "aware_machine_misfit": {
    "lineages_located_both_sides": 10,
@@ -83,7 +302,65 @@
     "flag_pre": 6,
     "flag_post": 0,
     "flag_only_ideal_side": 0
-   }
+   },
+   "dotnet": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "by_language": {
+    "java": {
+     "n": 7,
+     "prototype": {
+      "flag_pre": 1,
+      "flag_post": 1
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 6,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    },
+    "js_ts": {
+     "n": 3,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {
+     "locale-sensitive-case-into-machine-sink": 1
+    },
+    "registry": {},
+    "pmd": {},
+    "dotnet": {}
+   },
+   "human_coded": {
+    "set2:OTHER/-": 7,
+    "set2:LOCALE_AWARE/FIT": 3
+   },
+   "human_coded_lineages": 10
   },
   "aware_machine_engine_dependent": {
    "lineages_located_both_sides": 17,
@@ -102,7 +379,44 @@
     "flag_pre": 0,
     "flag_post": 0,
     "flag_only_ideal_side": 0
-   }
+   },
+   "dotnet": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "by_language": {
+    "js_ts": {
+     "n": 17,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {},
+    "registry": {},
+    "pmd": {},
+    "dotnet": {}
+   },
+   "human_coded": {
+    "set2:LOCALE_AWARE/MISFIT": 16,
+    "set2:LOCALE_AWARE/NEUTRAL": 1
+   },
+   "human_coded_lineages": 17
   },
   "aware_machine_role_neutral": {
    "lineages_located_both_sides": 5,
@@ -121,13 +435,50 @@
     "flag_pre": 0,
     "flag_post": 0,
     "flag_only_ideal_side": 0
-   }
+   },
+   "dotnet": {
+    "flag_pre": 0,
+    "flag_post": 0,
+    "flag_only_ideal_side": 0
+   },
+   "by_language": {
+    "js_ts": {
+     "n": 5,
+     "prototype": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "registry": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "pmd": {
+      "flag_pre": 0,
+      "flag_post": 0
+     },
+     "dotnet": {
+      "flag_pre": 0,
+      "flag_post": 0
+     }
+    }
+   },
+   "post_rules_lineages": {
+    "prototype": {},
+    "registry": {},
+    "pmd": {},
+    "dotnet": {}
+   },
+   "human_coded": {
+    "set2:OTHER/-": 5
+   },
+   "human_coded_lineages": 5
   }
  },
  "findings_files": {
   "prototype": 89,
   "registry": 0,
-  "pmd": 287
+  "pmd": 287,
+  "dotnet": 243
  },
  "semgrep_version": "1.179.0\npmd 7.28.0"
 }

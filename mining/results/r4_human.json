@@ -189,6 +189,22 @@
    "validation_genuine_included": 51,
    "aware": 52,
    "pinning": 47
+  },
+  "single_coder": {
+   "h1": {
+    "validation_misfit_share": 0.0312,
+    "aware_misfit_share": 0.2517,
+    "pinning_misfit_share": 0.0346,
+    "aware_minus_pinning": 0.2171,
+    "aware_minus_pinning_without_engine_dependent": 0.0824
+   },
+   "h2": {
+    "validation_misfit_share": 0.127,
+    "aware_misfit_share": 0.3156,
+    "pinning_misfit_share": 0.1137,
+    "aware_minus_pinning": 0.202,
+    "aware_minus_pinning_without_engine_dependent": 0.0744
+   }
   }
  },
  "locale_test_regex": {

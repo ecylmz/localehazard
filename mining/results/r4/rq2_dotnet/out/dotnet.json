@@ -1,0 +1,6267 @@
+{
+ "files": [
+  {
+   "filename": "/src/0a4dce3b4cc71d396b97fb0fefe58c5714a6186d/post/EasyExtractUnitypackageRework/EasyExtract/Controls/ExtractedContent.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 99
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 214
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 220
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 133
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 81
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 99
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 214
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 220
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 133
+    }
+   ]
+  },
+  {
+   "filename": "/src/0a4dce3b4cc71d396b97fb0fefe58c5714a6186d/pre/EasyExtractUnitypackageRework/EasyExtract/Controls/ExtractedContent.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 83
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 187
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 71
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 107
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 83
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 187
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 107
+    }
+   ]
+  },
+  {
+   "filename": "/src/12ab52b8461dc209e435147d8076379fdc456672/post/Gigya.Microdot.Fakes/OverridableConfigItems.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/12ab52b8461dc209e435147d8076379fdc456672/pre/Gigya.Microdot.Fakes/OverridableConfigItems.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/post/Engine/Pipelines/Css/Build/CssPathResolver.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/post/Engine/Pipelines/Css/Publish/CssBundler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/post/Engine/Pipelines/Css/Publish/CssParser.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/post/Engine/Pipelines/JavaScript/Publish/JsModuleResolver.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/post/Engine/Servers/WebServer.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 186
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 211
+    }
+   ]
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/pre/Engine/Pipelines/Css/Build/CssPathResolver.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 28
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 28
+    }
+   ]
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/pre/Engine/Pipelines/Css/Publish/CssBundler.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 145
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 161
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 161
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 161
+    }
+   ]
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/pre/Engine/Pipelines/Css/Publish/CssParser.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/pre/Engine/Pipelines/JavaScript/Publish/JsModuleResolver.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1347f30eb56a141dfbbd006796717240c1020adc/pre/Engine/Servers/WebServer.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 186
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 211
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 214
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 215
+    }
+   ]
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/post/src/Device.Virtual/Services/ScriptCommands/AssertCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/post/src/Device.Virtual/Services/ScriptCommands/EndDepositCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/post/src/Device.Virtual/Services/ScriptCommands/InjectErrorCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/pre/src/Device.Virtual/Services/ScriptCommands/AssertCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/pre/src/Device.Virtual/Services/ScriptCommands/EndDepositCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/167c61c1b318bdf23a66894320370949ec851c85/pre/src/Device.Virtual/Services/ScriptCommands/InjectErrorCommandHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Api/Controller/RefListSerializerPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 15
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Api/Controller/TxtRefListSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Api/Model/ChannelList.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 141
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 193
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Api/Model/LookupData.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 135
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Api/Utils/IniFile.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 96
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 158
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 174
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 110
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.Hisense/ServicelistDb/ServicelistDbSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 301
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.LG/Binary/TllFileSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 123
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 163
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 368
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 478
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 620
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 784
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 120
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 122
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 124
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 126
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 130
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 132
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 146
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 148
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 150
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 154
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 156
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.LG/GlobalClone/GcJsonSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 186
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 143
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 163
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 251
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 251
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 52
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 115
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 187
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 187
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.LG/GlobalClone/GcXmlSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 118
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 118
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 244
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 255
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 264
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 268
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 271
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 274
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 279
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 284
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 287
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 290
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 293
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 297
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 302
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 308
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 311
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 314
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 316
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 337
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 458
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 463
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 550
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 330
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 466
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 496
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 497
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 498
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 499
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 501
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 563
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.Philips/PhilipsPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 88
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 114
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.Philips/XmlSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 524
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 600
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 275
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 524
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 600
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 202
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 369
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 618
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 648
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 668
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 117
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 214
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 217
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 218
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 222
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 277
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 482
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 524
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 690
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 703
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 703
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.Samsung/Zip/DbSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 556
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 412
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.Toshiba/ToshibaPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 14
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 14
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort.Loader.VDR/Channels.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 34
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 52
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 55
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 97
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 107
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 109
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 124
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 155
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 156
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 157
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 165
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 168
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 195
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 46
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 108
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 150
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 153
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 162
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort/MainForm.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 536
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 969
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 72
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 73
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 570
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1254
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1516
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 574
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 1529
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/post/source/ChanSort/XGrid/XGridControl.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Api/Controller/RefListSerializerPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 15
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 15
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Api/Controller/TxtRefListSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Api/Model/ChannelList.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 141
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 141
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Api/Model/LookupData.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 135
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Api/Utils/IniFile.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 96
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 158
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 174
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 110
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.Hisense/ServicelistDb/ServicelistDbSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 301
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 301
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.LG/Binary/TllFileSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 1134
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 123
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 163
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 368
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 478
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 620
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 784
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 120
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 122
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 124
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 126
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 130
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 132
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 146
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 148
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 150
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 154
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 156
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 1134
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.LG/GlobalClone/GcJsonSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 186
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 116
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 143
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 163
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 251
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 251
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 52
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 115
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 187
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 187
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 186
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.LG/GlobalClone/GcXmlSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 118
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 118
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 588
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 244
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 255
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 264
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 268
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 271
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 274
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 279
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 284
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 287
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 290
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 293
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 297
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 302
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 308
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 311
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 314
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 316
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 337
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 458
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 463
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 550
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 330
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 466
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 496
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 497
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 498
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 499
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 501
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 563
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 118
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.Philips/PhilipsPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 88
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 88
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 114
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.Philips/XmlSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 516
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 588
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 516
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 267
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 588
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 194
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 361
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 606
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 636
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 656
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 109
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 206
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 209
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 210
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 214
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 269
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 474
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 516
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 678
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 691
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 691
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 267
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 588
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.Samsung/Zip/DbSerializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 123
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 556
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 412
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 123
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.Toshiba/ToshibaPlugin.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 14
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 14
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 14
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort.Loader.VDR/Channels.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 217
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 34
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 52
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 55
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 97
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 107
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 109
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 114
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 124
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 155
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 156
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 157
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 165
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 168
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 195
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 46
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 108
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 150
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 153
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 217
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort/MainForm.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 536
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 969
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 1655
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 72
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 73
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 570
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1254
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1516
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 574
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 1529
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 536
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 969
+    }
+   ]
+  },
+  {
+   "filename": "/src/1b250b2a18e121310f169786accfca0285d3d80c/pre/source/ChanSort/XGrid/XGridControl.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1eb5be4d4cf5eb80922b5a2fc3a188eac05912d2/post/OpenRA.Mods.Common/UtilityCommands/UpgradeRules.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/1eb5be4d4cf5eb80922b5a2fc3a188eac05912d2/pre/OpenRA.Mods.Common/UtilityCommands/UpgradeRules.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Domain.Dialogporten.ChangeDataCapture/ChangeDataCapture/ICdcSubscription.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 24
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 23
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Domain.Dialogporten.Domain/Dialogs/Entities/DialogSearchTag.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 13
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Domain.Dialogporten.Domain/Localizations/Localization.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 31
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Domain.Dialogporten.Infrastructure/Common/Serialization/SerializerOptions.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 55
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Domain.Dialogporten.WebApi/Endpoints/V1/ServiceOwner/ServiceOwnerGroup.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 10
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/post/src/Digdir.Tool.Dialogporten.SlackNotifier/Common/Extensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Domain.Dialogporten.ChangeDataCapture/ChangeDataCapture/ICdcSubscription.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 24
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 23
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 24
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 23
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Domain.Dialogporten.Domain/Dialogs/Entities/DialogSearchTag.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 13
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 13
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Domain.Dialogporten.Domain/Localizations/Localization.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 31
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 31
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Domain.Dialogporten.Infrastructure/Common/Serialization/SerializerOptions.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 55
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 55
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Domain.Dialogporten.WebApi/Endpoints/V1/ServiceOwner/ServiceOwnerGroup.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 10
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 10
+    }
+   ]
+  },
+  {
+   "filename": "/src/230eccd614d4481ccc3b82a6c0c78fed5a9b9dcd/pre/src/Digdir.Tool.Dialogporten.SlackNotifier/Common/Extensions.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 31
+    }
+   ]
+  },
+  {
+   "filename": "/src/273bce65a79554d5370b5419d00cabe03ec7153b/post/Sentinel.FileMonitor/FileMonitoringProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 163
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 168
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 173
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 178
+    }
+   ]
+  },
+  {
+   "filename": "/src/273bce65a79554d5370b5419d00cabe03ec7153b/post/Sentinel/Extractors/Extractor.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 202
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 202
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 202
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 200
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 202
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 198
+    }
+   ]
+  },
+  {
+   "filename": "/src/273bce65a79554d5370b5419d00cabe03ec7153b/pre/Sentinel.FileMonitor/FileMonitoringProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 127
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 86
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 117
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 133
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 138
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 143
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 127
+    }
+   ]
+  },
+  {
+   "filename": "/src/273bce65a79554d5370b5419d00cabe03ec7153b/pre/Sentinel/Extractors/Extractor.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 197
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 199
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 201
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 197
+    }
+   ]
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/post/Mage/SQLiteReader.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/post/MageExtExtractionFilters/ExtractionPipelines.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 191
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 192
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 191
+    }
+   ]
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/post/MageUIComponents/ColumnMappingForm.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 778
+    }
+   ]
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/pre/Mage/SQLiteReader.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 300
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 300
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 300
+    }
+   ]
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/pre/MageExtExtractionFilters/ExtractionPipelines.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 171
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 171
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 191
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 192
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 191
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 171
+    }
+   ]
+  },
+  {
+   "filename": "/src/2b9176cb1e3735041cb00a9ac8f92cc30f3db033/pre/MageUIComponents/ColumnMappingForm.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 405
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 405
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 778
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 405
+    }
+   ]
+  },
+  {
+   "filename": "/src/2c7b6a7c70111f40f3c75c418c0cfe23b8386b66/post/C#_Version/DeconEngine/Readers/Icr2lsRawData.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 365
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 370
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 375
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 380
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 385
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 390
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 403
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 409
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 414
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 425
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 430
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 435
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 596
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 621
+    }
+   ]
+  },
+  {
+   "filename": "/src/2c7b6a7c70111f40f3c75c418c0cfe23b8386b66/post/C#_Version/DeconMSn/DeconMSn.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 306
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 48
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 117
+    }
+   ]
+  },
+  {
+   "filename": "/src/2c7b6a7c70111f40f3c75c418c0cfe23b8386b66/pre/C#_Version/DeconEngine/Readers/Icr2lsRawData.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 351
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 351
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 351
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 365
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 370
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 375
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 380
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 385
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 390
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 403
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 409
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 414
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 425
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 430
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 435
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 596
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 621
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 351
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 341
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 345
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 351
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 351
+    }
+   ]
+  },
+  {
+   "filename": "/src/2c7b6a7c70111f40f3c75c418c0cfe23b8386b66/pre/C#_Version/DeconMSn/DeconMSn.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 111
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 111
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 306
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 48
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 111
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 117
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 111
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/App/RestApiService.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Import/RegistryImporter.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/MachineIdentifier.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 45
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Serializers/MiscSerializers/RemoteDesktopConnectionDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 53
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Serializers/MiscSerializers/SecureCRTFileDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 125
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 127
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 129
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Serializers/MiscSerializers/SecureCRTIniDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 60
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 77
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Settings/DockPanelLayoutLoader.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Settings/Registry/OptRegistryNotificationsPage.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 307
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Config/Settings/SettingsLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 285
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Connection/Protocol/IntegratedProgram.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 534
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 529
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 529
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Connection/Protocol/PowerShell/Connection.Protocol.PowerShell.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 255
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Connection/Protocol/Terminal/Connection.Protocol.Terminal.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Connection/WebHelper.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Tools/Cmdline/CommandLineArguments.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 79
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Tools/ExternalToolArgumentParser.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 326
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 194
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 112
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Tools/MiscTools.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 88
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 91
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 252
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 121
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Tools/WindowsRegistry/WinRegistry.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 361
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 383
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/post/mRemoteNG/Tools/WindowsRegistry/WinRegistryEntry.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 666
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 377
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 378
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 675
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 879
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/App/RestApiService.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 174
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 512
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Import/RegistryImporter.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 33
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/MachineIdentifier.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 45
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Serializers/MiscSerializers/RemoteDesktopConnectionDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 53
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 43
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Serializers/MiscSerializers/SecureCRTFileDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 139
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 125
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 127
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 129
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 139
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Serializers/MiscSerializers/SecureCRTIniDeserializer.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 33
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 35
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 60
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 77
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Settings/DockPanelLayoutLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 141
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 150
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Settings/Registry/OptRegistryNotificationsPage.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 293
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 306
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 308
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 293
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Config/Settings/SettingsLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 285
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 285
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Connection/Protocol/IntegratedProgram.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 534
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 485
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 520
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 529
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 529
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Connection/Protocol/PowerShell/Connection.Protocol.PowerShell.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 255
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 193
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Connection/Protocol/Terminal/Connection.Protocol.Terminal.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 46
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 46
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Connection/WebHelper.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 20
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Tools/Cmdline/CommandLineArguments.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 78
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Tools/ExternalToolArgumentParser.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 326
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 326
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 194
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 112
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 326
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Tools/MiscTools.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 88
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 91
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 252
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 121
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 289
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Tools/WindowsRegistry/WinRegistry.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 361
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 383
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 361
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 383
+    }
+   ]
+  },
+  {
+   "filename": "/src/3090f568e42250d8c174946564bff4b880873fc5/pre/mRemoteNG/Tools/WindowsRegistry/WinRegistryEntry.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 666
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 377
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 378
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 675
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 879
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 666
+    }
+   ]
+  },
+  {
+   "filename": "/src/30c8772a7ecb0bf563a876ffb2188e06537af4c3/post/Jupyter/QuantBook.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/30c8772a7ecb0bf563a876ffb2188e06537af4c3/post/Launcher/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 36
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 36
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 36
+    }
+   ]
+  },
+  {
+   "filename": "/src/30c8772a7ecb0bf563a876ffb2188e06537af4c3/pre/Jupyter/QuantBook.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/30c8772a7ecb0bf563a876ffb2188e06537af4c3/pre/Launcher/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 36
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 36
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 36
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 36
+    }
+   ]
+  },
+  {
+   "filename": "/src/31f154f1ea2af3700729369949debe322c7005a3/post/FastaFileMaker_Exe/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 78
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 188
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 203
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 222
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 266
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 267
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 145
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 152
+    }
+   ]
+  },
+  {
+   "filename": "/src/31f154f1ea2af3700729369949debe322c7005a3/pre/FastaFileMaker_Exe/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 329
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 330
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 78
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 188
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 203
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 222
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 266
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 267
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 145
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 329
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 330
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 329
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 330
+    }
+   ]
+  },
+  {
+   "filename": "/src/34450d617cc801a7d5b10f0f58ec998c9964e50a/post/src/Lucene.Net.Tests.Suggest/Suggest/Analyzing/AnalyzingInfixSuggesterTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/34450d617cc801a7d5b10f0f58ec998c9964e50a/pre/src/Lucene.Net.Tests.Suggest/Suggest/Analyzing/AnalyzingInfixSuggesterTest.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 893
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 902
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 893
+    }
+   ]
+  },
+  {
+   "filename": "/src/355e22c1b09ca061c1e1b48c2c84201dfebcde8b/post/ReciPro/DiffractionSimulator/FormDiffractionSimulatorGeometry.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 297
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 297
+    }
+   ]
+  },
+  {
+   "filename": "/src/355e22c1b09ca061c1e1b48c2c84201dfebcde8b/pre/ReciPro/DiffractionSimulator/FormDiffractionSimulatorGeometry.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 181
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 297
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 181
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 181
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 297
+    }
+   ]
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/post/RDFSharp.Test/Model/RDFResourceTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/post/RDFSharp.Test/Model/Validation/Abstractions/RDFShapesGraphTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/post/RDFSharp.Test/Query/Mirella/Algebra/RDFFederationTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/pre/RDFSharp.Test/Model/RDFResourceTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/pre/RDFSharp.Test/Model/Validation/Abstractions/RDFShapesGraphTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/35fd2af9974a478e7f84f50d8c46580a3166e8ea/pre/RDFSharp.Test/Query/Mirella/Algebra/RDFFederationTest.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/42f4dbd3751059f3e08def4030d56c47ce45f3e4/post/src/BotCore/ML/UCBManager.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/42f4dbd3751059f3e08def4030d56c47ce45f3e4/pre/src/BotCore/ML/UCBManager.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 59
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 59
+    }
+   ]
+  },
+  {
+   "filename": "/src/478f6ba5f30ae74159a122954fedb103cd5b1512/post/MiniLM/src/BERTTokenizers/Base/TokenizerBase.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 59
+    }
+   ]
+  },
+  {
+   "filename": "/src/478f6ba5f30ae74159a122954fedb103cd5b1512/pre/MiniLM/src/BERTTokenizers/Base/TokenizerBase.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 59
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 133
+    }
+   ]
+  },
+  {
+   "filename": "/src/50d81a75ba1ddcd6ace61f14c1b7ae3b54911e19/post/ReScene.Tests/SFVFileTests.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/50d81a75ba1ddcd6ace61f14c1b7ae3b54911e19/pre/ReScene.Tests/SFVFileTests.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/5405c0e396e72565ca407af3e112fa25f1a04573/post/Server/Program.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/5405c0e396e72565ca407af3e112fa25f1a04573/post/Windows/EmbeddedServer.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/5405c0e396e72565ca407af3e112fa25f1a04573/pre/Server/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 72
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 75
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 89
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 93
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 159
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 161
+    }
+   ]
+  },
+  {
+   "filename": "/src/5405c0e396e72565ca407af3e112fa25f1a04573/pre/Windows/EmbeddedServer.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 106
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 107
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 110
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 141
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 145
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 159
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 208
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 210
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 211
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 193
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/Autogens/Extensions.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 26
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/AcompressorFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/AdeclickFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 87
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/AdeclipFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 82
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/AdynamicequalizerFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 134
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/AfadeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 78
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/ApulsatorFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 58
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 98
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.AudioFilters/Filters/VolumeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 74
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 81
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.VideoFilters/Filters/FadeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 39
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.VideoFilters/Filters/OverLayFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 70
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 84
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.VideoFilters/Filters/PadFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 82
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters.VideoFilters/Filters/ScaleFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 125
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/post/FFmpegArgs.Filters/Interfaces/IFramesync.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/Autogens/Extensions.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 44
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 26
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 44
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/AcompressorFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 113
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 113
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/AdeclickFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 87
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 87
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/AdeclipFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 82
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 82
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/AdynamicequalizerFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 134
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 134
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/AfadeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 78
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 78
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/ApulsatorFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 58
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 98
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 58
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 98
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.AudioFilters/Filters/VolumeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 74
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 81
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 67
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 74
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 81
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.VideoFilters/Filters/FadeFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 39
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 39
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.VideoFilters/Filters/OverLayFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 70
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 84
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 70
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 84
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.VideoFilters/Filters/PadFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 82
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 82
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters.VideoFilters/Filters/ScaleFilter.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 125
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 125
+    }
+   ]
+  },
+  {
+   "filename": "/src/5f55b83671701e696c17f7acdc84856f9209fe17/pre/FFmpegArgs.Filters/Interfaces/IFramesync.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 24
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 24
+    }
+   ]
+  },
+  {
+   "filename": "/src/64466b61ce768e148a92b9883648aec01ac934b8/post/Core2D/Editor/Editor.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 2139
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 2139
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 2139
+    }
+   ]
+  },
+  {
+   "filename": "/src/64466b61ce768e148a92b9883648aec01ac934b8/pre/Core2D/Editor/Editor.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 2139
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 2139
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 2139
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/post/Runtime/Snipe.Unity/Communicator/API/Tables/Internal/SnipeTableStreamingAssetsLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 68
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/post/Runtime/Snipe.Unity/Communicator/API/Tables/TablesLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 306
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 284
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 308
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 322
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/post/Runtime/Snipe.Unity/Communicator/Auth/AuthIdFetchers/AmazonIdFetcher.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 56
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 56
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/post/Runtime/Snipe.Unity/Communicator/Auth/AuthIdFetchers/DeviceIdFetcher.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 57
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/post/Runtime/Snipe/Communicator/Common/SnipeConfig.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 263
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 282
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/pre/Runtime/Snipe.Unity/Communicator/API/Tables/Internal/SnipeTableStreamingAssetsLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 68
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 68
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/pre/Runtime/Snipe.Unity/Communicator/API/Tables/TablesLoader.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 306
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 284
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 308
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 322
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 306
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/pre/Runtime/Snipe.Unity/Communicator/Auth/AuthIdFetchers/AmazonIdFetcher.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 56
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 56
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 56
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/pre/Runtime/Snipe.Unity/Communicator/Auth/AuthIdFetchers/DeviceIdFetcher.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 57
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 57
+    }
+   ]
+  },
+  {
+   "filename": "/src/699b2ae4fca3c2863de78b30051ba8ba3e98a016/pre/Runtime/Snipe/Communicator/Common/SnipeConfig.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 263
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 282
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 299
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 263
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 299
+    }
+   ]
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/post/src/TypealizR/Core/GeneratorOptions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/post/src/TypealizR/StringLocalizerExtensionsSourceGenerator/ExtensionClassModel.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/post/src/TypealizR/TypealizedClassSourceGenerator/TypealizedClassModel.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/pre/src/TypealizR/Core/GeneratorOptions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/pre/src/TypealizR/StringLocalizerExtensionsSourceGenerator/ExtensionClassModel.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/6cc2cf81a59230f19bde57303426dfff6f194f45/pre/src/TypealizR/TypealizedClassSourceGenerator/TypealizedClassModel.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/post/src/BotCore/Services/ControllerOptionsService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 54
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/post/src/BotCore/Services/ExecutionCostConfigService.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/post/src/BotCore/Services/RiskConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 67
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/post/src/BotCore/Services/RollConfigService.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/post/src/BotCore/Services/SizerConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 51
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/pre/src/BotCore/Services/ControllerOptionsService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 53
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 53
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/pre/src/BotCore/Services/ExecutionCostConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 70
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 70
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/pre/src/BotCore/Services/RiskConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 66
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 66
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/pre/src/BotCore/Services/RollConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 45
+    }
+   ]
+  },
+  {
+   "filename": "/src/75f137e760b36f9d638094a180a739c7ea4e7f3a/pre/src/BotCore/Services/SizerConfigService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 50
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 50
+    }
+   ]
+  },
+  {
+   "filename": "/src/7abe05827b4667f586c6771990f2aafc0cd6171e/post/Assets/VRM10/Runtime/Migration/MigrationVrmExpression.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 17
+    }
+   ]
+  },
+  {
+   "filename": "/src/7abe05827b4667f586c6771990f2aafc0cd6171e/pre/Assets/VRM10/Runtime/Migration/MigrationVrmExpression.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 17
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 17
+    }
+   ]
+  },
+  {
+   "filename": "/src/7f63cfbf48cf802bd53cf746fe2b943865614265/post/XCode/DataAccessLayer/Common/DbBase.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 568
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 723
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 758
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 404
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 415
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 568
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 826
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 837
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 880
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 887
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 568
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 821
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 875
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 875
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 875
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 843
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 404
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 415
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 568
+    }
+   ]
+  },
+  {
+   "filename": "/src/7f63cfbf48cf802bd53cf746fe2b943865614265/pre/XCode/DataAccessLayer/Common/DbBase.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 565
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 401
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 412
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 565
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 717
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 749
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 817
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 828
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 871
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 878
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 565
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 812
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 866
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 866
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 866
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 834
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 401
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 412
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 565
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 717
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 749
+    }
+   ]
+  },
+  {
+   "filename": "/src/80dc92cc943f25d9a19331c4cef22fbd1ebc5700/post/LibraryAPI/Application/Services/AuthService.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/80dc92cc943f25d9a19331c4cef22fbd1ebc5700/pre/LibraryAPI/Application/Services/AuthService.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/post/OpenUtau.Core/Util/Onnx.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/post/OpenUtau.Core/Voicevox/VoicevoxClient.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    }
+   ]
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/post/OpenUtau/Views/MainWindow.axaml.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 1008
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 346
+    }
+   ]
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/pre/OpenUtau.Core/Util/Onnx.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/pre/OpenUtau.Core/Voicevox/VoicevoxClient.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 18
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 45
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 18
+    }
+   ]
+  },
+  {
+   "filename": "/src/8b9ac2fc612ced90db8deafdf5934dd2ea751438/pre/OpenUtau/Views/MainWindow.axaml.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 1008
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 346
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 1008
+    }
+   ]
+  },
+  {
+   "filename": "/src/8d75de1d986e60408ef34fba2c310d409f0b453f/post/Clippit/MetricsGetter.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/8d75de1d986e60408ef34fba2c310d409f0b453f/post/Clippit/PtUtil.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 288
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 329
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 748
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 42
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1012
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1029
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 1005
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 1022
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 107
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 173
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 179
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 288
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 329
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 748
+    }
+   ]
+  },
+  {
+   "filename": "/src/8d75de1d986e60408ef34fba2c310d409f0b453f/pre/Clippit/MetricsGetter.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/8d75de1d986e60408ef34fba2c310d409f0b453f/pre/Clippit/PtUtil.cs",
+   "violations": [
+    {
+     "rule": "CA1862",
+     "beginline": 100
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1862",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 290
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 331
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 750
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 93
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 100
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 147
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 198
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 42
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1014
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 1031
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 1007
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 1024
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 94
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 100
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 108
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 148
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 175
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 181
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 290
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 750
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 331
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 93
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 100
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 147
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 162
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 198
+    }
+   ]
+  },
+  {
+   "filename": "/src/925f5148d9d7783c261ce534aa48d9250d66b771/post/src/Cici.CLI/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 128
+    }
+   ]
+  },
+  {
+   "filename": "/src/925f5148d9d7783c261ce534aa48d9250d66b771/pre/src/Cici.CLI/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 128
+    }
+   ]
+  },
+  {
+   "filename": "/src/9694e0b8a1e2f3ec44cb2c371e67cfe8ec3802c3/post/src/Svg.Skia/Svg/SvgExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 7386
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 7387
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 2497
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 2508
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 7386
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 7387
+    }
+   ]
+  },
+  {
+   "filename": "/src/9694e0b8a1e2f3ec44cb2c371e67cfe8ec3802c3/pre/src/Svg.Skia/Svg/SvgExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 7384
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 7385
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 5473
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 2497
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 2508
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 2559
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 2559
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 7384
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 7385
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 2515
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 2530
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 2537
+    }
+   ]
+  },
+  {
+   "filename": "/src/96b6e73170fd5ea5cc93560c7427ce198e45dc97/post/Kudu.Core/Deployment/Generator/CustomBuilder.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96b6e73170fd5ea5cc93560c7427ce198e45dc97/pre/Kudu.Core/Deployment/Generator/CustomBuilder.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/CSharpWriter/CodeTranslation/BlockTranslators/SelectBlockTranslator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/CSharpWriter/CodeTranslation/StatementTranslation/StatementTranslator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/CSharpWriter/CodeTranslation/StatementTranslation/ValueSettingStatementsTranslator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/CSharpWriter/DefaultTranslator.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/ContentBreaking/StringBreaker.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 49
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/ContentBreaking/TokenBreaker.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/Tokens/Basic/AtomToken.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/Tokens/Basic/BuiltInValueToken.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/Tokens/Basic/EscapedNameToken.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/LegacyParser/Tokens/Basic/NumericValueToken_Extensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/post/src/Skrypton/RuntimeSupport/Implementations/DefaultRuntimeFunctionalityProvider.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/CSharpWriter/CodeTranslation/BlockTranslators/SelectBlockTranslator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/CSharpWriter/CodeTranslation/StatementTranslation/StatementTranslator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/CSharpWriter/CodeTranslation/StatementTranslation/ValueSettingStatementsTranslator.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 177
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/CSharpWriter/DefaultTranslator.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 253
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/ContentBreaking/StringBreaker.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 49
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 100
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/ContentBreaking/TokenBreaker.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/Tokens/Basic/AtomToken.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/Tokens/Basic/BuiltInValueToken.cs",
+   "violations": [
+    {
+     "rule": "CA1311",
+     "beginline": 29
+    }
+   ]
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/Tokens/Basic/EscapedNameToken.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/LegacyParser/Tokens/Basic/NumericValueToken_Extensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/96f8f88847bb55d623a6fc27c31811092baa5648/pre/src/Skrypton/RuntimeSupport/Implementations/DefaultRuntimeFunctionalityProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1311",
+     "beginline": 1747
+    }
+   ]
+  },
+  {
+   "filename": "/src/9f73e72668125ab61511f38111e6c944ffbd0167/post/src/OKF4net/Yaml/YamlParser.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 583
+    }
+   ]
+  },
+  {
+   "filename": "/src/9f73e72668125ab61511f38111e6c944ffbd0167/pre/src/OKF4net/Yaml/YamlParser.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 85
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 126
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 174
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 255
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 583
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/post/Application/Auth/DTOs/LoginDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 10
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 20
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/post/Application/Products/DTOs/CreateProductDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 18
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/post/Application/Products/DTOs/PatchProductDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 20
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/post/Application/Users/DTOs/CreateUserDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 19
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 9
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 19
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/post/Domain/Entities/User.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 70
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 58
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/pre/Application/Auth/DTOs/LoginDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 10
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 10
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 12
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 22
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/pre/Application/Products/DTOs/CreateProductDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 18
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 18
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 21
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/pre/Application/Products/DTOs/PatchProductDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 20
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 22
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/pre/Application/Users/DTOs/CreateUserDTO.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 9
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 19
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 9
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 19
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 12
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 22
+    }
+   ]
+  },
+  {
+   "filename": "/src/a2dbb559d242c1e84825ffd81ac21bd2fdbd11b5/pre/Domain/Entities/User.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 54
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 68
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 56
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 54
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML.Test/ShortFileNameMappingTests.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 177
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML/AbstractFileMonitor.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML/FileInfoComparer.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML/ShortFileNameMapping.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 185
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 108
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 185
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML/SrcML.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/post/ABB.SrcML/SrcMLRunner.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML.Test/ShortFileNameMappingTests.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 177
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML/AbstractFileMonitor.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML/FileInfoComparer.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 33
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML/ShortFileNameMapping.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 185
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 108
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 182
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 185
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 90
+    }
+   ]
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML/SrcML.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/a9e552ad9485f0f7816e210c4834de54ac7e3a42/pre/ABB.SrcML/SrcMLRunner.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/aacbe113e879cd161f4136c8c7c5a257ad8dd833/post/Musoq.Plugins/Lib/LibraryBaseStrings.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 412
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 435
+    }
+   ]
+  },
+  {
+   "filename": "/src/aacbe113e879cd161f4136c8c7c5a257ad8dd833/pre/Musoq.Plugins/Lib/LibraryBaseStrings.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 266
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 382
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 405
+    }
+   ]
+  },
+  {
+   "filename": "/src/b637568cc172a99ec9d2c56a1def921d4f68fbca/post/Api/Todo/Helpers/StringExtensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/b637568cc172a99ec9d2c56a1def921d4f68fbca/pre/Api/Todo/Helpers/StringExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 9
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/post/SimpleZipDrive/MainWindow.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 559
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 566
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/post/SimpleZipDrive/Services/MountService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 160
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/post/SimpleZipDrive_WinFsp/MainWindow.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 547
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 554
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/post/SimpleZipDrive_WinFsp/Services/MountService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 167
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 175
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/pre/SimpleZipDrive/MainWindow.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 559
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 566
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 560
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 560
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 560
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 561
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 561
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 561
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/pre/SimpleZipDrive/Services/MountService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 152
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 154
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 154
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 154
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 155
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 155
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 155
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/pre/SimpleZipDrive_WinFsp/MainWindow.xaml.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 547
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 554
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 548
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 548
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 548
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 549
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 549
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 549
+    }
+   ]
+  },
+  {
+   "filename": "/src/c143948db3517d88189449c7cb06bab2c20a8632/pre/SimpleZipDrive_WinFsp/Services/MountService.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 167
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 175
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 170
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 170
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 170
+    }
+   ]
+  },
+  {
+   "filename": "/src/c47031cde06317275fedc542a6f5c3634968316a/post/sites/api.arolariu.ro/tests/arolariu.Backend.Domain.Tests/Invoices/DDD/EdgeCases/InvoiceEdgeCaseTests.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c47031cde06317275fedc542a6f5c3634968316a/pre/sites/api.arolariu.ro/tests/arolariu.Backend.Domain.Tests/Invoices/DDD/EdgeCases/InvoiceEdgeCaseTests.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Base/StringExtensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Base/StringUtilities.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Db/Providers/MySql/MySqlTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 161
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Db/Providers/Oracle/OracleTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 256
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 380
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 190
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 381
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 434
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Db/Providers/PostgreSql/PgTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 259
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 325
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 171
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 358
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Db/Providers/SqlServer/SqlTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 169
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Db/Providers/Sqlite/SqliteTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 261
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 262
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 352
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/post/src/Bee.Definition/Collections/MessagePackKeyCollectionBase.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Base/StringExtensions.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Base/StringUtilities.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Db/Providers/MySql/MySqlTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 161
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 258
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Db/Providers/Oracle/OracleTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 180
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 256
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 380
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 190
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 381
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 434
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 380
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Db/Providers/PostgreSql/PgTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 259
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 325
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 171
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 358
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 259
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 325
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Db/Providers/SqlServer/SqlTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 265
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 312
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 169
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 265
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 312
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Db/Providers/Sqlite/SqliteTableSchemaProvider.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 288
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 261
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 262
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 352
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 288
+    }
+   ]
+  },
+  {
+   "filename": "/src/c96a22252dfeac08e36015220aa680a0b36de21a/pre/src/Bee.Definition/Collections/MessagePackKeyCollectionBase.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Core/Extensions/StringExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 121
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 159
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 402
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Building/Builders/StorageMappingBuilder.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Configuration/Internals/ConnectionInfoParser.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Configuration/Internals/DomainTypeRegistrationHandler.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/EntitySetBase.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Providers/NameBuilder.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 550
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 303
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 419
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 577
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 583
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 557
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 559
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Providers/StorageDriver.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Orm/Xtensive.Orm/Orm/Upgrade/Internals/SqlActionTranslator.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 1185
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Weaver/Xtensive.Orm.Weaver/Application/Program.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/post/Weaver/Xtensive.Orm.Weaver/WeavingHelper.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 96
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 34
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 47
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Core/Extensions/StringExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 29
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 102
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 121
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 140
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 159
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 402
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 415
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Building/Builders/StorageMappingBuilder.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 41
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 28
+    },
+    {
+     "rule": "CA1309",
+     "beginline": 28
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Configuration/Internals/ConnectionInfoParser.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 38
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Configuration/Internals/DomainTypeRegistrationHandler.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 35
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/EntitySetBase.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 381
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Providers/NameBuilder.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 550
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 128
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 303
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 419
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 577
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 583
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 105
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 557
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 559
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Providers/StorageDriver.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Orm/Xtensive.Orm/Orm/Upgrade/Internals/SqlActionTranslator.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 1184
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 1185
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Weaver/Xtensive.Orm.Weaver/Application/Program.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 51
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 64
+    }
+   ]
+  },
+  {
+   "filename": "/src/c9f8c8ca68c2da5a7b2a50f1edb9e946b6aee080/pre/Weaver/Xtensive.Orm.Weaver/WeavingHelper.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 96
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 34
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 45
+    }
+   ]
+  },
+  {
+   "filename": "/src/d40da4c9157410240bd24e5845a6fe526e118585/post/src/Microsoft.TestPlatform.TestHostProvider/Hosting/DotnetTestHostManager.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 109
+    }
+   ]
+  },
+  {
+   "filename": "/src/d40da4c9157410240bd24e5845a6fe526e118585/pre/src/Microsoft.TestPlatform.TestHostProvider/Hosting/DotnetTestHostManager.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 109
+    }
+   ]
+  },
+  {
+   "filename": "/src/dc69c8baa52fdd1d15f227223f2b17cb2577eb08/post/GZCTF/Utils/Codec.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1308",
+     "beginline": 272
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 192
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 272
+    }
+   ]
+  },
+  {
+   "filename": "/src/dc69c8baa52fdd1d15f227223f2b17cb2577eb08/pre/GZCTF/Utils/Codec.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 193
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1304",
+     "beginline": 272
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 192
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 272
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 258
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 272
+    }
+   ]
+  },
+  {
+   "filename": "/src/e2e27c973464323da178bef6e1b0d92e09df745b/post/src/NetSuiteAccess/Services/Items/NetSuiteItemsService.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 21
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 98
+    }
+   ]
+  },
+  {
+   "filename": "/src/e2e27c973464323da178bef6e1b0d92e09df745b/pre/src/NetSuiteAccess/Services/Items/NetSuiteItemsService.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 143
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 21
+    },
+    {
+     "rule": "CA1305",
+     "beginline": 98
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 143
+    }
+   ]
+  },
+  {
+   "filename": "/src/e3fbb1f4569b2be9367e8d54cea30cc0bc193a0e/post/Sharpdown/MarkdownElement/InlineElement/InlineElementUtils.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 1072
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    }
+   ]
+  },
+  {
+   "filename": "/src/e3fbb1f4569b2be9367e8d54cea30cc0bc193a0e/pre/Sharpdown/MarkdownElement/InlineElement/InlineElementUtils.cs",
+   "violations": [
+    {
+     "rule": "CA1305",
+     "beginline": 1072
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 160
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 164
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 165
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 170
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 809
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/post/JsonSchemaValidation/Common/JsonElementExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/post/JsonSchemaValidation/Draft202012/Keywords/DynamicRefValidator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/post/JsonSchemaValidation/Draft202012/Keywords/Format/EmailValidator.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/post/JsonSchemaValidation/Draft202012/Keywords/Format/UriValidationLogic.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 66
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/post/JsonSchemaValidation/Repositories/SchemaRepository.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/pre/JsonSchemaValidation/Common/JsonElementExtensions.cs",
+   "violations": [
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    },
+    {
+     "rule": "CA1310",
+     "beginline": 11
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 43
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/pre/JsonSchemaValidation/Draft202012/Keywords/DynamicRefValidator.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 101
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/pre/JsonSchemaValidation/Draft202012/Keywords/Format/EmailValidator.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 112
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/pre/JsonSchemaValidation/Draft202012/Keywords/Format/UriValidationLogic.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 42
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 47
+    },
+    {
+     "rule": "CA1307",
+     "beginline": 66
+    }
+   ]
+  },
+  {
+   "filename": "/src/e4d54d026ff3640011e7fea9d1e23f0839afcbf6/pre/JsonSchemaValidation/Repositories/SchemaRepository.cs",
+   "violations": [
+    {
+     "rule": "CA1310",
+     "beginline": 280
+    }
+   ]
+  },
+  {
+   "filename": "/src/e85703db4e030559511e973530d40eea2b3ba774/post/Src/Runic/Runes/RuneToValue.cs",
+   "violations": [
+    {
+     "rule": "CA1308",
+     "beginline": 21
+    }
+   ]
+  },
+  {
+   "filename": "/src/e85703db4e030559511e973530d40eea2b3ba774/pre/Src/Runic/Runes/RuneToValue.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 19
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 19
+    }
+   ]
+  },
+  {
+   "filename": "/src/f2ac865a6eeee5bf51be9529223168b5d350878c/post/src/QueryCat.Backend.Core/Functions/FunctionSignatureArgument.cs",
+   "violations": []
+  },
+  {
+   "filename": "/src/f2ac865a6eeee5bf51be9529223168b5d350878c/pre/src/QueryCat.Backend.Core/Functions/FunctionSignatureArgument.cs",
+   "violations": [
+    {
+     "rule": "CA1304",
+     "beginline": 53
+    },
+    {
+     "rule": "CA1311",
+     "beginline": 53
+    }
+   ]
+  }
+ ]
+}

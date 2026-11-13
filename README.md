@@ -3,7 +3,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23103136.svg)](https://doi.org/10.5281/zenodo.23103136)
 
 Replication package for "Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs,
-Static Analyzers, and PostgreSQL".
+Static Analyzers, and PostgreSQL" by Emre Can Yılmaz and Recai Oktaş (Ondokuz Mayıs University). Version 2.1.0
+accompanies the revised manuscript.
 
 A locale-sensitive text operation can behave exactly as documented and still be wrong for the text it processes.
 Turkish case mapping is correct for a Turkish word and wrong for a protocol keyword (`TITLE` → `tıtle`).
@@ -52,11 +53,11 @@ manuscript RQ2 (analyzers), `rq2`/`Rtwo*` = manuscript RQ3 (PostgreSQL). Macros 
 | RQ1 locale-test indicator | `r4_loctest_indicators.py` | `data/processed/locale_test_indicators.csv` | post hoc |
 | RQ1 reference rate | `r4_reference_commits.py`, `r4_reference_analysis.py` | `data/processed/reference_commits.csv`, `r4_reference.json` | post hoc |
 | RQ1 agent comparison, multi-lineage repositories | `rq3_round2.py` | `rq3_round2.json` | post hoc |
-| RQ1 human coding (round 4) | `validation/human_r4/analyze_human_r4.py` | `results/r4_human.json`, `validation/human_r4/responses/` | planned validation (difference intervals post hoc) |
+| RQ1 AI-assisted human coding (round 4) | `validation/human_r4/analyze_human_r4.py` | `results/r4_human.json`, `validation/human_r4/responses/` | planned validation (difference intervals and single-coder estimates post hoc) |
 | RQ2 probes, Figure 4 | `analyzers/analyze_detectors.py` | `analyzers/results/` | planned / post hoc (context probes) |
-| RQ2 real code | `r4_rq2_fetch_files.py`, `mining/scripts/r4_rq2_run_tools.sh`, `r4_rq2_score.py` | `results/r4/rq2_tools/out/`, `r4_rq2_realcode.json` | exploratory |
+| RQ2 real code | `r4_rq2_fetch_files.py`, `mining/scripts/r4_rq2_run_tools.sh`, `r4_rq2_run_dotnet.py` (with `r4_rq2_dotnet_runner/`), `r4_rq2_score.py` | `results/r4/rq2_tools/out/`, `results/r4/rq2_dotnet/out/`, `r4_rq2_realcode.json` | exploratory (.NET run post hoc) |
 | RQ3 Table 3 | `dbms/run_dbms_experiment.py`, `dbms/emulation_check.py` | `dbms/results/`, `numbers/tab_rq2.tex` | planned / post hoc (two conditions) |
-| RQ3 C.UTF-8 versioning | `dbms/r4_collversion_c_utf8.sh` | `mining/results/r4/rq3_collversion_c_utf8/run.log` | post hoc |
+| RQ3 C.UTF-8 versioning | `dbms/r4_collversion_c_utf8.sh` | `mining/results/r4/rq3_collversion_c_utf8-2/run.log` (libc and builtin C.UTF-8) | post hoc |
 | All numbers | `mining/src/rq3_numbers.py`, `generate_numbers.py` | `numbers/numbers.tex` | |
 
 Each round-4 result folder under `mining/results/r4/` holds `run.json` (command, input checksums, times, exit code,
@@ -70,7 +71,8 @@ exports, the reconciled labels, the key that maps blinded IDs to items and strat
 coders (H1, H2) coded 260 items. Each coder used an AI assistant in a separate session (Anthropic Claude Opus 5.5
 or OpenAI Codex gpt-6.1-sol, high reasoning effort) that proposed answers from the blinded item material, without
 the model labels. The coder reviewed every item and changed the answers that they disagreed with. The coders then
-reconciled the 94 answers on which they differed. `make numbers` recomputes
+reconciled the 94 answers on which they differed. Both coders are authors of the paper. `results/r4_human.json` also
+holds the estimates with each coder's labels alone (`single_coder`). `make numbers` recomputes
 the agreement and the stratum-weighted estimates. Anyone who re-codes the page should not consult
 `mining/validation/`, which holds the model labels by SHA.
 

@@ -156,8 +156,8 @@ if _RC.exists():
     RC = json.load(open(_RC))
     for tag, src in (("Cx", "D1_codex"), ("Op", "D2_claude")):
         ag, f = RC["agreement"][f"{src}_vs_original"], RC["figures"][src]
-        N.update({f"Rrc{tag}KGen": f"{ag["set1_genuine"]["kappa"]:.3f}", f"Rrc{tag}KRole": f"{ag["set1_role"]["kappa"]:.3f}", f"Rrc{tag}KTrig": f"{ag["set1_trigger"]["kappa"]:.3f}",
-                  f"Rrc{tag}KFam": f"{ag["set1_family"]["kappa"]:.3f}", f"Rrc{tag}KLingRole": f"{ag["set2_role"]["kappa"]:.3f}", f"Rrc{tag}KLingChange": f"{ag["set2_change"]["kappa"]:.3f}",
+        N.update({f"Rrc{tag}KGen": f"{ag['set1_genuine']['kappa']:.3f}", f"Rrc{tag}KRole": f"{ag['set1_role']['kappa']:.3f}", f"Rrc{tag}KTrig": f"{ag['set1_trigger']['kappa']:.3f}",
+                  f"Rrc{tag}KFam": f"{ag['set1_family']['kappa']:.3f}", f"Rrc{tag}KLingRole": f"{ag['set2_role']['kappa']:.3f}", f"Rrc{tag}KLingChange": f"{ag['set2_change']['kappa']:.3f}",
                   f"Rrc{tag}PrecK": f["precision_frozen"]["k"], f"Rrc{tag}Prec": pc(f["precision_frozen"]["k"] / f["precision_frozen"]["n"]),
                   f"Rrc{tag}Misfit": f["role_fit"]["misfit"], f"Rrc{tag}MisN": f["role_fit"]["n"],
                   f"Rrc{tag}Opp": f["opposite"]["role_inconsistent"], f"Rrc{tag}OppN": f["opposite"]["locale_aware"],
@@ -194,9 +194,26 @@ if _Q.exists():
     N.update(RvRealLineages=Q["lineages_with_files"], RvRealPinMachN=cg["pin_machine"]["lineages_located_both_sides"],
              RvRealPmdPinMachPre=cg["pin_machine"]["pmd"]["flag_pre"], RvRealProtoPinMachIdeal=cg["pin_machine"]["prototype"]["flag_only_ideal_side"],
              RvRealMisfitN=sum(cg[c]["lineages_located_both_sides"] for c in mis),
-             RvRealMisfitPostFlags=sum(cg[c][t]["flag_post"] for c in mis for t in ("prototype", "registry", "pmd")),
+             RvRealMisfitPostFlags=sum(cg[c][t]["flag_post"] for c in mis for t in ("prototype", "registry", "pmd", "dotnet") if t in cg[c]),
              RvRealPmdMisfitPre=sum(cg[c]["pmd"]["flag_pre"] for c in mis), RvRealAwareLingN=cg["aware_linguistic"]["lineages_located_both_sides"],
              RvRealRegistryFindings=Q["findings_files"]["registry"])
+    if "by_language" in cg["pin_machine"]:  # post hoc, 2026-11-13
+        bl = cg["pin_machine"]["by_language"]; lg = lambda c, l: cg[c]["by_language"].get(l, {}).get("n", 0)
+        hc = lambda c, lab: cg[c]["human_coded"].get(lab, 0)
+        N.update(RvRealPinMachJava=lg("pin_machine", "java"), RvRealPinMachCs=lg("pin_machine", "csharp"),
+                 RvRealPinMachJs=lg("pin_machine", "js_ts"), RvRealProtoPinMachPost=cg["pin_machine"]["prototype"]["flag_post"],
+                 RvRealMisfitJava=sum(lg(c, l) for c in mis for l in cg[c]["by_language"] if "java" in l.split("+")),
+                 RvRealPinMachHumN=cg["pin_machine"]["human_coded_lineages"], RvRealPinMachHumFit=hc("pin_machine", "set1:-/FIT"),
+                 RvRealAwareMachN=cg["aware_machine_misfit"]["lineages_located_both_sides"],
+                 RvRealAwareMachHumFit=hc("aware_machine_misfit", "set2:LOCALE_AWARE/FIT"),
+                 RvRealAwareMachHumOther=hc("aware_machine_misfit", "set2:OTHER/-"),
+                 RvRealEngN=cg["aware_machine_engine_dependent"]["lineages_located_both_sides"],
+                 RvRealEngHumMisfit=hc("aware_machine_engine_dependent", "set2:LOCALE_AWARE/MISFIT"))
+        if "dotnet" in cg["pin_machine"]:
+            cs = bl.get("csharp", {}).get("dotnet", {})
+            N.update(RvRealDotnetPinMachPre=cs.get("flag_pre", 0), RvRealDotnetPinMachPost=cs.get("flag_post", 0),
+                     RvRealDotnetFindings=Q["findings_files"]["dotnet"],
+                     RvRealDotnetPinMachPostCAEight=cg["pin_machine"].get("post_rules_lineages", {}).get("dotnet", {}).get("CA1308", 0))
 _F = ROOT / "results/r4_reference.json"
 if _F.exists():
     F = json.load(open(_F)); e, ci = F["estimates"], F["ci95"]
@@ -238,4 +255,10 @@ if _H.exists():
                  RvHumKGenLlmMin=f"{min(kl[q]['kappa'] for q in kl if '_genuine_' in q):.2f}",
                  RvHumKChangeLlmMin=f"{min(kl[q]['kappa'] for q in kl if '_change_' in q):.2f}",
                  RvHumKChangeLlmMax=f"{max(kl[q]['kappa'] for q in kl if '_change_' in q):.2f}")
+        if "single_coder" in w:  # post hoc, 2026-11-13
+            for tag, c in (("One", "h1"), ("Two", "h2")):
+                sc = w["single_coder"][c]
+                N.update({f"RvHum{tag}ValMisfit": pc(sc["validation_misfit_share"]), f"RvHum{tag}AwareMisfit": pc(sc["aware_misfit_share"]),
+                          f"RvHum{tag}PinMisfit": pc(sc["pinning_misfit_share"]), f"RvHum{tag}Diff": pc(sc["aware_minus_pinning"]),
+                          f"RvHum{tag}DiffEng": pc(sc["aware_minus_pinning_without_engine_dependent"])})
 json.dump(N, open(ROOT / "results/rq3_numbers.json", "w"), indent=1)

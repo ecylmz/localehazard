@@ -142,6 +142,20 @@ if rec:
                                   "aware": cnt(s2, lambda h: lab(h, "change") == "LOCALE_AWARE"),
                                   "pinning": cnt(s1, lambda h: genuine_inc(h) and pin_only(key[h]["sha"]))}
 
+    # Point estimates with one coder's labels in place of the reconciled ones (post hoc, 2026-11-13). No resampling, so
+    # the random stream of the intervals above is unchanged.
+    def point(labels):
+        global lab
+        saved, lab = lab, (lambda h, q: labels.get(h, {}).get(q, ""))
+        mis = lambda h: lab(h, "fit") == "MISFIT"
+        r = {"validation_misfit_share": wshare(s1, mis, genuine_inc),
+             "aware_misfit_share": wshare(s2, mis, lambda h: lab(h, "change") == "LOCALE_AWARE"),
+             "pinning_misfit_share": wshare(s1, mis, lambda h: genuine_inc(h) and pin_only(key[h]["sha"])),
+             "aware_minus_pinning": diff(joint, False), "aware_minus_pinning_without_engine_dependent": diff(joint, True)}
+        lab = saved
+        return {k: None if v is None else round(v, 4) for k, v in r.items()}
+    out["weighted"]["single_coder"] = {"h1": point(h1), "h2": point(h2)}
+
 out_path = ROOT / "results/r4_human.json"
 json.dump(out, open(out_path, "w"), indent=1)
 print(json.dumps(out, indent=1))

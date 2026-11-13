@@ -1,12 +1,17 @@
 {
   "title": "LocaleHazard: replication package for 'Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs, Static Analyzers, and PostgreSQL'",
   "upload_type": "software",
-  "description": "<p>Replication package for the study \"Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs, Static Analyzers, and PostgreSQL\". It contains a controlled cross-ecosystem benchmark (construct demonstration), GitHub repair-commit mining with a diff-based classifier and coded validation samples (RQ1), role-paired probes and recorded outputs of twelve static analyzers and Semgrep (RQ2), and a PostgreSQL 18.6 collation-data change experiment validated against a real glibc 2.27 runtime (RQ3).</p><p>Licensing: code is released under the MIT License (LICENSE); data and documentation are released under CC BY 4.0 (LICENSE-DATA). Commit subjects and short code excerpts mined from public GitHub repositories remain under their original licenses.</p>",
+  "description": "<p>Replication package for the study \"Correct Contract, Wrong Text: Text Roles in Locale-Sensitive Operations Across Repairs, Static Analyzers, and PostgreSQL\". It contains a controlled cross-ecosystem benchmark (construct demonstration), GitHub repair-commit mining with a diff-based classifier, coded validation samples, and AI-assisted human coding (RQ1), role-paired probes and recorded outputs of twelve static analyzers and Semgrep, and an exploratory run of the rules on real repairs (RQ2), and a PostgreSQL 18.6 collation-data change experiment validated against a real glibc 2.27 runtime (RQ3).</p><p>Licensing: code is released under the MIT License (LICENSE); data and documentation are released under CC BY 4.0 (LICENSE-DATA). Commit subjects and short code excerpts mined from public GitHub repositories remain under their original licenses.</p>",
   "creators": [
     {
       "name": "Yılmaz, Emre Can",
       "affiliation": "Ondokuz Mayıs University",
       "orcid": "0000-0003-4365-9131"
+    },
+    {
+      "name": "Oktaş, Recai",
+      "affiliation": "Ondokuz Mayıs University",
+      "orcid": "0000-0003-3282-3549"
     }
   ],
   "license": "MIT",
@@ -28,5 +33,6 @@
       "scheme": "url"
     }
   ],
-  "notes": "Data and documentation are licensed under CC BY 4.0; code under MIT."
+  "notes": "Data and documentation are licensed under CC BY 4.0; code under MIT.",
+  "version": "2.1.0"
 }

@@ -9,7 +9,9 @@
 set -eu
 SRC=$(cd "$1" && pwd)
 OUT=$2; mkdir -p "$OUT"; OUT=$(cd "$OUT" && pwd)
-RULES=$(cd "$(dirname "$0")/../detectors/semgrep" && pwd)
+R=$(dirname "$0")
+if [ -d "$R/../detectors/semgrep" ]; then RULES=$(cd "$R/../detectors/semgrep" && pwd)  # study layout
+else RULES=$(cd "$R/../../analyzers/semgrep" && pwd); fi                            # package layout
 SG=semgrep/semgrep:1.179.0
 PMDV=7.28.0
 

@@ -10,7 +10,8 @@
 #             dbms/loc/bionic (this reproduces the authors' loc/bionic bit for bit).
 # Then run: python3 dbms/run_dbms_experiment.py synthetic && python3 dbms/run_dbms_experiment.py dictionary
 # (as a non-root user; PostgreSQL refuses to run as root). The dictionary dataset is /usr/share/dict/american-english
-# from the wamerican package; its SHA-256 is checked against the one in dbms/results/dbms_results_dictionary.json.
+# from the wamerican package; the driver records its SHA-256 in the results file. Compare it with the one in
+# dbms/results/dbms_results_dictionary.json to make sure that the word list is the same.
 set -eu
 H=$(cd "$(dirname "$0")" && pwd)
 S="$H/src"; mkdir -p "$S" "$H/loc/old" "$H/loc/v228" "$H/loc/new"
