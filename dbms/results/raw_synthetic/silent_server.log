@@ -1,0 +1,38 @@
+2026-10-02 06:39:38.450 +03 [4057434] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:39:38.450 +03 [4057434] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55441"
+2026-10-02 06:39:38.464 +03 [4057486] LOG:  database system was shut down at 2026-10-02 06:39:36 +03
+2026-10-02 06:39:38.471 +03 [4057434] LOG:  database system is ready to accept connections
+2026-10-02 06:39:53.166 +03 [4057434] LOG:  received fast shutdown request
+2026-10-02 06:39:53.315 +03 [4057434] LOG:  aborting any active transactions
+2026-10-02 06:39:53.316 +03 [4057434] LOG:  background worker "logical replication launcher" (PID 4057508) exited with exit code 1
+2026-10-02 06:39:53.318 +03 [4057484] LOG:  shutting down
+2026-10-02 06:39:53.348 +03 [4057484] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:40:20.307 +03 [4057484] LOG:  checkpoint complete: wrote 10834 buffers (66.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 10 recycled; write=3.173 s, sync=22.984 s, total=26.989 s; sync files=1829, longest=0.316 s, average=0.013 s; distance=167258 kB, estimate=167258 kB; lsn=0/BABC888, redo lsn=0/BABC888
+2026-10-02 06:40:20.370 +03 [4057434] LOG:  database system is shut down
+2026-10-02 06:40:20.440 +03 [4114736] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:40:20.440 +03 [4114736] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55441"
+2026-10-02 06:40:20.776 +03 [4115239] LOG:  database system was shut down at 2026-10-02 06:40:19 +03
+2026-10-02 06:40:20.816 +03 [4114736] LOG:  database system is ready to accept connections
+2026-10-02 06:40:20.955 +03 [4115478] ERROR:  item order invariant violated for index "t_s_uq"
+2026-10-02 06:40:20.955 +03 [4115478] DETAIL:  Lower index tid=(407,109) (points to index tid=(512,1)) higher index tid=(407,110) (points to index tid=(513,1)) page lsn=0/31804E8.
+2026-10-02 06:40:20.955 +03 [4115478] STATEMENT:  SELECT bt_index_check('t_s_uq', true)
+2026-10-02 06:40:20.987 +03 [4115500] ERROR:  down-link lower bound invariant violated for index "t_s_uq"
+2026-10-02 06:40:20.987 +03 [4115500] DETAIL:  Parent block=202 child index tid=(277,3) parent page lsn=0/3025098.
+2026-10-02 06:40:20.987 +03 [4115500] STATEMENT:  SELECT bt_index_parent_check('t_s_uq', true, true)
+2026-10-02 06:42:07.054 +03 [67194] ERROR:  could not create unique index "t_s_uq"
+2026-10-02 06:42:07.054 +03 [67194] DETAIL:  Key (s)=(b'a) is duplicated.
+2026-10-02 06:42:07.054 +03 [67194] STATEMENT:  REINDEX INDEX t_s_uq
+2026-10-02 06:42:07.055 +03 [67193] ERROR:  could not create unique index "t_s_uq"
+2026-10-02 06:42:07.055 +03 [67193] DETAIL:  Key (s)=(b'a) is duplicated.
+2026-10-02 06:42:07.055 +03 [67193] CONTEXT:  parallel worker
+2026-10-02 06:42:07.055 +03 [67193] STATEMENT:  REINDEX INDEX t_s_uq
+2026-10-02 06:42:07.058 +03 [4114736] LOG:  background worker "parallel worker" (PID 67194) exited with exit code 1
+2026-10-02 06:45:20.589 +03 [4115237] LOG:  checkpoint starting: time
+2026-10-02 06:46:28.805 +03 [4114736] LOG:  received fast shutdown request
+2026-10-02 06:46:28.809 +03 [4114736] LOG:  aborting any active transactions
+2026-10-02 06:46:28.810 +03 [4114736] LOG:  background worker "logical replication launcher" (PID 4115317) exited with exit code 1
+2026-10-02 06:46:29.563 +03 [4115237] LOG:  checkpoint complete: wrote 3653 buffers (22.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 9 recycled; write=68.822 s, sync=0.108 s, total=68.974 s; sync files=1169, longest=0.018 s, average=0.001 s; distance=146996 kB, estimate=146996 kB; lsn=0/17261788, redo lsn=0/14A49A10
+2026-10-02 06:46:29.563 +03 [4115237] LOG:  shutting down
+2026-10-02 06:46:29.566 +03 [4115237] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:46:30.196 +03 [4115237] LOG:  checkpoint complete: wrote 747 buffers (4.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 3 recycled; write=0.426 s, sync=0.181 s, total=0.633 s; sync files=150, longest=0.168 s, average=0.002 s; distance=41055 kB, estimate=136402 kB; lsn=0/17261800, redo lsn=0/17261800
+2026-10-02 06:46:30.261 +03 [4114736] LOG:  database system is shut down

@@ -1,0 +1,6 @@
+server: PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+glibc: ldd (Ubuntu GLIBC 2.43-2ubuntu2.7) 2.43
+database C.UTF-8 datcollversion: NULL
+bu: collversion='1', actual='1'
+cu: collversion=NULL, actual=NULL
+eu: collversion='2.43', actual='2.43'

@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{Whether each unique key treats three case pairs as the same key, by database locale.}
+\label{tab:turkish}
+\begin{tabular}{@{}lcccccccccccc@{}}
+\toprule
+ & \multicolumn{3}{c}{Turkish ctype$^{a}$} & \multicolumn{3}{c}{libc en\_US} & \multicolumn{3}{c}{builtin C.UTF-8} & \multicolumn{3}{c}{PG\_UNICODE\_FAST} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
+Unique key & A & D & T & A & D & T & A & D & T & A & D & T \\
+\midrule
+\texttt{lower(v)} & $\neq$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $\neq$ \\
+\texttt{upper(v)} & $\neq$ & $=$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ \\
+\texttt{casefold(v)} & $\neq$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ \\
+citext & $\neq$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $\neq$ \\
+\texttt{lower(v COLLATE "C")} & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ \\
+\texttt{lower(v) COLLATE "C"} & $\neq$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $\neq$ \\
+column \texttt{"C"}, \texttt{lower(v)} & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ \\
+citext, column \texttt{"C"} & $\neq$ & $=$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $\neq$ \\
+ICU \texttt{und-u-ks-level2} & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ & $=$ & $\neq$ & $\neq$ \\
+ICU \texttt{tr-u-ks-level2} & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ & $\neq$ & $=$ & $=$ \\
+\bottomrule
+\end{tabular}
+
+\smallskip\footnotesize
+A: \texttt{admin@example.org} / \texttt{ADMIN@EXAMPLE.ORG}; D: \textit{ışık} / \textit{IŞIK}; T: \textit{istanbul} / \textit{İSTANBUL}. $=$: the second key was rejected; $\neq$: it was accepted. $^{a}$Identical in the libc tr\_TR, ICU tr, and C-collation-with-tr\_TR-ctype databases.
+\end{table}

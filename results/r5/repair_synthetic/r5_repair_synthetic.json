@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "dataset": "synthetic",
+  "rows": 200000,
+  "dataset_sha256": "d7ab936c66d11ffbda20a4092950547c35104feb81bb212b6e9e0898890309f1",
+  "postgres": "postgres (PostgreSQL) 18.6"
+ },
+ "clean": {
+  "before": {
+   "amcheck_parent_ok": false,
+   "amcheck_msg": "ERROR:  down-link lower bound invariant violated for index \"t_s_uq\"",
+   "connect_warning": true,
+   "missed_lookups": 2575,
+   "lookups": 20000,
+   "range_mismatches": 511,
+   "nonempty_ranges": 1830
+  },
+  "reindex_ok": true,
+  "after": {
+   "amcheck_parent_ok": true,
+   "amcheck_msg": "",
+   "connect_warning": false,
+   "missed_lookups": 0,
+   "lookups": 20000,
+   "range_mismatches": 0,
+   "nonempty_ranges": 1830
+  },
+  "after_reinsert": {
+   "accepted": 0,
+   "duplicate_keys": 0,
+   "error": ""
+  }
+ },
+ "refresh": {
+  "before": {
+   "amcheck_parent_ok": false,
+   "amcheck_msg": "ERROR:  down-link lower bound invariant violated for index \"t_s_uq\"",
+   "connect_warning": true,
+   "missed_lookups": 2575,
+   "lookups": 20000,
+   "range_mismatches": 511,
+   "nonempty_ranges": 1830
+  },
+  "after": {
+   "amcheck_parent_ok": false,
+   "amcheck_msg": "ERROR:  down-link lower bound invariant violated for index \"t_s_uq\"",
+   "connect_warning": false,
+   "missed_lookups": 2575,
+   "lookups": 20000,
+   "range_mismatches": 511,
+   "nonempty_ranges": 1830
+  },
+  "after_reinsert": {
+   "accepted": 26704,
+   "duplicate_keys": 26704,
+   "error": ""
+  }
+ },
+ "dirty": {
+  "before": {
+   "amcheck_parent_ok": false,
+   "amcheck_msg": "ERROR:  down-link lower bound invariant violated for index \"t_s_uq\"",
+   "connect_warning": true,
+   "missed_lookups": 2575,
+   "lookups": 20000,
+   "range_mismatches": 511,
+   "nonempty_ranges": 1830
+  },
+  "first_reinsert": {
+   "accepted": 26704,
+   "duplicate_keys": 26704,
+   "error": ""
+  },
+  "reindex_with_dups_ok": false,
+  "reindex_with_dups_msg": "ERROR:  could not create unique index \"t_s_uq\"",
+  "dedup_deleted_rows": 26704,
+  "dedup_remaining_dups": 0,
+  "reindex_after_dedup_ok": true,
+  "after": {
+   "amcheck_parent_ok": true,
+   "amcheck_msg": "",
+   "connect_warning": false,
+   "missed_lookups": 0,
+   "lookups": 20000,
+   "range_mismatches": 0,
+   "nonempty_ranges": 1830
+  },
+  "after_reinsert": {
+   "accepted": 0,
+   "duplicate_keys": 0,
+   "error": ""
+  }
+ }
+}

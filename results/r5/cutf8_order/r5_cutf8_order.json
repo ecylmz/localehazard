@@ -1,0 +1,603 @@
+{
+ "meta": {
+  "seed": 20261115,
+  "ranges": [
+   [
+    "0x21",
+    "0x7e"
+   ],
+   [
+    "0xa1",
+    "0x17f"
+   ],
+   [
+    "0x370",
+    "0x3ff"
+   ],
+   [
+    "0x4e00",
+    "0x9fff"
+   ],
+   [
+    "0xac00",
+    "0xd7a3"
+   ],
+   [
+    "0xe000",
+    "0xf8ff"
+   ],
+   [
+    "0xfb00",
+    "0xfffd"
+   ],
+   [
+    "0x10000",
+    "0x1ffff"
+   ],
+   [
+    "0x1f300",
+    "0x1faff"
+   ],
+   [
+    "0x20000",
+    "0x2a6df"
+   ]
+  ],
+  "python_unicode_version": "16.0.0",
+  "18.04": {
+   "loader": "ld-2.27.so",
+   "locale_stderr": "",
+   "locale_dirs": [
+    "C.UTF-8"
+   ]
+  },
+  "20.04": {
+   "loader": "ld-2.31.so",
+   "locale_stderr": "",
+   "locale_dirs": [
+    "C.UTF-8"
+   ]
+  },
+  "22.04": {
+   "loader": "ld-linux-x86-64.so.2",
+   "locale_stderr": "",
+   "locale_dirs": [
+    "C.utf8"
+   ]
+  }
+ },
+ "synthetic": {
+  "n": 200000,
+  "sha256": "58c1e911b9d5e06acf04a0c352ae1fad4f0d4cd93b1d64ab5ab7e8abb7d9d4c8",
+  "18.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "examples_20.04_vs_22.04": []
+ },
+ "dictionary": {
+  "n": 104334,
+  "sha256": "033417321a866f9c6ad54a6fa2930cbe4c1b609d103d953fe313a82bd48d0432",
+  "18.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "examples_20.04_vs_22.04": []
+ },
+ "mixed_planes": {
+  "n": 20000,
+  "sha256": "4011988ed9e83784d9584ef45e4fd01a913eda4301a70cdb2cd9db92ce78aef6",
+  "18.04_vs_codepoint": {
+   "positions_differing": 20000,
+   "adjacent_pairs_inverted": 2989,
+   "strings_moved": 6332
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 20000,
+   "adjacent_pairs_inverted": 2989,
+   "strings_moved": 6332
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 20000,
+   "adjacent_pairs_inverted": 2989,
+   "strings_moved": 6332
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 20000,
+   "adjacent_pairs_inverted": 2989,
+   "strings_moved": 6332
+  },
+  "examples_20.04_vs_22.04": [
+   [
+    "\\u0379",
+    "!bn"
+   ],
+   [
+    "\\u0380",
+    "!he"
+   ],
+   [
+    "\\u0381",
+    "!ib\\ub948u\\U0001f4d2"
+   ],
+   [
+    "\\u0382",
+    "!kdj"
+   ],
+   [
+    "\\u0383",
+    "!mvi\\U0001ba1cv"
+   ],
+   [
+    "\\u038b",
+    "!n"
+   ],
+   [
+    "\\u038d",
+    "!q\\U0001f9fcv{"
+   ],
+   [
+    "\\u03a2",
+    "!r\\uca46"
+   ],
+   [
+    "\\ufb0d",
+    "!te\\U0001fac8\\U000226f8"
+   ],
+   [
+    "\\ufb3d",
+    "!u"
+   ],
+   [
+    "\\ufb3f",
+    "!w"
+   ],
+   [
+    "\\ufbc2",
+    "!\\u0178l\\U00014bdcN"
+   ],
+   [
+    "\\ufd40",
+    "!\\u03bcD\\U0001f88f\\u6bf0r"
+   ],
+   [
+    "\\ufd42",
+    "!\\ucf17\\U00014804"
+   ],
+   [
+    "\\ufd4d",
+    "!\\ud596\\U0001386b"
+   ],
+   [
+    "\\ufdd2",
+    "!\\uf8c9qo\\U0001e733"
+   ],
+   [
+    "\\ufdd3",
+    "!\\U0001fa1e\\u03ed\\uf3a8q"
+   ],
+   [
+    "\\ufdd4",
+    "\""
+   ],
+   [
+    "\\ufde1",
+    "\"Fy"
+   ],
+   [
+    "\\ufde9",
+    "\"gnhfl"
+   ]
+  ]
+ },
+ "mixed_bmp_assigned": {
+  "n": 10287,
+  "sha256": "38c37f3334ab38d7f9965c2d8642962d3c64972efb5abbf7128910baaf40f20b",
+  "18.04_vs_codepoint": {
+   "positions_differing": 10213,
+   "adjacent_pairs_inverted": 22,
+   "strings_moved": 33
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 10213,
+   "adjacent_pairs_inverted": 22,
+   "strings_moved": 33
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 10213,
+   "adjacent_pairs_inverted": 22,
+   "strings_moved": 33
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 10213,
+   "adjacent_pairs_inverted": 22,
+   "strings_moved": 33
+  },
+  "examples_20.04_vs_22.04": [
+   [
+    "\\ufbc2",
+    "!bn"
+   ],
+   [
+    "\\ufd40",
+    "!he"
+   ],
+   [
+    "\\ufd42",
+    "!kdj"
+   ],
+   [
+    "\\ufd4d",
+    "!n"
+   ],
+   [
+    "\\ufbc2)r",
+    "!r\\uca46"
+   ],
+   [
+    "\\ufd4ed",
+    "!u"
+   ],
+   [
+    "\\ufd48\\u9d14\\uc9a1\\ub2bd\\uf52b",
+    "!w"
+   ],
+   [
+    "\\ufd43\\ue17b",
+    "\""
+   ],
+   [
+    "\\ufd4a\\uf4fbf\\ued94y",
+    "\"Fy"
+   ],
+   [
+    "!bn",
+    "\"gnhfl"
+   ],
+   [
+    "!he",
+    "\"g\\uc38de"
+   ],
+   [
+    "!kdj",
+    "\"h"
+   ],
+   [
+    "!n",
+    "\"mqr"
+   ],
+   [
+    "!r\\uca46",
+    "\"u"
+   ],
+   [
+    "!u",
+    "\"\\u5fba\\ube16\\uecb4"
+   ],
+   [
+    "!w",
+    "#ixfu"
+   ],
+   [
+    "\"",
+    "#rgh"
+   ],
+   [
+    "\"Fy",
+    "#rsv"
+   ],
+   [
+    "\"gnhfl",
+    "#\\u4e38"
+   ],
+   [
+    "\"g\\uc38de",
+    "#\\ub750\\xc4l"
+   ]
+  ]
+ },
+ "mixed_supplementary_assigned": {
+  "n": 6718,
+  "sha256": "519dbdbe4daf3c408bfa763ab0900229ffd5f9465f2c55bb69db786fa358c003",
+  "18.04_vs_codepoint": {
+   "positions_differing": 6718,
+   "adjacent_pairs_inverted": 1716,
+   "strings_moved": 3907
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 6718,
+   "adjacent_pairs_inverted": 1716,
+   "strings_moved": 3907
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 6718,
+   "adjacent_pairs_inverted": 1716,
+   "strings_moved": 3907
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 6718,
+   "adjacent_pairs_inverted": 1716,
+   "strings_moved": 3907
+  },
+  "examples_20.04_vs_22.04": [
+   [
+    "\\U00010133",
+    "!ib\\ub948u\\U0001f4d2"
+   ],
+   [
+    "\\U00010488",
+    "!q\\U0001f9fcv{"
+   ],
+   [
+    "\\U000104ed",
+    "!\\ud596\\U0001386b"
+   ],
+   [
+    "\\U00010c33",
+    "!\\U0001fa1e\\u03ed\\uf3a8q"
+   ],
+   [
+    "\\U000113e1",
+    "\"\\U00029625j"
+   ],
+   [
+    "\\U000115d7",
+    "#b\\ufef9w\\U000254f8"
+   ],
+   [
+    "\\U0001163b",
+    "#lt\\U0001f710"
+   ],
+   [
+    "\\U0001208f",
+    "#ub\\ue79c\\U0001f3be"
+   ],
+   [
+    "\\U000120e3",
+    "#\\U00028723"
+   ],
+   [
+    "\\U00012139",
+    "%k\\U000205a5"
+   ],
+   [
+    "\\U00012288",
+    "%\\u987a\\u64e1r\\U00026e15"
+   ],
+   [
+    "\\U000122b5",
+    "%\\U0001f60c9"
+   ],
+   [
+    "\\U000124ff",
+    "%\\U00027458y"
+   ],
+   [
+    "\\U00012fab",
+    "&g\\U00026cff\\U0001f5dfa]"
+   ],
+   [
+    "\\U00013403",
+    "&p\\U00023c0f"
+   ],
+   [
+    "\\U00013496",
+    "&r\\U00017a92o"
+   ],
+   [
+    "\\U0001393f",
+    "&\\u03a7qi\\U0001771dt"
+   ],
+   [
+    "\\U00013a88",
+    "&\\U00023219m"
+   ],
+   [
+    "\\U00013afd",
+    "'\\u03a5\\U00021382\\u03a0"
+   ],
+   [
+    "\\U00013b64",
+    "(\\xcbx\\U0001f5c0u\\xfb"
+   ]
+  ]
+ },
+ "mixed_with_unassigned": {
+  "n": 2995,
+  "sha256": "686813c612d04e80157d823f2bccb87b41339843191feaa62e44bc20d9bc2faf",
+  "18.04_vs_codepoint": {
+   "positions_differing": 2995,
+   "adjacent_pairs_inverted": 846,
+   "strings_moved": 1742
+  },
+  "20.04_vs_codepoint": {
+   "positions_differing": 2995,
+   "adjacent_pairs_inverted": 846,
+   "strings_moved": 1742
+  },
+  "22.04_vs_codepoint": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "18.04_vs_20.04": {
+   "positions_differing": 0,
+   "adjacent_pairs_inverted": 0,
+   "strings_moved": 0
+  },
+  "20.04_vs_22.04": {
+   "positions_differing": 2995,
+   "adjacent_pairs_inverted": 846,
+   "strings_moved": 1742
+  },
+  "18.04_vs_22.04": {
+   "positions_differing": 2995,
+   "adjacent_pairs_inverted": 846,
+   "strings_moved": 1742
+  },
+  "examples_20.04_vs_22.04": [
+   [
+    "\\u0379",
+    "!mvi\\U0001ba1cv"
+   ],
+   [
+    "\\u0380",
+    "!te\\U0001fac8\\U000226f8"
+   ],
+   [
+    "\\u0381",
+    "!\\u0178l\\U00014bdcN"
+   ],
+   [
+    "\\u0382",
+    "!\\u03bcD\\U0001f88f\\u6bf0r"
+   ],
+   [
+    "\\u0383",
+    "!\\ucf17\\U00014804"
+   ],
+   [
+    "\\u038b",
+    "!\\uf8c9qo\\U0001e733"
+   ],
+   [
+    "\\u038d",
+    "\"\\U00022a6c\\U000170bc\\U00014e85\\u03f3"
+   ],
+   [
+    "\\u03a2",
+    "#aq\\U0001bb5cu"
+   ],
+   [
+    "\\ufb0d",
+    "#r\\U00014bcdr"
+   ],
+   [
+    "\\ufb3d",
+    "#\\U00014dea"
+   ],
+   [
+    "\\ufb3f",
+    "$o\\U0001e624\\ued7e"
+   ],
+   [
+    "\\ufdd2",
+    "$\\U0001f84f\\ubcfe\\U00013175x"
+   ],
+   [
+    "\\ufdd3",
+    "&l\\U00015ea2"
+   ],
+   [
+    "\\ufdd4",
+    "&\\U0001ec60fl"
+   ],
+   [
+    "\\ufde1",
+    "(yd\\U00019533w"
+   ],
+   [
+    "\\ufde9",
+    "*\\u038d"
+   ],
+   [
+    "\\ufdea",
+    ",v\\U0001c6d2\\uac31\\u97f6h"
+   ],
+   [
+    "\\ufe1b",
+    ",\\uffd8jywr"
+   ],
+   [
+    "\\ufff0",
+    "-az\\U0002a454\\U00016ee1"
+   ],
+   [
+    "\\ufff2",
+    ".y\\U0001f344\\U0001de58\\u03c2n"
+   ]
+  ]
+ }
+}

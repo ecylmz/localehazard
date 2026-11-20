@@ -1,0 +1,7 @@
+INSERT 0 0
+SET
+SET
+SET
+dups|0
+
+--stderr--

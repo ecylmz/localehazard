@@ -1,0 +1,24 @@
+2026-10-02 06:46:32.826 +03 [461870] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:46:32.826 +03 [461870] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55438"
+2026-10-02 06:46:32.837 +03 [461933] LOG:  database system was shut down at 2026-10-02 06:46:31 +03
+2026-10-02 06:46:32.870 +03 [461870] LOG:  database system is ready to accept connections
+2026-10-02 06:46:45.225 +03 [461870] LOG:  received fast shutdown request
+2026-10-02 06:46:45.299 +03 [461870] LOG:  aborting any active transactions
+2026-10-02 06:46:45.300 +03 [461870] LOG:  background worker "logical replication launcher" (PID 461993) exited with exit code 1
+2026-10-02 06:46:45.302 +03 [461931] LOG:  shutting down
+2026-10-02 06:46:45.305 +03 [461931] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:46:55.329 +03 [461931] LOG:  checkpoint complete: wrote 10862 buffers (66.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 10 recycled; write=1.774 s, sync=8.172 s, total=10.027 s; sync files=1829, longest=0.199 s, average=0.005 s; distance=167258 kB, estimate=167258 kB; lsn=0/BABC8D0, redo lsn=0/BABC8D0
+2026-10-02 06:46:55.383 +03 [461870] LOG:  database system is shut down
+2026-10-02 06:46:55.473 +03 [494277] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:46:55.473 +03 [494277] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55438"
+2026-10-02 06:46:55.486 +03 [494341] LOG:  database system was shut down at 2026-10-02 06:46:55 +03
+2026-10-02 06:46:55.506 +03 [494277] LOG:  database system is ready to accept connections
+2026-10-02 06:51:55.869 +03 [494339] LOG:  checkpoint starting: time
+2026-10-02 06:53:05.219 +03 [494277] LOG:  received fast shutdown request
+2026-10-02 06:53:05.226 +03 [494277] LOG:  aborting any active transactions
+2026-10-02 06:53:05.227 +03 [494277] LOG:  background worker "logical replication launcher" (PID 494423) exited with exit code 1
+2026-10-02 06:53:05.778 +03 [494339] LOG:  checkpoint complete: wrote 2570 buffers (15.7%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 9 recycled; write=69.686 s, sync=0.125 s, total=69.910 s; sync files=1165, longest=0.033 s, average=0.001 s; distance=139787 kB, estimate=139787 kB; lsn=0/16B4E9D8, redo lsn=0/1433F680
+2026-10-02 06:53:05.779 +03 [494339] LOG:  shutting down
+2026-10-02 06:53:05.783 +03 [494339] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:53:06.744 +03 [494339] LOG:  checkpoint complete: wrote 3719 buffers (22.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=0.900 s, sync=0.042 s, total=0.966 s; sync files=291, longest=0.023 s, average=0.001 s; distance=41020 kB, estimate=129910 kB; lsn=0/16B4EA50, redo lsn=0/16B4EA50
+2026-10-02 06:53:06.819 +03 [494277] LOG:  database system is shut down

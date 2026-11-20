@@ -1,0 +1,12 @@
+DROP TABLE
+DROP COLLATION
+DROP COLLATION
+CREATE COLLATION
+CREATE TABLE
+INSERT 0 1
+rows|1
+
+--stderr--
+NOTICE:  collation "ci_und" does not exist, skipping
+ERROR:  duplicate key value violates unique constraint "k_v_key"
+DETAIL:  Key (v)=(İSTANBUL) already exists.

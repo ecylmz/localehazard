@@ -1,0 +1,128 @@
+2026-10-02 06:57:41.892 +03 [1288043] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:57:41.893 +03 [1288043] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55440"
+2026-10-02 06:57:41.904 +03 [1288070] LOG:  database system was shut down at 2026-10-02 06:57:40 +03
+2026-10-02 06:57:41.909 +03 [1288043] LOG:  database system is ready to accept connections
+2026-10-02 06:57:48.731 +03 [1288043] LOG:  received fast shutdown request
+2026-10-02 06:57:48.741 +03 [1288043] LOG:  aborting any active transactions
+2026-10-02 06:57:48.742 +03 [1288043] LOG:  background worker "logical replication launcher" (PID 1288083) exited with exit code 1
+2026-10-02 06:57:48.743 +03 [1288068] LOG:  shutting down
+2026-10-02 06:57:48.746 +03 [1288068] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:57:52.335 +03 [1288068] LOG:  checkpoint complete: wrote 10833 buffers (66.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 6 recycled; write=2.583 s, sync=0.981 s, total=3.593 s; sync files=1829, longest=0.260 s, average=0.001 s; distance=96406 kB, estimate=96406 kB; lsn=0/758B808, redo lsn=0/758B808
+2026-10-02 06:57:52.419 +03 [1288043] LOG:  database system is shut down
+2026-10-02 06:57:52.468 +03 [1294369] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:57:52.468 +03 [1294369] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55440"
+2026-10-02 06:57:52.480 +03 [1294375] LOG:  database system was shut down at 2026-10-02 06:57:52 +03
+2026-10-02 06:57:52.560 +03 [1294369] LOG:  database system is ready to accept connections
+2026-10-02 06:57:52.654 +03 [1294381] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.654 +03 [1294381] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.654 +03 [1294381] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.659 +03 [1294383] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.659 +03 [1294383] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.659 +03 [1294383] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.665 +03 [1294385] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.665 +03 [1294385] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.665 +03 [1294385] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.671 +03 [1294387] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.671 +03 [1294387] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.671 +03 [1294387] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.674 +03 [1294387] ERROR:  item order invariant violated for index "t_s_uq"
+2026-10-02 06:57:52.674 +03 [1294387] DETAIL:  Lower index tid=(1,11) (points to heap tid=(552,55)) higher index tid=(1,12) (points to heap tid=(158,22)) page lsn=0/24C7258.
+2026-10-02 06:57:52.674 +03 [1294387] STATEMENT:  SELECT bt_index_check('t_s_uq', true)
+2026-10-02 06:57:52.678 +03 [1294389] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.678 +03 [1294389] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.678 +03 [1294389] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.681 +03 [1294389] ERROR:  down-link lower bound invariant violated for index "t_s_uq"
+2026-10-02 06:57:52.681 +03 [1294389] DETAIL:  Parent block=3 child index tid=(16,3) parent page lsn=0/2622560.
+2026-10-02 06:57:52.681 +03 [1294389] STATEMENT:  SELECT bt_index_parent_check('t_s_uq', true, true)
+2026-10-02 06:57:52.698 +03 [1294391] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.698 +03 [1294391] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.698 +03 [1294391] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.752 +03 [1294393] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.752 +03 [1294393] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.752 +03 [1294393] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.857 +03 [1294395] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.857 +03 [1294395] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.857 +03 [1294395] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:52.922 +03 [1294397] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:52.922 +03 [1294397] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:52.922 +03 [1294397] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:57:53.457 +03 [1294415] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:57:53.457 +03 [1294415] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:57:53.457 +03 [1294415] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:19.899 +03 [1302026] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:58:19.899 +03 [1302026] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:19.899 +03 [1302026] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:25.962 +03 [1303796] WARNING:  database "libc_en_rem" has a collation version mismatch
+2026-10-02 06:58:25.962 +03 [1303796] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:25.962 +03 [1303796] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en_rem REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:39.293 +03 [1307706] WARNING:  database "template1" has a collation version mismatch
+2026-10-02 06:58:39.293 +03 [1307706] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:39.293 +03 [1307706] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:45.956 +03 [1309629] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:58:45.956 +03 [1309629] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:45.956 +03 [1309629] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:52.625 +03 [1311494] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 06:58:52.625 +03 [1311494] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:52.625 +03 [1311494] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:58.318 +03 [1312570] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 06:58:58.318 +03 [1312570] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:58.318 +03 [1312570] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:58.318 +03 [1312570] ERROR:  template database "libc_en" has a collation version mismatch
+2026-10-02 06:58:58.318 +03 [1312570] DETAIL:  The template database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:58.318 +03 [1312570] HINT:  Rebuild all objects in the template database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:58.318 +03 [1312570] STATEMENT:  CREATE DATABASE libc_en_tmplcopy TEMPLATE libc_en
+2026-10-02 06:58:58.323 +03 [1312572] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:58:58.323 +03 [1312572] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:58.323 +03 [1312572] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:59.266 +03 [1312856] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:58:59.266 +03 [1312856] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:59.266 +03 [1312856] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:59.317 +03 [1312856] ERROR:  could not create unique index "t_s_uq"
+2026-10-02 06:58:59.317 +03 [1312856] DETAIL:  Key (s)=(fan's) is duplicated.
+2026-10-02 06:58:59.317 +03 [1312856] STATEMENT:  REINDEX INDEX t_s_uq
+2026-10-02 06:58:59.323 +03 [1312860] WARNING:  database "libc_en_rem" has a collation version mismatch
+2026-10-02 06:58:59.323 +03 [1312860] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:59.323 +03 [1312860] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en_rem REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:58:59.691 +03 [1312980] WARNING:  database "libc_en_rem" has a collation version mismatch
+2026-10-02 06:58:59.691 +03 [1312980] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:58:59.691 +03 [1312980] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en_rem REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:59:39.297 +03 [1323503] WARNING:  database "template1" has a collation version mismatch
+2026-10-02 06:59:39.297 +03 [1323503] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:59:39.297 +03 [1323503] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:59:46.055 +03 [1325366] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 06:59:46.055 +03 [1325366] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:59:46.055 +03 [1325366] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 06:59:52.627 +03 [1329210] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 06:59:52.627 +03 [1329210] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 06:59:52.627 +03 [1329210] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:00:20.878 +03 [1350486] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 07:00:20.878 +03 [1350486] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:00:20.878 +03 [1350486] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:00:39.302 +03 [1364419] WARNING:  database "template1" has a collation version mismatch
+2026-10-02 07:00:39.302 +03 [1364419] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:00:39.302 +03 [1364419] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:00:46.060 +03 [1369497] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 07:00:46.060 +03 [1369497] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:00:46.060 +03 [1369497] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:00:52.632 +03 [1374446] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 07:00:52.632 +03 [1374446] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:00:52.632 +03 [1374446] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:01:30.718 +03 [1402922] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 07:01:30.718 +03 [1402922] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:01:30.718 +03 [1402922] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:01:39.306 +03 [1409319] WARNING:  database "template1" has a collation version mismatch
+2026-10-02 07:01:39.306 +03 [1409319] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:01:39.306 +03 [1409319] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE template1 REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:01:46.066 +03 [1414393] WARNING:  database "libc_en" has a collation version mismatch
+2026-10-02 07:01:46.066 +03 [1414393] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:01:46.066 +03 [1414393] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE libc_en REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:01:52.638 +03 [1419282] WARNING:  database "postgres" has a collation version mismatch
+2026-10-02 07:01:52.638 +03 [1419282] DETAIL:  The database was created using collation version 2.27, but the operating system provides version 2.28.
+2026-10-02 07:01:52.638 +03 [1419282] HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE postgres REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+2026-10-02 07:02:01.623 +03 [1294369] LOG:  received fast shutdown request
+2026-10-02 07:02:01.680 +03 [1294369] LOG:  aborting any active transactions
+2026-10-02 07:02:01.682 +03 [1294369] LOG:  background worker "logical replication launcher" (PID 1294379) exited with exit code 1
+2026-10-02 07:02:01.682 +03 [1294373] LOG:  shutting down
+2026-10-02 07:02:01.685 +03 [1294373] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 07:02:04.424 +03 [1294373] LOG:  checkpoint complete: wrote 8147 buffers (49.7%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 5 recycled; write=1.872 s, sync=0.820 s, total=2.743 s; sync files=883, longest=0.205 s, average=0.001 s; distance=90587 kB, estimate=90587 kB; lsn=0/CE027B8, redo lsn=0/CE027B8
+2026-10-02 07:02:04.507 +03 [1294369] LOG:  database system is shut down

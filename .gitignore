@@ -1,0 +1,8 @@
+__pycache__/
+dbms/src/
+dbms/pg/
+dbms/loc/
+dbms/bionic/
+dbms/rootfs/
+dbms/clusters/
+dbms/libcver_shim.so

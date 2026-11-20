@@ -1,0 +1,299 @@
+2026-11-16 21:49:53.045 +03 [3547968] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-11-16 21:49:53.045 +03 [3547968] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55451"
+2026-11-16 21:49:53.056 +03 [3547978] LOG:  database system was shut down at 2026-11-16 21:49:52 +03
+2026-11-16 21:49:53.061 +03 [3547968] LOG:  database system is ready to accept connections
+2026-11-16 21:49:53.442 +03 [3548014] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.442 +03 [3548014] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:53.442 +03 [3548014] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:53.456 +03 [3548017] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.456 +03 [3548017] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:53.456 +03 [3548017] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:53.539 +03 [3548022] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:53.539 +03 [3548022] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:53.539 +03 [3548022] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:53.553 +03 [3548028] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:53.553 +03 [3548028] DETAIL:  Key (upper(v))=(İSTANBUL) already exists.
+2026-11-16 21:49:53.553 +03 [3548028] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:53.581 +03 [3548033] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:53.581 +03 [3548033] DETAIL:  Key (casefold(v))=(ışık) already exists.
+2026-11-16 21:49:53.581 +03 [3548033] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:53.686 +03 [3548036] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:53.686 +03 [3548036] DETAIL:  Key (casefold(v))=(istanbul) already exists.
+2026-11-16 21:49:53.686 +03 [3548036] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:53.713 +03 [3548046] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:53.713 +03 [3548046] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:53.713 +03 [3548046] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:53.728 +03 [3548049] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:53.728 +03 [3548049] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:53.728 +03 [3548049] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:53.741 +03 [3548051] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.741 +03 [3548051] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:53.741 +03 [3548051] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:53.866 +03 [3548067] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.866 +03 [3548067] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:53.866 +03 [3548067] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:53.881 +03 [3548070] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.881 +03 [3548070] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:53.881 +03 [3548070] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:53.895 +03 [3548074] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:53.895 +03 [3548074] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:53.895 +03 [3548074] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:54.017 +03 [3548090] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.017 +03 [3548090] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:54.017 +03 [3548090] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.031 +03 [3548093] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.031 +03 [3548093] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:54.031 +03 [3548093] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.057 +03 [3548096] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.057 +03 [3548096] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:54.057 +03 [3548096] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:54.181 +03 [3548110] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.181 +03 [3548110] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:54.181 +03 [3548110] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.208 +03 [3548114] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.208 +03 [3548114] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:54.208 +03 [3548114] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.545 +03 [3548146] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.545 +03 [3548146] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:54.545 +03 [3548146] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.559 +03 [3548148] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.559 +03 [3548148] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:54.559 +03 [3548148] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.588 +03 [3548154] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:54.588 +03 [3548154] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:54.588 +03 [3548154] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.602 +03 [3548156] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:54.602 +03 [3548156] DETAIL:  Key (upper(v))=(İSTANBUL) already exists.
+2026-11-16 21:49:54.602 +03 [3548156] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.630 +03 [3548162] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:54.630 +03 [3548162] DETAIL:  Key (casefold(v))=(ışık) already exists.
+2026-11-16 21:49:54.630 +03 [3548162] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.644 +03 [3548164] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:54.644 +03 [3548164] DETAIL:  Key (casefold(v))=(istanbul) already exists.
+2026-11-16 21:49:54.644 +03 [3548164] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.670 +03 [3548170] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.670 +03 [3548170] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:54.670 +03 [3548170] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.771 +03 [3548172] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.771 +03 [3548172] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:54.771 +03 [3548172] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.785 +03 [3548179] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.785 +03 [3548179] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:54.785 +03 [3548179] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:54.883 +03 [3548192] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.883 +03 [3548192] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:54.883 +03 [3548192] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.897 +03 [3548194] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.897 +03 [3548194] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:54.897 +03 [3548194] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:54.911 +03 [3548197] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:54.911 +03 [3548197] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:54.911 +03 [3548197] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:54.965 +03 [3548209] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.965 +03 [3548209] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:54.965 +03 [3548209] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:54.978 +03 [3548214] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:54.978 +03 [3548214] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:54.978 +03 [3548214] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.003 +03 [3548216] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.003 +03 [3548216] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:55.003 +03 [3548216] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:55.208 +03 [3548233] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.208 +03 [3548233] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:55.208 +03 [3548233] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.233 +03 [3548236] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.233 +03 [3548236] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:55.233 +03 [3548236] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.527 +03 [3548266] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.527 +03 [3548266] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:55.527 +03 [3548266] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.543 +03 [3548269] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.543 +03 [3548269] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:55.543 +03 [3548269] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.571 +03 [3548274] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:55.571 +03 [3548274] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:55.571 +03 [3548274] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.583 +03 [3548277] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:55.583 +03 [3548277] DETAIL:  Key (upper(v))=(İSTANBUL) already exists.
+2026-11-16 21:49:55.583 +03 [3548277] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.611 +03 [3548282] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:55.611 +03 [3548282] DETAIL:  Key (casefold(v))=(ışık) already exists.
+2026-11-16 21:49:55.611 +03 [3548282] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.623 +03 [3548285] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:55.623 +03 [3548285] DETAIL:  Key (casefold(v))=(istanbul) already exists.
+2026-11-16 21:49:55.623 +03 [3548285] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.687 +03 [3548290] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.687 +03 [3548290] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:55.687 +03 [3548290] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.726 +03 [3548294] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.726 +03 [3548294] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:55.726 +03 [3548294] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.739 +03 [3548298] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.739 +03 [3548298] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:55.739 +03 [3548298] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:55.797 +03 [3548311] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.797 +03 [3548311] DETAIL:  Key (lower(v))=(ışık) already exists.
+2026-11-16 21:49:55.797 +03 [3548311] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.810 +03 [3548313] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.810 +03 [3548313] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:55.810 +03 [3548313] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.824 +03 [3548318] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:55.824 +03 [3548318] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:55.824 +03 [3548318] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:55.880 +03 [3548328] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.880 +03 [3548328] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:55.880 +03 [3548328] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:55.893 +03 [3548331] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.893 +03 [3548331] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:55.893 +03 [3548331] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:55.918 +03 [3548334] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:55.918 +03 [3548334] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:55.918 +03 [3548334] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.150 +03 [3548356] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.150 +03 [3548356] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:56.150 +03 [3548356] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:56.176 +03 [3548367] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.176 +03 [3548367] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:56.176 +03 [3548367] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.460 +03 [3548394] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.460 +03 [3548394] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:56.460 +03 [3548394] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.486 +03 [3548399] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.486 +03 [3548399] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:56.486 +03 [3548399] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.499 +03 [3548402] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:56.499 +03 [3548402] DETAIL:  Key (upper(v))=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:56.499 +03 [3548402] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.540 +03 [3548406] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:56.540 +03 [3548406] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:56.540 +03 [3548406] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:56.568 +03 [3548411] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:56.568 +03 [3548411] DETAIL:  Key (casefold(v))=(admin@example.org) already exists.
+2026-11-16 21:49:56.568 +03 [3548411] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.596 +03 [3548416] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:56.596 +03 [3548416] DETAIL:  Key (casefold(v))=(istanbul) already exists.
+2026-11-16 21:49:56.596 +03 [3548416] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.608 +03 [3548419] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.608 +03 [3548419] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:56.608 +03 [3548419] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.636 +03 [3548424] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.636 +03 [3548424] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:56.636 +03 [3548424] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.675 +03 [3548427] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.675 +03 [3548427] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:56.675 +03 [3548427] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.778 +03 [3548438] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.778 +03 [3548438] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:56.778 +03 [3548438] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.806 +03 [3548444] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.806 +03 [3548444] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:56.806 +03 [3548444] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.819 +03 [3548447] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:56.819 +03 [3548447] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:56.819 +03 [3548447] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.860 +03 [3548454] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.860 +03 [3548454] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:56.860 +03 [3548454] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:56.886 +03 [3548460] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.886 +03 [3548460] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:56.886 +03 [3548460] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:56.910 +03 [3548462] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:56.910 +03 [3548462] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:56.910 +03 [3548462] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.183 +03 [3548485] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:57.183 +03 [3548485] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:57.183 +03 [3548485] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:57.208 +03 [3548490] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:57.208 +03 [3548490] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:57.208 +03 [3548490] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:57.463 +03 [3548516] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:57.463 +03 [3548516] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:57.463 +03 [3548516] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.490 +03 [3548521] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:57.490 +03 [3548521] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:57.490 +03 [3548521] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:57.506 +03 [3548524] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:57.506 +03 [3548524] DETAIL:  Key (upper(v))=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:57.506 +03 [3548524] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.519 +03 [3548526] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:57.519 +03 [3548526] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:57.519 +03 [3548526] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:57.548 +03 [3548532] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:57.548 +03 [3548532] DETAIL:  Key (casefold(v))=(admin@example.org) already exists.
+2026-11-16 21:49:57.548 +03 [3548532] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.589 +03 [3548540] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:57.589 +03 [3548540] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:57.589 +03 [3548540] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.615 +03 [3548544] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:57.615 +03 [3548544] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:57.615 +03 [3548544] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:57.628 +03 [3548546] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:57.628 +03 [3548546] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:57.628 +03 [3548546] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:57.736 +03 [3548557] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:57.736 +03 [3548557] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:57.736 +03 [3548557] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.030 +03 [3548562] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:58.030 +03 [3548562] DETAIL:  Key (lower(v))=(istanbul) already exists.
+2026-11-16 21:49:58.030 +03 [3548562] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:58.044 +03 [3548580] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:58.044 +03 [3548580] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:58.044 +03 [3548580] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.086 +03 [3548590] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:58.086 +03 [3548590] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:58.086 +03 [3548590] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.112 +03 [3548598] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:58.112 +03 [3548598] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:58.112 +03 [3548598] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:58.137 +03 [3548600] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:58.137 +03 [3548600] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:58.137 +03 [3548600] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.482 +03 [3548616] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:58.482 +03 [3548616] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:58.482 +03 [3548616] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:58.509 +03 [3548625] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:58.509 +03 [3548625] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:58.509 +03 [3548625] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:58.773 +03 [3548651] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:58.773 +03 [3548651] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:58.773 +03 [3548651] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.935 +03 [3548659] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:58.935 +03 [3548659] DETAIL:  Key (upper(v))=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:58.935 +03 [3548659] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:58.948 +03 [3548666] ERROR:  duplicate key value violates unique constraint "k_upper_idx"
+2026-11-16 21:49:58.948 +03 [3548666] DETAIL:  Key (upper(v))=(IŞIK) already exists.
+2026-11-16 21:49:58.948 +03 [3548666] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:58.975 +03 [3548672] ERROR:  duplicate key value violates unique constraint "k_casefold_idx"
+2026-11-16 21:49:58.975 +03 [3548672] DETAIL:  Key (casefold(v))=(admin@example.org) already exists.
+2026-11-16 21:49:58.975 +03 [3548672] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.018 +03 [3548679] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:59.018 +03 [3548679] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:59.018 +03 [3548679] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.060 +03 [3548686] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:59.060 +03 [3548686] DETAIL:  Key (lower(v COLLATE "C"))=(admin@example.org) already exists.
+2026-11-16 21:49:59.060 +03 [3548686] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.143 +03 [3548697] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:59.143 +03 [3548697] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:59.143 +03 [3548697] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.184 +03 [3548707] ERROR:  duplicate key value violates unique constraint "k_lower_idx"
+2026-11-16 21:49:59.184 +03 [3548707] DETAIL:  Key (lower(v))=(admin@example.org) already exists.
+2026-11-16 21:49:59.184 +03 [3548707] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.225 +03 [3548715] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:59.225 +03 [3548715] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:59.225 +03 [3548715] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.276 +03 [3548723] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:59.276 +03 [3548723] DETAIL:  Key (v)=(ADMIN@EXAMPLE.ORG) already exists.
+2026-11-16 21:49:59.276 +03 [3548723] STATEMENT:  INSERT INTO k VALUES ('ADMIN@EXAMPLE.ORG');
+2026-11-16 21:49:59.424 +03 [3548738] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:59.424 +03 [3548738] DETAIL:  Key (v)=(IŞIK) already exists.
+2026-11-16 21:49:59.424 +03 [3548738] STATEMENT:  INSERT INTO k VALUES ('IŞIK');
+2026-11-16 21:49:59.450 +03 [3548743] ERROR:  duplicate key value violates unique constraint "k_v_key"
+2026-11-16 21:49:59.450 +03 [3548743] DETAIL:  Key (v)=(İSTANBUL) already exists.
+2026-11-16 21:49:59.450 +03 [3548743] STATEMENT:  INSERT INTO k VALUES ('İSTANBUL');
+2026-11-16 21:49:59.452 +03 [3547968] LOG:  received fast shutdown request
+2026-11-16 21:49:59.474 +03 [3547968] LOG:  aborting any active transactions
+2026-11-16 21:49:59.475 +03 [3547968] LOG:  background worker "logical replication launcher" (PID 3547981) exited with exit code 1
+2026-11-16 21:49:59.475 +03 [3547975] LOG:  shutting down
+2026-11-16 21:49:59.479 +03 [3547975] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 21:50:02.218 +03 [3547975] LOG:  checkpoint complete: wrote 5787 buffers (35.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 2 recycled; write=2.407 s, sync=0.291 s, total=2.744 s; sync files=2513, longest=0.084 s, average=0.001 s; distance=30510 kB, estimate=30510 kB; lsn=0/3531780, redo lsn=0/3531780
+2026-11-16 21:50:02.258 +03 [3547968] LOG:  database system is shut down

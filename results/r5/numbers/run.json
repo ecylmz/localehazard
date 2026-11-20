@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "src/r5_numbers.py",
+    "results/r5/numbers"
+  ],
+  "cwd": ".",
+  "git_commit": "aef1543bbe2ee4b8bc87c1441e7d1415ded961ed",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {},
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-16T19:17:30+00:00",
+  "status": "ok",
+  "end": "2026-11-16T19:17:30+00:00",
+  "exit_code": 0
+}

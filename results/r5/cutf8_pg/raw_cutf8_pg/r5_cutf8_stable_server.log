@@ -1,0 +1,22 @@
+2026-11-16 22:02:16.855 +03 [3590839] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-11-16 22:02:16.855 +03 [3590839] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55453"
+2026-11-16 22:02:16.982 +03 [3590847] LOG:  database system was shut down at 2026-11-16 22:02:15 +03
+2026-11-16 22:02:16.988 +03 [3590839] LOG:  database system is ready to accept connections
+2026-11-16 22:02:18.662 +03 [3590839] LOG:  received fast shutdown request
+2026-11-16 22:02:18.712 +03 [3590839] LOG:  aborting any active transactions
+2026-11-16 22:02:18.713 +03 [3590839] LOG:  background worker "logical replication launcher" (PID 3590852) exited with exit code 1
+2026-11-16 22:02:18.713 +03 [3590845] LOG:  shutting down
+2026-11-16 22:02:18.716 +03 [3590845] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 22:02:19.472 +03 [3590845] LOG:  checkpoint complete: wrote 1112 buffers (6.8%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.585 s, sync=0.161 s, total=0.759 s; sync files=309, longest=0.110 s, average=0.001 s; distance=6617 kB, estimate=6617 kB; lsn=0/1DDC3D8, redo lsn=0/1DDC3D8
+2026-11-16 22:02:19.496 +03 [3590839] LOG:  database system is shut down
+2026-11-16 22:02:19.728 +03 [3590929] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-11-16 22:02:19.728 +03 [3590929] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55453"
+2026-11-16 22:02:19.739 +03 [3590939] LOG:  database system was shut down at 2026-11-16 22:02:19 +03
+2026-11-16 22:02:19.775 +03 [3590929] LOG:  database system is ready to accept connections
+2026-11-16 22:02:34.212 +03 [3590929] LOG:  received fast shutdown request
+2026-11-16 22:02:34.215 +03 [3590929] LOG:  aborting any active transactions
+2026-11-16 22:02:34.217 +03 [3590929] LOG:  background worker "logical replication launcher" (PID 3590942) exited with exit code 1
+2026-11-16 22:02:34.217 +03 [3590937] LOG:  shutting down
+2026-11-16 22:02:34.220 +03 [3590937] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 22:02:34.390 +03 [3590937] LOG:  checkpoint complete: wrote 138 buffers (0.8%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.090 s, sync=0.070 s, total=0.174 s; sync files=34, longest=0.062 s, average=0.003 s; distance=595 kB, estimate=595 kB; lsn=0/1E71108, redo lsn=0/1E71108
+2026-11-16 22:02:34.417 +03 [3590929] LOG:  database system is shut down

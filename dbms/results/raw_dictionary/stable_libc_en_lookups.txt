@@ -1,0 +1,17 @@
+SET
+SET
+CREATE FUNCTION
+index_point_hits|20000
+RESET
+RESET
+SET
+SET
+SET
+seq_point_hits|20000
+RESET
+RESET
+SET
+SET
+CREATE FUNCTION
+
+--stderr--

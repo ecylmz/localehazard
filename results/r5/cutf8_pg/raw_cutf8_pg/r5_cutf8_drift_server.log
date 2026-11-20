@@ -1,0 +1,25 @@
+2026-11-16 22:02:03.626 +03 [3589840] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-11-16 22:02:03.626 +03 [3589840] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55452"
+2026-11-16 22:02:03.637 +03 [3589849] LOG:  database system was shut down at 2026-11-16 22:02:02 +03
+2026-11-16 22:02:03.642 +03 [3589840] LOG:  database system is ready to accept connections
+2026-11-16 22:02:04.287 +03 [3589840] LOG:  received fast shutdown request
+2026-11-16 22:02:04.334 +03 [3589840] LOG:  aborting any active transactions
+2026-11-16 22:02:04.335 +03 [3589840] LOG:  background worker "logical replication launcher" (PID 3589853) exited with exit code 1
+2026-11-16 22:02:04.335 +03 [3589847] LOG:  shutting down
+2026-11-16 22:02:04.338 +03 [3589847] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 22:02:04.734 +03 [3589847] LOG:  checkpoint complete: wrote 1112 buffers (6.8%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.290 s, sync=0.095 s, total=0.399 s; sync files=309, longest=0.043 s, average=0.001 s; distance=6617 kB, estimate=6617 kB; lsn=0/1DDC3D8, redo lsn=0/1DDC3D8
+2026-11-16 22:02:04.760 +03 [3589840] LOG:  database system is shut down
+2026-11-16 22:02:04.819 +03 [3589964] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-11-16 22:02:04.819 +03 [3589964] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55452"
+2026-11-16 22:02:04.829 +03 [3589972] LOG:  database system was shut down at 2026-11-16 22:02:04 +03
+2026-11-16 22:02:04.917 +03 [3589964] LOG:  database system is ready to accept connections
+2026-11-16 22:02:05.037 +03 [3589995] ERROR:  item order invariant violated for index "t_s_uq"
+2026-11-16 22:02:05.037 +03 [3589995] DETAIL:  Lower index tid=(3,2) (points to index tid=(2,1)) higher index tid=(3,3) (points to index tid=(4,1)) page lsn=0/1DDB5C0.
+2026-11-16 22:02:05.037 +03 [3589995] STATEMENT:  SELECT bt_index_parent_check('t_s_uq', true, true)
+2026-11-16 22:02:14.159 +03 [3589964] LOG:  received fast shutdown request
+2026-11-16 22:02:14.163 +03 [3589964] LOG:  aborting any active transactions
+2026-11-16 22:02:14.164 +03 [3589964] LOG:  background worker "logical replication launcher" (PID 3589981) exited with exit code 1
+2026-11-16 22:02:14.164 +03 [3589970] LOG:  shutting down
+2026-11-16 22:02:14.167 +03 [3589970] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 22:02:14.254 +03 [3589970] LOG:  checkpoint complete: wrote 346 buffers (2.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.065 s, sync=0.010 s, total=0.090 s; sync files=38, longest=0.003 s, average=0.001 s; distance=3758 kB, estimate=3758 kB; lsn=0/2187E68, redo lsn=0/2187E68
+2026-11-16 22:02:14.281 +03 [3589964] LOG:  database system is shut down

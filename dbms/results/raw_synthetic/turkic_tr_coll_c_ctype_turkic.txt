@@ -1,0 +1,19 @@
+CREATE EXTENSION
+lower_FILE|fıle
+upper_file|FİLE
+ilike|false
+citext_eq|false
+lower_eq|false
+CREATE TABLE
+CREATE INDEX
+INSERT 0 1
+INSERT 0 1
+accounts_admitted|2
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+citext_accounts_admitted|2
+CREATE TABLE
+unquoted_identifier|file_index
+
+--stderr--

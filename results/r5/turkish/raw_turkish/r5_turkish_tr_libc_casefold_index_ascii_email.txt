@@ -1,0 +1,12 @@
+DROP TABLE
+DROP COLLATION
+DROP COLLATION
+CREATE TABLE
+CREATE INDEX
+INSERT 0 1
+INSERT 0 1
+rows|2
+
+--stderr--
+NOTICE:  collation "ci_und" does not exist, skipping
+NOTICE:  collation "ci_tr" does not exist, skipping

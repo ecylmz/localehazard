@@ -1,0 +1,20 @@
+{
+ "synthetic": {
+  "n": 200000,
+  "real227_equals_emulated227": true,
+  "positions_differing_real_vs_emulated": 0,
+  "adjacent_pair_agreement_real_vs_emulated": 1.0,
+  "positions_differing_real227_vs_243": 38294,
+  "positions_differing_228_vs_243": 0,
+  "positions_differing_real227_vs_228": 38294
+ },
+ "dictionary": {
+  "n": 104334,
+  "real227_equals_emulated227": true,
+  "positions_differing_real_vs_emulated": 0,
+  "adjacent_pair_agreement_real_vs_emulated": 1.0,
+  "positions_differing_real227_vs_243": 28206,
+  "positions_differing_228_vs_243": 0,
+  "positions_differing_real227_vs_228": 28206
+ }
+}

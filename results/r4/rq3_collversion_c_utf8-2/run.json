@@ -1,0 +1,18 @@
+{
+  "command": [
+    "sh",
+    "dbms/r4_collversion_c_utf8.sh"
+  ],
+  "cwd": ".",
+  "git_commit": "70e46d43adbc0a9a20c621fefec774e3076f6735",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "dbms/r4_collversion_c_utf8.sh": "09fae4d7635ed11e484790ea6c07fa4c7f78fd8961fa60b1847fcd21be2f3f6f"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-13T20:02:59+00:00",
+  "status": "ok",
+  "end": "2026-11-13T20:03:00+00:00",
+  "exit_code": 0
+}

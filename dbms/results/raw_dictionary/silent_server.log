@@ -1,0 +1,31 @@
+2026-10-02 07:02:07.332 +03 [1429850] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 07:02:07.332 +03 [1429850] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55441"
+2026-10-02 07:02:07.428 +03 [1429934] LOG:  database system was shut down at 2026-10-02 07:02:05 +03
+2026-10-02 07:02:07.561 +03 [1429850] LOG:  database system is ready to accept connections
+2026-10-02 07:02:14.410 +03 [1429850] LOG:  received fast shutdown request
+2026-10-02 07:02:14.413 +03 [1429850] LOG:  aborting any active transactions
+2026-10-02 07:02:14.414 +03 [1429850] LOG:  background worker "logical replication launcher" (PID 1430051) exited with exit code 1
+2026-10-02 07:02:14.415 +03 [1429932] LOG:  shutting down
+2026-10-02 07:02:14.418 +03 [1429932] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 07:02:18.713 +03 [1429932] LOG:  checkpoint complete: wrote 10833 buffers (66.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 6 recycled; write=3.670 s, sync=0.553 s, total=4.299 s; sync files=1829, longest=0.095 s, average=0.001 s; distance=96406 kB, estimate=96406 kB; lsn=0/758B768, redo lsn=0/758B768
+2026-10-02 07:02:18.794 +03 [1429850] LOG:  database system is shut down
+2026-10-02 07:02:18.847 +03 [1434318] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 07:02:18.847 +03 [1434318] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55441"
+2026-10-02 07:02:18.909 +03 [1434397] LOG:  database system was shut down at 2026-10-02 07:02:18 +03
+2026-10-02 07:02:18.924 +03 [1434318] LOG:  database system is ready to accept connections
+2026-10-02 07:02:19.054 +03 [1434505] ERROR:  item order invariant violated for index "t_s_uq"
+2026-10-02 07:02:19.054 +03 [1434505] DETAIL:  Lower index tid=(1,11) (points to heap tid=(552,55)) higher index tid=(1,12) (points to heap tid=(158,22)) page lsn=0/24C7258.
+2026-10-02 07:02:19.054 +03 [1434505] STATEMENT:  SELECT bt_index_check('t_s_uq', true)
+2026-10-02 07:02:19.061 +03 [1434508] ERROR:  down-link lower bound invariant violated for index "t_s_uq"
+2026-10-02 07:02:19.061 +03 [1434508] DETAIL:  Parent block=3 child index tid=(16,3) parent page lsn=0/2622560.
+2026-10-02 07:02:19.061 +03 [1434508] STATEMENT:  SELECT bt_index_parent_check('t_s_uq', true, true)
+2026-10-02 07:03:25.933 +03 [1489668] ERROR:  could not create unique index "t_s_uq"
+2026-10-02 07:03:25.933 +03 [1489668] DETAIL:  Key (s)=(fan's) is duplicated.
+2026-10-02 07:03:25.933 +03 [1489668] STATEMENT:  REINDEX INDEX t_s_uq
+2026-10-02 07:06:31.740 +03 [1434318] LOG:  received fast shutdown request
+2026-10-02 07:06:31.754 +03 [1434318] LOG:  aborting any active transactions
+2026-10-02 07:06:31.755 +03 [1434318] LOG:  background worker "logical replication launcher" (PID 1434402) exited with exit code 1
+2026-10-02 07:06:31.759 +03 [1434395] LOG:  shutting down
+2026-10-02 07:06:31.762 +03 [1434395] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 07:06:34.089 +03 [1434395] LOG:  checkpoint complete: wrote 5559 buffers (33.9%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 6 recycled; write=1.192 s, sync=0.932 s, total=2.330 s; sync files=1193, longest=0.198 s, average=0.001 s; distance=105374 kB, estimate=105374 kB; lsn=0/DC73328, redo lsn=0/DC73328
+2026-10-02 07:06:34.238 +03 [1434318] LOG:  database system is shut down

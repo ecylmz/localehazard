@@ -1,0 +1,1160 @@
+{
+ "meta": {
+  "postgres": "postgres (PostgreSQL) 18.6",
+  "icu": "17.0",
+  "pairs": {
+   "ascii_email": [
+    "admin@example.org",
+    "ADMIN@EXAMPLE.ORG"
+   ],
+   "turkish_dotless": [
+    "ışık",
+    "IŞIK"
+   ],
+   "turkish_dotted": [
+    "istanbul",
+    "İSTANBUL"
+   ]
+  },
+  "mechanisms": {
+   "lower_index": "unique index on lower(v), database collation",
+   "upper_index": "unique index on upper(v), database collation",
+   "casefold_index": "unique index on casefold(v) (PostgreSQL 18), database collation",
+   "citext_unique": "UNIQUE citext column, database collation",
+   "lower_arg_c": "unique index on lower(v COLLATE \"C\"): case mapping under C",
+   "lower_result_c": "unique index on lower(v) COLLATE \"C\": mapping under the database ctype, C order",
+   "column_c_lower": "column declared COLLATE \"C\", unique index on lower(v)",
+   "citext_column_c": "UNIQUE citext column declared COLLATE \"C\"",
+   "icu_und_ci": "UNIQUE column with nondeterministic ICU collation und-u-ks-level2",
+   "icu_tr_ci": "UNIQUE column with nondeterministic ICU collation tr-u-ks-level2"
+  }
+ },
+ "tr_libc": {
+  "lower_FILE": "fıle",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "fıle",
+  "datctype": "tr_TR.UTF-8 / tr_TR.UTF-8 / c",
+  "lower_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "upper_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "casefold_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "citext_unique|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ },
+ "tr_icu": {
+  "lower_FILE": "fıle",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "fıle",
+  "datctype": "tr_TR.UTF-8 / tr_TR.UTF-8 / i",
+  "lower_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "upper_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "casefold_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "citext_unique|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ },
+ "tr_coll_c_ctype": {
+  "lower_FILE": "fıle",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "fıle",
+  "datctype": "tr_TR.UTF-8 / C / c",
+  "lower_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "upper_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "casefold_index|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "citext_unique|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ },
+ "en_libc": {
+  "lower_FILE": "file",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "file",
+  "datctype": "en_US.UTF-8 / en_US.UTF-8 / c",
+  "lower_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "upper_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "citext_unique|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ },
+ "builtin_c": {
+  "lower_FILE": "file",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "file",
+  "datctype": "C.UTF-8 / C.UTF-8 / b",
+  "lower_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "upper_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ },
+ "builtin_unicode_fast": {
+  "lower_FILE": "file",
+  "lower_FILE_collate_c": "file",
+  "casefold_FILE": "file",
+  "datctype": "C.UTF-8 / C.UTF-8 / b",
+  "lower_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "upper_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_upper_idx\""
+   ]
+  },
+  "upper_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_casefold_idx\""
+   ]
+  },
+  "casefold_index|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "casefold_index|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_unique|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_unique|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_arg_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_arg_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "lower_result_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "lower_result_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_lower_idx\""
+   ]
+  },
+  "column_c_lower|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "column_c_lower|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "citext_column_c|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "citext_column_c|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|ascii_email": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_und_ci|turkish_dotless": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_und_ci|turkish_dotted": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|ascii_email": {
+   "rows": 2,
+   "second_accepted": true,
+   "errors": []
+  },
+  "icu_tr_ci|turkish_dotless": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  },
+  "icu_tr_ci|turkish_dotted": {
+   "rows": 1,
+   "second_accepted": false,
+   "errors": [
+    "ERROR:  duplicate key value violates unique constraint \"k_v_key\""
+   ]
+  }
+ }
+}

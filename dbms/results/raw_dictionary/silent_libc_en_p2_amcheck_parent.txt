@@ -1,0 +1,4 @@
+
+--stderr--
+ERROR:  down-link lower bound invariant violated for index "t_s_uq"
+DETAIL:  Parent block=3 child index tid=(16,3) parent page lsn=0/2622560.

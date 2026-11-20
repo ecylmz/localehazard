@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "dbms/r5_turkish.py",
+    "results/r5/turkish"
+  ],
+  "cwd": ".",
+  "git_commit": "978f4c8154b4e90c6a849e4d82b17386cc758091",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {},
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-16T18:49:51+00:00",
+  "status": "ok",
+  "end": "2026-11-16T18:50:02+00:00",
+  "exit_code": 0
+}

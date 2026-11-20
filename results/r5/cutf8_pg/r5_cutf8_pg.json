@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "rows": 20000,
+  "dataset_sha256": "03bac221dab4654f4c5c8f3eedb978a15859cf8ee603ccdadcc6727e64a2915f",
+  "postgres": "postgres (PostgreSQL) 18.6",
+  "host_glibc": "ldd (Ubuntu GLIBC 2.43-2ubuntu2.7) 2.43"
+ },
+ "validation": {
+  "focal_host_equals_distro_sort": false,
+  "jammy_host_equals_distro_sort": true,
+  "focal_vs_jammy_adjacent_inverted": {
+   "positions_differing": 20000,
+   "adjacent_pairs_inverted": 2945,
+   "strings_moved": 6332
+  }
+ },
+ "r5_cutf8_drift": {
+  "connect_warning": false,
+  "recorded_collversion": "NULL",
+  "amcheck_parent_ok": false,
+  "amcheck_msg": "ERROR:  item order invariant violated for index \"t_s_uq\"",
+  "missed_lookups": 10674,
+  "lookups": 20000,
+  "range_mismatches": 1938,
+  "nonempty_ranges": 2000,
+  "reinserted_accepted": 10276,
+  "duplicate_keys": 10276
+ },
+ "r5_cutf8_stable": {
+  "connect_warning": false,
+  "recorded_collversion": "NULL",
+  "amcheck_parent_ok": true,
+  "amcheck_msg": "",
+  "missed_lookups": 0,
+  "lookups": 20000,
+  "range_mismatches": 0,
+  "nonempty_ranges": 1373,
+  "reinserted_accepted": 0,
+  "duplicate_keys": 0
+ }
+}

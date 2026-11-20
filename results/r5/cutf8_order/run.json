@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "dbms/r5_cutf8_order.py",
+    "results/r5/cutf8_order"
+  ],
+  "cwd": ".",
+  "git_commit": "978f4c8154b4e90c6a849e4d82b17386cc758091",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "dbms/results/raw_synthetic/dataset.csv": "d7ab936c66d11ffbda20a4092950547c35104feb81bb212b6e9e0898890309f1",
+    "dbms/results/raw_dictionary/dataset.csv": "9080eb22c862619bdd44867b80463ec686f3ffad9990b3b35764a90183ec46a1"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-16T18:49:59+00:00",
+  "status": "ok",
+  "end": "2026-11-16T18:50:06+00:00",
+  "exit_code": 0
+}

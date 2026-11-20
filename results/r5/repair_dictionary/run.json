@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "dbms/r5_repair.py",
+    "dictionary",
+    "results/r5/repair_dictionary"
+  ],
+  "cwd": ".",
+  "git_commit": "978f4c8154b4e90c6a849e4d82b17386cc758091",
+  "git_dirty": false,
+  "git_changes": [],
+  "inputs": {
+    "/usr/share/dict/american-english": "9e66281f7e51445eab6857488ff6e3d768afffadb7fb1adbef5e4617bee4a53b"
+  },
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "start": "2026-11-16T18:56:58+00:00",
+  "status": "ok",
+  "end": "2026-11-16T19:02:01+00:00",
+  "exit_code": 0
+}

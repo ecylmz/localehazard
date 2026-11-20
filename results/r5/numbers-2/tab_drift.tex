@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Index damage in PostgreSQL~18.6 after the collation data under an existing unique index changed.}
+\label{tab:drift}
+\begin{tabular}{@{}llllrrr@{}}
+\toprule
+Change of collation data & Version & Warning & amcheck & Missed lookups & Wrong ranges & Duplicates \\
+\midrule
+Emulated, 2.27 $\to$ 2.43 data & 2.27 $\to$ 2.43 & yes & fail & 2,575 / 4,275 & 511 / 387 & 26,704 / 22,533 \\
+Emulated, 2.27 $\to$ 2.28 data & 2.27 $\to$ 2.28 & yes & fail & 2,575 / 4,275 & 511 / 387 & 26,704 / 22,533 \\
+Emulated, 2.27 $\to$ 2.43 data & 2.27 $\to$ 2.27 & no & fail & 2,575 / 4,275 & 511 / 387 & 26,704 / 22,533 \\
+Ubuntu 18.04 $\to$ 20.04, en\_US & 2.27 $\to$ 2.31 & yes & fail & 2,575 / 4,275 & 511 / 387 & 26,704 / 22,533 \\
+Ubuntu 20.04 $\to$ 22.04, en\_US & 2.31 $\to$ 2.35 & yes & pass & 0 / 0 & 0 / 0 & 0 / 0 \\
+Ubuntu 20.04 $\to$ 22.04, C.UTF-8$^{a}$ & none & no & fail & 10,674 & 1,938 & 10,276 \\
+Controls$^{b}$ (16 databases) & & & pass & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+
+\smallskip\footnotesize
+Version: the glibc version that PostgreSQL saw before and after. Cells give synthetic / word-list values: missed lookups among 20,000 existing keys, wrong range counts among the non-empty ones of 2,000, and accepted re-inserted keys. $^{a}$Mixed-plane strings (20,000). $^{b}$Unchanged data, ICU and C collations, a restart without upgrade, and C.UTF-8 databases whose order did not change.
+\end{table}

@@ -1,0 +1,23 @@
+2026-10-02 06:53:09.133 +03 [1049252] LOG:  starting PostgreSQL 18.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, 64-bit
+2026-10-02 06:53:09.133 +03 [1049252] LOG:  listening on Unix socket "/tmp/.s.PGSQL.55439"
+2026-10-02 06:53:09.145 +03 [1049313] LOG:  database system was shut down at 2026-10-02 06:53:07 +03
+2026-10-02 06:53:09.160 +03 [1049252] LOG:  database system is ready to accept connections
+2026-10-02 06:53:09.982 +03 [1050260] ERROR:  duplicate key value violates unique constraint "acct_lower_uq"
+2026-10-02 06:53:09.982 +03 [1050260] DETAIL:  Key (lower(email))=(admin@example.org) already exists.
+2026-10-02 06:53:09.982 +03 [1050260] STATEMENT:  INSERT INTO acct VALUES ('ADMIN@EXAMPLE.ORG');
+2026-10-02 06:53:09.987 +03 [1050260] ERROR:  duplicate key value violates unique constraint "citext_acct_email_key"
+2026-10-02 06:53:09.987 +03 [1050260] DETAIL:  Key (email)=(INFO@EXAMPLE.ORG) already exists.
+2026-10-02 06:53:09.987 +03 [1050260] STATEMENT:  INSERT INTO citext_acct VALUES ('INFO@EXAMPLE.ORG');
+2026-10-02 06:53:10.361 +03 [1050936] ERROR:  duplicate key value violates unique constraint "acct_lower_uq"
+2026-10-02 06:53:10.361 +03 [1050936] DETAIL:  Key (lower(email))=(admin@example.org) already exists.
+2026-10-02 06:53:10.361 +03 [1050936] STATEMENT:  INSERT INTO acct VALUES ('ADMIN@EXAMPLE.ORG');
+2026-10-02 06:53:10.366 +03 [1050936] ERROR:  duplicate key value violates unique constraint "citext_acct_email_key"
+2026-10-02 06:53:10.366 +03 [1050936] DETAIL:  Key (email)=(INFO@EXAMPLE.ORG) already exists.
+2026-10-02 06:53:10.366 +03 [1050936] STATEMENT:  INSERT INTO citext_acct VALUES ('INFO@EXAMPLE.ORG');
+2026-10-02 06:53:10.370 +03 [1049252] LOG:  received fast shutdown request
+2026-10-02 06:53:10.383 +03 [1049252] LOG:  aborting any active transactions
+2026-10-02 06:53:10.384 +03 [1049252] LOG:  background worker "logical replication launcher" (PID 1049353) exited with exit code 1
+2026-10-02 06:53:10.384 +03 [1049311] LOG:  shutting down
+2026-10-02 06:53:10.387 +03 [1049311] LOG:  checkpoint starting: shutdown immediate
+2026-10-02 06:53:12.755 +03 [1049311] LOG:  checkpoint complete: wrote 4793 buffers (29.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=2.062 s, sync=0.292 s, total=2.371 s; sync files=1540, longest=0.072 s, average=0.001 s; distance=22914 kB, estimate=22914 kB; lsn=0/2DC6958, redo lsn=0/2DC6958
+2026-10-02 06:53:12.822 +03 [1049252] LOG:  database system is shut down
